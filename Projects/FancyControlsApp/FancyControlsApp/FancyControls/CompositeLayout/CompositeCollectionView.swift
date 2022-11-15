@@ -78,18 +78,6 @@ class HeaderForGroupCollectionView: UICollectionReusableView {
     }
 }
 
-struct CompositeCollectionView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
-}
-
 struct CompositeCollectionView_Previews: PreviewProvider {
     static var previews: some View {
         Container().edgesIgnoringSafeArea(.all)

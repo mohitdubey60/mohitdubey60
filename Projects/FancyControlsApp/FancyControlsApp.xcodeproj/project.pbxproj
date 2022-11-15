@@ -17,6 +17,10 @@
 		5B2987FC2920E4C900202D8D /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2987FB2920E4C900202D8D /* UIColorExtension.swift */; };
 		5B2987FE29213E0500202D8D /* CompositeCollectionViewGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2987FD29213E0500202D8D /* CompositeCollectionViewGalleryView.swift */; };
 		5B2988012923536800202D8D /* SwiftUIControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2988002923536800202D8D /* SwiftUIControlsView.swift */; };
+		5B2988042923DF2300202D8D /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2988032923DF2300202D8D /* ImageCache.swift */; };
+		5B2988062923E45000202D8D /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2988052923E45000202D8D /* ImageLoader.swift */; };
+		5B2988082923EA0A00202D8D /* SwiftUIControlsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2988072923EA0A00202D8D /* SwiftUIControlsViewModel.swift */; };
+		5B29880B2924176900202D8D /* SwiftUIKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B29880A2924176900202D8D /* SwiftUIKitViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +35,10 @@
 		5B2987FB2920E4C900202D8D /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		5B2987FD29213E0500202D8D /* CompositeCollectionViewGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositeCollectionViewGalleryView.swift; sourceTree = "<group>"; };
 		5B2988002923536800202D8D /* SwiftUIControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIControlsView.swift; sourceTree = "<group>"; };
+		5B2988032923DF2300202D8D /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		5B2988052923E45000202D8D /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		5B2988072923EA0A00202D8D /* SwiftUIControlsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIControlsViewModel.swift; sourceTree = "<group>"; };
+		5B29880A2924176900202D8D /* SwiftUIKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIKitViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,7 @@
 		5B2987E0291F379500202D8D /* FancyControlsApp */ = {
 			isa = PBXGroup;
 			children = (
+				5B2988092924146A00202D8D /* UIKitToSwiftUI */,
 				5B2987FF2923534100202D8D /* SwiftUIToUIKit */,
 				5B2987F92920E4AA00202D8D /* Common */,
 				5B2987EF291F37D900202D8D /* FancyControls */,
@@ -120,6 +129,7 @@
 		5B2987F92920E4AA00202D8D /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				5B2988022923DF0400202D8D /* ImageLoader */,
 				5B2987FA2920E4B100202D8D /* Extensions */,
 			);
 			path = Common;
@@ -137,8 +147,26 @@
 			isa = PBXGroup;
 			children = (
 				5B2988002923536800202D8D /* SwiftUIControlsView.swift */,
+				5B2988072923EA0A00202D8D /* SwiftUIControlsViewModel.swift */,
 			);
 			path = SwiftUIToUIKit;
+			sourceTree = "<group>";
+		};
+		5B2988022923DF0400202D8D /* ImageLoader */ = {
+			isa = PBXGroup;
+			children = (
+				5B2988032923DF2300202D8D /* ImageCache.swift */,
+				5B2988052923E45000202D8D /* ImageLoader.swift */,
+			);
+			path = ImageLoader;
+			sourceTree = "<group>";
+		};
+		5B2988092924146A00202D8D /* UIKitToSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				5B29880A2924176900202D8D /* SwiftUIKitViewController.swift */,
+			);
+			path = UIKitToSwiftUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,12 +241,16 @@
 			files = (
 				5B2987F42920DC4000202D8D /* CompositeLayoutFactory.swift in Sources */,
 				5B2987FE29213E0500202D8D /* CompositeCollectionViewGalleryView.swift in Sources */,
+				5B2988062923E45000202D8D /* ImageLoader.swift in Sources */,
+				5B29880B2924176900202D8D /* SwiftUIKitViewController.swift in Sources */,
 				5B2987E4291F379500202D8D /* ContentView.swift in Sources */,
+				5B2988042923DF2300202D8D /* ImageCache.swift in Sources */,
 				5B2987E2291F379500202D8D /* FancyControlsAppApp.swift in Sources */,
 				5B2987F1291F37F800202D8D /* CompositeCollectionView.swift in Sources */,
 				5B2987F82920DEDE00202D8D /* CompositeLayoutSectionAndItemMap.swift in Sources */,
 				5B2988012923536800202D8D /* SwiftUIControlsView.swift in Sources */,
 				5B2987FC2920E4C900202D8D /* UIColorExtension.swift in Sources */,
+				5B2988082923EA0A00202D8D /* SwiftUIControlsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
