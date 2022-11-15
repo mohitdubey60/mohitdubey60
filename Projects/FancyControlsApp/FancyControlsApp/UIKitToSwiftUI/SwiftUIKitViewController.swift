@@ -29,9 +29,6 @@ class SwiftUIKitViewController: UIViewController {
         view.addSubview(addViewButton)
         view.addSubview(removeViewButton)
         
-        
-        
-        
         NSLayoutConstraint.activate([
             swiftUIView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             swiftUIView.topAnchor.constraint(equalTo: view.topAnchor),
@@ -53,6 +50,7 @@ class SwiftUIKitViewController: UIViewController {
         removeViewButton.backgroundColor = .systemBlue
         addViewButton.setTitle("Add View", for: .normal)
         removeViewButton.setTitle("Remove View", for: .normal)
+        
         swiftUIView.layer.cornerRadius = 20
         addViewButton.layer.cornerRadius = 20
         removeViewButton.layer.cornerRadius = 20
@@ -70,6 +68,8 @@ class SwiftUIKitViewController: UIViewController {
             swiftUIViewController.view.frame = self.swiftUIView.frame
             self.swiftUIView.addSubview(swiftUIViewController.view)
             swiftUIViewController.didMove(toParent: self)
+            
+            swiftUIViewController.view.translatesAutoresizingMaskIntoConstraints = false
             
             NSLayoutConstraint.activate([
                 swiftUIViewController.view.centerXAnchor.constraint(equalTo: self.swiftUIView.centerXAnchor),
