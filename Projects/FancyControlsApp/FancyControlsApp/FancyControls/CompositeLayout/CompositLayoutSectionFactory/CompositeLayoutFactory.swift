@@ -70,8 +70,6 @@ class CompositeLayoutFactory {
                                                                           heightDimension: .absolute(50)),
                                                         elementKind: kString, alignment: .topLeading)]
             section.boundarySupplementaryItems.first?.contentInsets.leading = 16
-        } else {
-            section.boundarySupplementaryItems = []
         }
         return section
     }

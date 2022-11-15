@@ -16,6 +16,7 @@
 		5B2987F82920DEDE00202D8D /* CompositeLayoutSectionAndItemMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2987F72920DEDE00202D8D /* CompositeLayoutSectionAndItemMap.swift */; };
 		5B2987FC2920E4C900202D8D /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2987FB2920E4C900202D8D /* UIColorExtension.swift */; };
 		5B2987FE29213E0500202D8D /* CompositeCollectionViewGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2987FD29213E0500202D8D /* CompositeCollectionViewGalleryView.swift */; };
+		5B2988012923536800202D8D /* SwiftUIControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2988002923536800202D8D /* SwiftUIControlsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		5B2987F72920DEDE00202D8D /* CompositeLayoutSectionAndItemMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositeLayoutSectionAndItemMap.swift; sourceTree = "<group>"; };
 		5B2987FB2920E4C900202D8D /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		5B2987FD29213E0500202D8D /* CompositeCollectionViewGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositeCollectionViewGalleryView.swift; sourceTree = "<group>"; };
+		5B2988002923536800202D8D /* SwiftUIControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIControlsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		5B2987E0291F379500202D8D /* FancyControlsApp */ = {
 			isa = PBXGroup;
 			children = (
+				5B2987FF2923534100202D8D /* SwiftUIToUIKit */,
 				5B2987F92920E4AA00202D8D /* Common */,
 				5B2987EF291F37D900202D8D /* FancyControls */,
 				5B2987E1291F379500202D8D /* FancyControlsAppApp.swift */,
@@ -128,6 +131,14 @@
 				5B2987FB2920E4C900202D8D /* UIColorExtension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5B2987FF2923534100202D8D /* SwiftUIToUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				5B2988002923536800202D8D /* SwiftUIControlsView.swift */,
+			);
+			path = SwiftUIToUIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,6 +217,7 @@
 				5B2987E2291F379500202D8D /* FancyControlsAppApp.swift in Sources */,
 				5B2987F1291F37F800202D8D /* CompositeCollectionView.swift in Sources */,
 				5B2987F82920DEDE00202D8D /* CompositeLayoutSectionAndItemMap.swift in Sources */,
+				5B2988012923536800202D8D /* SwiftUIControlsView.swift in Sources */,
 				5B2987FC2920E4C900202D8D /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
