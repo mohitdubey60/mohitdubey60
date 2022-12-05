@@ -57,9 +57,9 @@ struct PhotosListView: View {
             }
             .frame(height: 90)
             .padding(.horizontal)
-            .background(Color.white)
+            .background(Color(uiColor: UIColor.systemBackground))
             .cornerRadius(10)
-            .shadow(radius: 10)
+            .shadow(color: Color(uiColor: UIColor.label), radius: 10)
         }
     }
     
@@ -75,7 +75,7 @@ struct PhotosListView: View {
                 }
                 .frame(height: 50)
                 .padding(.vertical, 8)
-                .modifier(ShadowedCTAViewWithBackground(background: .white))
+                .modifier(ShadowedCTAViewWithBackground(background: Color(uiColor: UIColor.systemBackground)))
             } else if viewModel.photosCellViewModels.count > 0 {
                 photosList
             } else {
@@ -84,7 +84,7 @@ struct PhotosListView: View {
                     Text("Photos permission missing")
                         .font(.title3)
                         .fontWeight(.semibold)
-                    Button("Click to change permission") {
+                    Button("Change permission") {
                         gotoAppPrivacySettings()
                     }
                     .foregroundColor(.white)
@@ -94,7 +94,7 @@ struct PhotosListView: View {
                 }
                 .frame(height: 100)
                 .padding(.vertical, 8)
-                .modifier(ShadowedCTAViewWithBackground(background: .white))
+                .modifier(ShadowedCTAViewWithBackground(background: Color(uiColor: UIColor.systemBackground)))
             }
         }
         .onAppear {
@@ -105,11 +105,12 @@ struct PhotosListView: View {
     func getColumns() -> [GridItem] {
         let width = (UIScreen.main.bounds.width / CGFloat(photosColumn))
         
-        let gridItem: [GridItem] = (0 ..< photosColumn).map { _ in
-            GridItem(.fixed(width), spacing: 1)
-        }
+//        let gridItem: [GridItem] = (0 ..< photosColumn).map { _ in
+//            GridItem(.fixed(width), spacing: 1)
+//        }
         
-        return gridItem
+        let gridColumns = Array(repeating:  GridItem(.fixed(width), spacing: 1), count: photosColumn)
+        return gridColumns
     }
     
     func gotoAppPrivacySettings() {

@@ -10,15 +10,22 @@ import SwiftUI
 struct ContentView: View {
     let mock = ChatsMock()
     var body: some View {
-                //            SwiftUIControlsView(viewModel: SwiftUIControlsViewModel(urlString: "https://www.online-image-editor.com/styles/2019/images/power_girl.png"))
+//            SwiftUIControlsView(viewModel: SwiftUIControlsViewModel(urlString: "https://www.online-image-editor.com/styles/2019/images/power_girl.png"))
             
-                //            SwiftUIKitControlToSwiftUI().edgesIgnoringSafeArea(.all)
-                //            GenericListView<ChatsCollectionViewModel, ChatsFactory>(viewModel: ChatsCollectionViewModel(listItems: mock.chats, groupedList: mock.groupedChats), factory: ChatsFactory())
-                //        }
-                //        .padding()
+//            SwiftUIKitControlToSwiftUI().edgesIgnoringSafeArea(.all)
+
+
+//                        VStack {
+//                            GenericListView<ChatsCollectionViewModel, ChatsFactory>(viewModel: ChatsCollectionViewModel(listItems: mock.chats, groupedList: mock.groupedChats), factory: ChatsFactory())
+//                        }
+//                        .padding()
             
             
             PhotosListView(viewModel: PhotosLibraryViewModel(manager: PhotosListManager()))
+        
+//        SpotifyAlbumDetailView()
+        
+//        ParallaxListView()
     }
 }
 

@@ -14,6 +14,7 @@ class PhotosCellViewModel: ObservableObject {
     weak var delegate: CellImageLoadProtocol?
     @Published var image: UIImage? = nil
     let size: CGSize
+    var isVisible = false
     
     init(asset: PHAsset, delegate: CellImageLoadProtocol) {
         self.asset = asset
@@ -26,6 +27,7 @@ class PhotosCellViewModel: ObservableObject {
     }
     
     func getPhoto() {
+        isVisible = true
         Task {
             await delegate?.loadCell(asset: asset, size: size, completionHandler: {im, error in
                 if let err = error {
@@ -33,10 +35,16 @@ class PhotosCellViewModel: ObservableObject {
                     return
                 }
                 DispatchQueue.main.async {[weak self] in
-                    self?.image = im
-//                    print("Mohit: This line is executed PhotosCellViewModel -> getPhoto()")
+                    if self?.isVisible == true {
+                        self?.image = im
+                    }
                 }
             })
         }
+    }
+    
+    func freePhoto() {
+        image = nil
+        isVisible = false
     }
 }

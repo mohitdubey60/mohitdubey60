@@ -15,6 +15,6 @@ struct ShadowedCTAViewWithBackground: ViewModifier {
             .padding(.horizontal)
             .background(background)
             .cornerRadius(10)
-            .shadow(radius: 10)
+            .shadow(color: background, radius: 10)
     }
 }

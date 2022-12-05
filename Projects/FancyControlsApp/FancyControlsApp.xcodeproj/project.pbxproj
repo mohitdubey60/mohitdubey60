@@ -36,6 +36,8 @@
 		5B2988352937397C00202D8D /* PhotosLibraryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2988342937397C00202D8D /* PhotosLibraryViewModel.swift */; };
 		5B29883729373B2D00202D8D /* PhotosCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B29883629373B2D00202D8D /* PhotosCellViewModel.swift */; };
 		5B2ED4202937D4F10049062C /* ShadowedViewWithBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2ED41F2937D4F10049062C /* ShadowedViewWithBackground.swift */; };
+		5B2ED426293CAC3B0049062C /* SpotifyAlbumDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2ED425293CAC3B0049062C /* SpotifyAlbumDetailView.swift */; };
+		5B2ED429293CF97A0049062C /* ParallaxListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2ED428293CF97A0049062C /* ParallaxListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +71,8 @@
 		5B2988342937397C00202D8D /* PhotosLibraryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosLibraryViewModel.swift; sourceTree = "<group>"; };
 		5B29883629373B2D00202D8D /* PhotosCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCellViewModel.swift; sourceTree = "<group>"; };
 		5B2ED41F2937D4F10049062C /* ShadowedViewWithBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowedViewWithBackground.swift; sourceTree = "<group>"; };
+		5B2ED425293CAC3B0049062C /* SpotifyAlbumDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyAlbumDetailView.swift; sourceTree = "<group>"; };
+		5B2ED428293CF97A0049062C /* ParallaxListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +128,8 @@
 		5B2987EF291F37D900202D8D /* FancyControls */ = {
 			isa = PBXGroup;
 			children = (
+				5B2ED427293CF7C60049062C /* ParallaxEffect */,
+				5B2ED422293CAB910049062C /* Clones */,
 				5B29880E292E3F0D00202D8D /* CollectionControl */,
 				5B2987F62920DEB800202D8D /* CompositeLayout */,
 			);
@@ -310,6 +316,38 @@
 			path = ViewModifier;
 			sourceTree = "<group>";
 		};
+		5B2ED422293CAB910049062C /* Clones */ = {
+			isa = PBXGroup;
+			children = (
+				5B2ED423293CAB970049062C /* Spotify */,
+			);
+			path = Clones;
+			sourceTree = "<group>";
+		};
+		5B2ED423293CAB970049062C /* Spotify */ = {
+			isa = PBXGroup;
+			children = (
+				5B2ED424293CAC190049062C /* Views */,
+			);
+			path = Spotify;
+			sourceTree = "<group>";
+		};
+		5B2ED424293CAC190049062C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5B2ED425293CAC3B0049062C /* SpotifyAlbumDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5B2ED427293CF7C60049062C /* ParallaxEffect */ = {
+			isa = PBXGroup;
+			children = (
+				5B2ED428293CF97A0049062C /* ParallaxListView.swift */,
+			);
+			path = ParallaxEffect;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -389,6 +427,7 @@
 				5B2987E4291F379500202D8D /* ContentView.swift in Sources */,
 				5B29881E292F0FDF00202D8D /* UserChatCellView.swift in Sources */,
 				5B2988042923DF2300202D8D /* ImageCache.swift in Sources */,
+				5B2ED429293CF97A0049062C /* ParallaxListView.swift in Sources */,
 				5B29883129364BAF00202D8D /* PhotoLibraryService.swift in Sources */,
 				5B2987E2291F379500202D8D /* FancyControlsAppApp.swift in Sources */,
 				5B2987F1291F37F800202D8D /* CompositeCollectionView.swift in Sources */,
@@ -400,6 +439,7 @@
 				5B2987F82920DEDE00202D8D /* CompositeLayoutSectionAndItemMap.swift in Sources */,
 				5B298812292E3FDB00202D8D /* CollectionListModel.swift in Sources */,
 				5B2988352937397C00202D8D /* PhotosLibraryViewModel.swift in Sources */,
+				5B2ED426293CAC3B0049062C /* SpotifyAlbumDetailView.swift in Sources */,
 				5B298824292F18AB00202D8D /* ChatsCollectionViewModel.swift in Sources */,
 				5B29882D2935F5AC00202D8D /* PhotosCellView.swift in Sources */,
 				5B2988012923536800202D8D /* SwiftUIControlsView.swift in Sources */,

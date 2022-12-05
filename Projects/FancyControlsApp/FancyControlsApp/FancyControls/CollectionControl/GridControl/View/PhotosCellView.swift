@@ -23,6 +23,8 @@ struct PhotosCellView: View {
                 }
             } .onAppear {
                 viewModel.getPhoto()
+            } .onDisappear {
+                viewModel.freePhoto()
             }
         }
     }
