@@ -38,6 +38,8 @@
 		5B2ED4202937D4F10049062C /* ShadowedViewWithBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2ED41F2937D4F10049062C /* ShadowedViewWithBackground.swift */; };
 		5B2ED426293CAC3B0049062C /* SpotifyAlbumDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2ED425293CAC3B0049062C /* SpotifyAlbumDetailView.swift */; };
 		5B2ED429293CF97A0049062C /* ParallaxListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2ED428293CF97A0049062C /* ParallaxListView.swift */; };
+		5B2ED42C293DF9B10049062C /* ContactsDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2ED42B293DF9B10049062C /* ContactsDetails.swift */; };
+		5B2ED430293F77190049062C /* GlassmorphicBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2ED42F293F77190049062C /* GlassmorphicBackground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +75,8 @@
 		5B2ED41F2937D4F10049062C /* ShadowedViewWithBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowedViewWithBackground.swift; sourceTree = "<group>"; };
 		5B2ED425293CAC3B0049062C /* SpotifyAlbumDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyAlbumDetailView.swift; sourceTree = "<group>"; };
 		5B2ED428293CF97A0049062C /* ParallaxListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxListView.swift; sourceTree = "<group>"; };
+		5B2ED42B293DF9B10049062C /* ContactsDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsDetails.swift; sourceTree = "<group>"; };
+		5B2ED42F293F77190049062C /* GlassmorphicBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassmorphicBackground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -319,6 +323,7 @@
 		5B2ED422293CAB910049062C /* Clones */ = {
 			isa = PBXGroup;
 			children = (
+				5B2ED42A293DF99B0049062C /* Contacts */,
 				5B2ED423293CAB970049062C /* Spotify */,
 			);
 			path = Clones;
@@ -346,6 +351,23 @@
 				5B2ED428293CF97A0049062C /* ParallaxListView.swift */,
 			);
 			path = ParallaxEffect;
+			sourceTree = "<group>";
+		};
+		5B2ED42A293DF99B0049062C /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				5B2ED42D293F76F20049062C /* Modifiers */,
+				5B2ED42B293DF9B10049062C /* ContactsDetails.swift */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		5B2ED42D293F76F20049062C /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				5B2ED42F293F77190049062C /* GlassmorphicBackground.swift */,
+			);
+			path = Modifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -423,6 +445,7 @@
 				5B2987FE29213E0500202D8D /* CompositeCollectionViewGalleryView.swift in Sources */,
 				5B298815292F0D2800202D8D /* GenericListView.swift in Sources */,
 				5B2988062923E45000202D8D /* ImageLoader.swift in Sources */,
+				5B2ED430293F77190049062C /* GlassmorphicBackground.swift in Sources */,
 				5B29880B2924176900202D8D /* SwiftUIKitViewController.swift in Sources */,
 				5B2987E4291F379500202D8D /* ContentView.swift in Sources */,
 				5B29881E292F0FDF00202D8D /* UserChatCellView.swift in Sources */,
@@ -437,6 +460,7 @@
 				5B298822292F173500202D8D /* GenericCollectionViewModel.swift in Sources */,
 				5B2ED4202937D4F10049062C /* ShadowedViewWithBackground.swift in Sources */,
 				5B2987F82920DEDE00202D8D /* CompositeLayoutSectionAndItemMap.swift in Sources */,
+				5B2ED42C293DF9B10049062C /* ContactsDetails.swift in Sources */,
 				5B298812292E3FDB00202D8D /* CollectionListModel.swift in Sources */,
 				5B2988352937397C00202D8D /* PhotosLibraryViewModel.swift in Sources */,
 				5B2ED426293CAC3B0049062C /* SpotifyAlbumDetailView.swift in Sources */,

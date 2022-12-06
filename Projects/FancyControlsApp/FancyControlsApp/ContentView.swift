@@ -21,11 +21,13 @@ struct ContentView: View {
 //                        .padding()
             
             
-            PhotosListView(viewModel: PhotosLibraryViewModel(manager: PhotosListManager()))
+//            PhotosListView(viewModel: PhotosLibraryViewModel(manager: PhotosListManager()))
         
 //        SpotifyAlbumDetailView()
         
 //        ParallaxListView()
+        
+        ContactsDetails()
     }
 }
 

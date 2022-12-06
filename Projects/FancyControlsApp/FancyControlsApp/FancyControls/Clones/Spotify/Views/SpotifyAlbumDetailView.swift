@@ -202,21 +202,27 @@ struct SpotifyAlbumDetailView: View {
                     VStack {
                         Spacer()
                             .frame(height: scrollOffset + 410)
-                        HStack {
-                            if widthOfPlayButton != 50 {
-                                Text("PLAY")
-                            } else {
-                                Image(systemName: "play.fill")
+                        Button {
+                            
+                        } label: {
+                            HStack {
+                                if widthOfPlayButton != 50 {
+                                    Text("PLAY")
+                                } else {
+                                    Image(systemName: "play.fill")
+                                }
+                            }
+                            .font(.title2)
+                            .foregroundColor(.white)
+                            .background {
+                                Color.green
+                                    .frame(width: widthOfPlayButton, height: 50)
+                                    .cornerRadius(25)
+                                    .shadow(radius: 10)
                             }
                         }
-                        .font(.title2)
-                        .foregroundColor(.white)
-                        .background {
-                            Color.green
-                                .frame(width: widthOfPlayButton, height: 50)
-                                .cornerRadius(25)
-                                .shadow(radius: 10)
-                        }
+
+                        
                     }
                 }
                 
