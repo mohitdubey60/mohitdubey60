@@ -40,6 +40,8 @@
 		5B2ED429293CF97A0049062C /* ParallaxListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2ED428293CF97A0049062C /* ParallaxListView.swift */; };
 		5B2ED42C293DF9B10049062C /* ContactsDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2ED42B293DF9B10049062C /* ContactsDetails.swift */; };
 		5B2ED430293F77190049062C /* GlassmorphicBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2ED42F293F77190049062C /* GlassmorphicBackground.swift */; };
+		5B2ED433293FFCBE0049062C /* ShapesGlassmorphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2ED432293FFCBE0049062C /* ShapesGlassmorphic.swift */; };
+		5B2ED435293FFDEF0049062C /* ShapesDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2ED434293FFDEF0049062C /* ShapesDisplayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +79,8 @@
 		5B2ED428293CF97A0049062C /* ParallaxListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxListView.swift; sourceTree = "<group>"; };
 		5B2ED42B293DF9B10049062C /* ContactsDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsDetails.swift; sourceTree = "<group>"; };
 		5B2ED42F293F77190049062C /* GlassmorphicBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassmorphicBackground.swift; sourceTree = "<group>"; };
+		5B2ED432293FFCBE0049062C /* ShapesGlassmorphic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesGlassmorphic.swift; sourceTree = "<group>"; };
+		5B2ED434293FFDEF0049062C /* ShapesDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesDisplayView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +136,7 @@
 		5B2987EF291F37D900202D8D /* FancyControls */ = {
 			isa = PBXGroup;
 			children = (
+				5B2ED431293F88FA0049062C /* GlassMorphicViews */,
 				5B2ED427293CF7C60049062C /* ParallaxEffect */,
 				5B2ED422293CAB910049062C /* Clones */,
 				5B29880E292E3F0D00202D8D /* CollectionControl */,
@@ -370,6 +375,15 @@
 			path = Modifiers;
 			sourceTree = "<group>";
 		};
+		5B2ED431293F88FA0049062C /* GlassMorphicViews */ = {
+			isa = PBXGroup;
+			children = (
+				5B2ED432293FFCBE0049062C /* ShapesGlassmorphic.swift */,
+				5B2ED434293FFDEF0049062C /* ShapesDisplayView.swift */,
+			);
+			path = GlassMorphicViews;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -443,12 +457,14 @@
 				5B2987F42920DC4000202D8D /* CompositeLayoutFactory.swift in Sources */,
 				5B29883729373B2D00202D8D /* PhotosCellViewModel.swift in Sources */,
 				5B2987FE29213E0500202D8D /* CompositeCollectionViewGalleryView.swift in Sources */,
+				5B2ED433293FFCBE0049062C /* ShapesGlassmorphic.swift in Sources */,
 				5B298815292F0D2800202D8D /* GenericListView.swift in Sources */,
 				5B2988062923E45000202D8D /* ImageLoader.swift in Sources */,
 				5B2ED430293F77190049062C /* GlassmorphicBackground.swift in Sources */,
 				5B29880B2924176900202D8D /* SwiftUIKitViewController.swift in Sources */,
 				5B2987E4291F379500202D8D /* ContentView.swift in Sources */,
 				5B29881E292F0FDF00202D8D /* UserChatCellView.swift in Sources */,
+				5B2ED435293FFDEF0049062C /* ShapesDisplayView.swift in Sources */,
 				5B2988042923DF2300202D8D /* ImageCache.swift in Sources */,
 				5B2ED429293CF97A0049062C /* ParallaxListView.swift in Sources */,
 				5B29883129364BAF00202D8D /* PhotoLibraryService.swift in Sources */,
