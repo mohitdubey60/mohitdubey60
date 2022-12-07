@@ -1,0 +1,142 @@
+{
+    "matches": [{
+        "id": 2303314,
+        "kickoff": "2022-10-01T19:00:00Z",
+        "score_home": 0,
+        "score_away": 0,
+        "team_home": {
+            "id": 220,
+            "name": "Mallorca",
+            "is_national": false,
+            "country": {
+                "name": "Spain",
+                "code": "es"
+            },
+            "colors": [{
+                "name": "shirtColorHome",
+                "value": "CC0000"
+            }, {
+                "name": "shirtColorAway",
+                "value": "D9D9D9"
+            }, {
+                "name": "crestMainColor",
+                "value": "E1001A"
+            }, {
+                "name": "mainColor",
+                "value": "CC0000"
+            }]
+        },
+        "team_away": {
+            "id": 5,
+            "name": "Barcelona",
+            "is_national": false,
+            "country": {
+                "name": "Spain",
+                "code": "es"
+            },
+            "colors": [{
+                "name": "shirtColorHome",
+                "value": "004A95"
+            }, {
+                "name": "shirtColorAway",
+                "value": "E4BF78"
+            }, {
+                "name": "crestMainColor",
+                "value": "DDB500"
+            }, {
+                "name": "mainColor",
+                "value": "8E1B3B"
+            }]
+        },
+        "competition": {
+            "id": 10,
+            "name": "LaLiga"
+        },
+        "season": {
+            "id": 40072
+        },
+        "matchday": {
+            "id": 6268291,
+            "name": "Matchday 7",
+            "number": 7
+        },
+        "group_name": "",
+        "minute": 0,
+        "minute_display": "",
+        "period": "PreMatch",
+        "score_home_first_half": 0,
+        "score_away_first_half": 0,
+        "coverage": {
+            "has_live_scores": true,
+            "has_minute": true
+        }
+    }, {
+        "id": 2305408,
+        "kickoff": "2022-10-01T14:00:00Z",
+        "score_home": 0,
+        "score_away": 0,
+        "team_home": {
+            "id": 4298,
+            "name": "Bohemians 1905",
+            "is_national": false,
+            "country": {
+                "name": "Czech Republic",
+                "code": "cz"
+            },
+            "colors": [{
+                "name": "shirtColorHome",
+                "value": "268C65"
+            }, {
+                "name": "shirtColorAway",
+                "value": "000000"
+            }, {
+                "name": "mainColor",
+                "value": "268C65"
+            }]
+        },
+        "team_away": {
+            "id": 440,
+            "name": "Viktoria Plzeň",
+            "is_national": false,
+            "country": {
+                "name": "Czech Republic",
+                "code": "cz"
+            },
+            "colors": [{
+                "name": "shirtColorHome",
+                "value": "FF383D"
+            }, {
+                "name": "shirtColorAway",
+                "value": "253A65"
+            }, {
+                "name": "crestMainColor",
+                "value": "FBFBFB"
+            }, {
+                "name": "mainColor",
+                "value": "B0252E"
+            }]
+        },
+        "competition": {
+            "id": 159,
+            "name": "Czech Fortuna liga"
+        },
+        "season": {
+            "id": 40078
+        },
+        "matchday": {
+            "id": 6268758,
+            "name": "Matchday 10",
+            "number": 10
+        },
+        "group_name": "",
+        "minute": 0,
+        "minute_display": "",
+        "period": "PreMatch",
+        "score_home_first_half": 0,
+        "score_away_first_half": 0,
+        "coverage": {
+            "has_live_scores": true,
+            "has_minute": true
+        }
+    }]
+}

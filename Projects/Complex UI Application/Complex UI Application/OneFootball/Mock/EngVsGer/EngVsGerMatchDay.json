@@ -1,0 +1,1356 @@
+{
+    "match": {
+        "coverage": {
+            "watchable": false,
+            "has_live_scores": true,
+            "has_minute": true
+        },
+        "competitionId": "2349",
+        "competitionName": "UEFA Nations League",
+        "seasonId": "39899",
+        "id": "2269411",
+        "matchdayId": "6217453",
+        "kickoff": "2022-09-26T18:45:00Z",
+        "endTimestamp": "2022-09-26T20:42:07Z",
+        "minute": 97,
+        "minute_display": "",
+        "attendance": 78949,
+        "stadium": {
+            "id": "248",
+            "name": "Wembley Stadium",
+            "city": "London",
+            "country": "",
+            "countryCode": ""
+        },
+        "referee": {
+            "id": "687",
+            "name": "Danny Makkelie"
+        },
+        "period": "FullTime",
+        "scorehome": 3,
+        "scoreaway": 3,
+        "scorehomefirsthalf": 0,
+        "scoreawayfirsthalf": 0,
+        "lineups_confirmed": true,
+        "has_headtohead": true,
+        "teamhome": {
+            "id": "61",
+            "name": "England",
+            "formationLayout": 3421,
+            "formation": [{
+                "id": "29274",
+                "name": "Nick Pope",
+                "firstName": "Nick",
+                "lastName": "Pope",
+                "nickName": "Pope",
+                "position": "Goalkeeper",
+                "positionTactical": 1,
+                "number": 1,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/29274.jpg",
+                "teamId": "61",
+                "rating": {
+                    "value": "2.4",
+                    "grade": "LOW"
+                }
+            }, {
+                "id": "31681",
+                "name": "Eric Dier",
+                "firstName": "Eric",
+                "lastName": "Dier",
+                "nickName": "Dier",
+                "position": "Defender",
+                "positionTactical": 3,
+                "number": 5,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/31681.jpg",
+                "teamId": "61",
+                "rating": {
+                    "value": "6.0",
+                    "grade": "AVERAGE"
+                }
+            }, {
+                "id": "32049",
+                "name": "Harry Maguire",
+                "firstName": "Harry",
+                "lastName": "Maguire",
+                "nickName": "Maguire",
+                "position": "Defender",
+                "positionTactical": 4,
+                "number": 6,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/32049.jpg",
+                "teamId": "61",
+                "rating": {
+                    "value": "2.8",
+                    "grade": "LOW"
+                }
+            }, {
+                "id": "29186",
+                "name": "John Stones",
+                "firstName": "John",
+                "lastName": "Stones",
+                "nickName": "Stones",
+                "position": "Defender",
+                "positionTactical": 2,
+                "number": 4,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/29186.jpg",
+                "teamId": "61",
+                "rating": {
+                    "value": "6.6",
+                    "grade": "AVERAGE"
+                }
+            }, {
+                "id": "218631",
+                "name": "Reece James",
+                "firstName": "Reece",
+                "lastName": "James",
+                "nickName": "James",
+                "position": "Midfielder",
+                "positionTactical": 5,
+                "number": 2,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/218631.jpg",
+                "teamId": "61",
+                "rating": {
+                    "value": "8.1",
+                    "grade": "HIGH"
+                }
+            }, {
+                "id": "199615",
+                "name": "Declan Rice",
+                "firstName": "Declan",
+                "lastName": "Rice",
+                "nickName": "Rice",
+                "position": "Midfielder",
+                "positionTactical": 7,
+                "number": 7,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/199615.jpg",
+                "teamId": "61",
+                "rating": {
+                    "value": "7.9",
+                    "grade": "HIGH"
+                }
+            }, {
+                "id": "31227",
+                "name": "Luke Shaw",
+                "firstName": "Luke",
+                "lastName": "Shaw",
+                "nickName": "Shaw",
+                "position": "Midfielder",
+                "positionTactical": 8,
+                "number": 3,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/31227.jpg",
+                "teamId": "61",
+                "rating": {
+                    "value": "8.8",
+                    "grade": "HIGH"
+                }
+            }, {
+                "id": "343087",
+                "name": "Jude Bellingham",
+                "firstName": "Jude",
+                "lastName": "Bellingham",
+                "nickName": "Bellingham",
+                "position": "Midfielder",
+                "positionTactical": 6,
+                "number": 8,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/343087.jpg",
+                "teamId": "61",
+                "rating": {
+                    "value": "6.7",
+                    "grade": "AVERAGE"
+                }
+            }, {
+                "id": "198803",
+                "name": "Philip Foden",
+                "firstName": "Philip",
+                "lastName": "Foden",
+                "nickName": "Foden",
+                "position": "Forward",
+                "positionTactical": 9,
+                "number": 11,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/198803.jpg",
+                "teamId": "61",
+                "rating": {
+                    "value": "6.4",
+                    "grade": "AVERAGE"
+                }
+            }, {
+                "id": "3148",
+                "name": "Harry Kane",
+                "firstName": "Harry",
+                "lastName": "Kane",
+                "nickName": "Kane",
+                "position": "Forward",
+                "positionTactical": 11,
+                "number": 9,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/3148.jpg",
+                "teamId": "61",
+                "rating": {
+                    "value": "3.8",
+                    "grade": "LOW"
+                }
+            }, {
+                "id": "28990",
+                "name": "Raheem Sterling",
+                "firstName": "Raheem",
+                "lastName": "Sterling",
+                "nickName": "Sterling",
+                "position": "Forward",
+                "positionTactical": 10,
+                "number": 10,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/28990.jpg",
+                "teamId": "61",
+                "rating": {
+                    "value": "4.1",
+                    "grade": "LOW"
+                }
+            }],
+            "substitutions": [{
+                "minute": 37,
+                "minute_display": "37'",
+                "order": 1,
+                "eventId": "2609909531",
+                "playerIn": {
+                    "id": "3147",
+                    "name": "Kyle Walker",
+                    "firstName": "Kyle",
+                    "lastName": "Walker",
+                    "nickName": "Walker",
+                    "position": "Substitution",
+                    "positionTactical": 0,
+                    "number": 15,
+                    "teamId": "61",
+                    "thumbnailSrc": "https://images.onefootball.com/players/180/3147.jpg",
+                    "rating": {
+                        "value": "6.6",
+                        "grade": "AVERAGE"
+                    }
+                },
+                "playerOut": {
+                    "id": "29186",
+                    "name": "John Stones",
+                    "firstName": "John",
+                    "lastName": "Stones",
+                    "nickName": "Stones",
+                    "position": "Defender",
+                    "positionTactical": 2,
+                    "number": 4,
+                    "teamId": "61",
+                    "thumbnailSrc": "https://images.onefootball.com/players/180/29186.jpg",
+                    "rating": {
+                        "value": "6.6",
+                        "grade": "AVERAGE"
+                    }
+                }
+            }, {
+                "minute": 66,
+                "minute_display": "66'",
+                "order": 4,
+                "eventId": "2626687150",
+                "playerIn": {
+                    "id": "257485",
+                    "name": "Bukayo Saka",
+                    "firstName": "Bukayo",
+                    "lastName": "Saka",
+                    "nickName": "Saka",
+                    "position": "Substitution",
+                    "positionTactical": 0,
+                    "number": 18,
+                    "teamId": "61",
+                    "thumbnailSrc": "https://images.onefootball.com/players/180/257485.jpg",
+                    "rating": {
+                        "value": "7.0",
+                        "grade": "HIGH"
+                    }
+                },
+                "playerOut": {
+                    "id": "198803",
+                    "name": "Philip Foden",
+                    "firstName": "Philip",
+                    "lastName": "Foden",
+                    "nickName": "Foden",
+                    "position": "Forward",
+                    "positionTactical": 9,
+                    "number": 11,
+                    "teamId": "61",
+                    "thumbnailSrc": "https://images.onefootball.com/players/180/198803.jpg",
+                    "rating": {
+                        "value": "6.4",
+                        "grade": "AVERAGE"
+                    }
+                }
+            }, {
+                "minute": 66,
+                "minute_display": "66'",
+                "order": 5,
+                "eventId": "2643464769",
+                "playerIn": {
+                    "id": "179564",
+                    "name": "Mason Mount",
+                    "firstName": "Mason",
+                    "lastName": "Mount",
+                    "nickName": "Mount",
+                    "position": "Substitution",
+                    "positionTactical": 0,
+                    "number": 19,
+                    "teamId": "61",
+                    "thumbnailSrc": "https://images.onefootball.com/players/180/179564.jpg",
+                    "rating": {
+                        "value": "8.3",
+                        "grade": "HIGH"
+                    }
+                },
+                "playerOut": {
+                    "id": "28990",
+                    "name": "Raheem Sterling",
+                    "firstName": "Raheem",
+                    "lastName": "Sterling",
+                    "nickName": "Sterling",
+                    "position": "Forward",
+                    "positionTactical": 10,
+                    "number": 10,
+                    "teamId": "61",
+                    "thumbnailSrc": "https://images.onefootball.com/players/180/28990.jpg",
+                    "rating": {
+                        "value": "4.1",
+                        "grade": "LOW"
+                    }
+                }
+            }, {
+                "minute": 91,
+                "minute_display": "90+1'",
+                "order": 16,
+                "eventId": "2660242388",
+                "playerIn": {
+                    "id": "3111",
+                    "name": "Jordan Henderson",
+                    "firstName": "Jordan",
+                    "lastName": "Henderson",
+                    "nickName": "Henderson",
+                    "position": "Substitution",
+                    "positionTactical": 0,
+                    "number": 14,
+                    "teamId": "61",
+                    "thumbnailSrc": "https://images.onefootball.com/players/180/3111.jpg",
+                    "rating": {
+                        "value": "5.6",
+                        "grade": "AVERAGE"
+                    }
+                },
+                "playerOut": {
+                    "id": "343087",
+                    "name": "Jude Bellingham",
+                    "firstName": "Jude",
+                    "lastName": "Bellingham",
+                    "nickName": "Bellingham",
+                    "position": "Midfielder",
+                    "positionTactical": 6,
+                    "number": 8,
+                    "teamId": "61",
+                    "thumbnailSrc": "https://images.onefootball.com/players/180/343087.jpg",
+                    "rating": {
+                        "value": "6.7",
+                        "grade": "AVERAGE"
+                    }
+                }
+            }],
+            "bench": [{
+                "id": "179564",
+                "name": "Mason Mount",
+                "firstName": "Mason",
+                "lastName": "Mount",
+                "nickName": "Mount",
+                "position": "Substitution",
+                "positionTactical": 0,
+                "number": 19,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/179564.jpg",
+                "teamId": "61",
+                "rating": {
+                    "value": "8.3",
+                    "grade": "HIGH"
+                }
+            }, {
+                "id": "257485",
+                "name": "Bukayo Saka",
+                "firstName": "Bukayo",
+                "lastName": "Saka",
+                "nickName": "Saka",
+                "position": "Substitution",
+                "positionTactical": 0,
+                "number": 18,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/257485.jpg",
+                "teamId": "61",
+                "rating": {
+                    "value": "7.0",
+                    "grade": "HIGH"
+                }
+            }, {
+                "id": "3147",
+                "name": "Kyle Walker",
+                "firstName": "Kyle",
+                "lastName": "Walker",
+                "nickName": "Walker",
+                "position": "Substitution",
+                "positionTactical": 0,
+                "number": 15,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/3147.jpg",
+                "teamId": "61",
+                "rating": {
+                    "value": "6.6",
+                    "grade": "AVERAGE"
+                }
+            }, {
+                "id": "13193",
+                "name": "Kieran Trippier",
+                "firstName": "Kieran",
+                "lastName": "Trippier",
+                "nickName": "Trippier",
+                "position": "Substitution",
+                "positionTactical": 0,
+                "number": 12,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/13193.jpg",
+                "teamId": "61"
+            }, {
+                "id": "181420",
+                "name": "Tammy Abraham",
+                "firstName": "Tammy",
+                "lastName": "Abraham",
+                "nickName": "Abraham",
+                "position": "Substitution",
+                "positionTactical": 0,
+                "number": 23,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/181420.jpg",
+                "teamId": "61"
+            }, {
+                "id": "3111",
+                "name": "Jordan Henderson",
+                "firstName": "Jordan",
+                "lastName": "Henderson",
+                "nickName": "Henderson",
+                "position": "Substitution",
+                "positionTactical": 0,
+                "number": 14,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/3111.jpg",
+                "teamId": "61",
+                "rating": {
+                    "value": "5.6",
+                    "grade": "AVERAGE"
+                }
+            }, {
+                "id": "227453",
+                "name": "Marc Guéhi",
+                "firstName": "Marc",
+                "lastName": "Guéhi",
+                "nickName": "Guéhi",
+                "position": "Substitution",
+                "positionTactical": 0,
+                "number": 17,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/227453.jpg",
+                "teamId": "61"
+            }, {
+                "id": "39490",
+                "name": "Ivan Toney",
+                "firstName": "Ivan",
+                "lastName": "Toney",
+                "nickName": "Toney",
+                "position": "Substitution",
+                "positionTactical": 0,
+                "number": 20,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/39490.jpg",
+                "teamId": "61"
+            }, {
+                "id": "174601",
+                "name": "Dean Henderson",
+                "firstName": "Dean",
+                "lastName": "Henderson",
+                "nickName": "Henderson",
+                "position": "Substitution",
+                "positionTactical": 0,
+                "number": 22,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/174601.jpg",
+                "teamId": "61"
+            }, {
+                "id": "145534",
+                "name": "Benjamin Chilwell",
+                "firstName": "Benjamin",
+                "lastName": "Chilwell",
+                "nickName": "Chilwell",
+                "position": "Substitution",
+                "positionTactical": 0,
+                "number": 21,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/145534.jpg",
+                "teamId": "61"
+            }, {
+                "id": "187964",
+                "name": "Aaron Ramsdale",
+                "firstName": "Aaron",
+                "lastName": "Ramsdale",
+                "nickName": "Ramsdale",
+                "position": "Substitution",
+                "positionTactical": 0,
+                "number": 13,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/187964.jpg",
+                "teamId": "61"
+            }, {
+                "id": "18860",
+                "name": "Conor Coady",
+                "firstName": "Conor",
+                "lastName": "Coady",
+                "nickName": "Coady",
+                "position": "Substitution",
+                "positionTactical": 0,
+                "number": 16,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/18860.jpg",
+                "teamId": "61"
+            }],
+            "absentPlayers": [],
+            "colors": {
+                "crestMainColor": "FFFFFF",
+                "mainColor": "FFFFFF",
+                "shirtColorAway": "DE462E",
+                "shirtColorHome": "FFFFFF"
+            },
+            "isDummy": false,
+            "stats": {
+                "totalScoringAtt": 13,
+                "ontargetScoringAtt": 8,
+                "blockedScoringAtt": 0,
+                "shotsHitPostOrBar": 0,
+                "shotsFromInsidebox": 11,
+                "shotsFromOutsidebox": 2,
+                "shotAccuracy": "61.5",
+                "possessionPercentage": "40.5",
+                "duelsWonPercentage": "48.9",
+                "duelsWonAirPercentage": "61.9",
+                "interception": 11,
+                "totalOffside": 2,
+                "cornerTaken": 6,
+                "totalPass": 386,
+                "longPassesPercent": "15.3",
+                "accuratePassesPercent": "79.0",
+                "accurateFwdZonePassesPercent": "68.8",
+                "accurateBackZonePassesPercent": "86.7",
+                "totalCross": 19,
+                "accurateCrossesPercent": "31.6",
+                "totalTackle": 17,
+                "wonTacklePercent": "47.1",
+                "totalClearance": 16,
+                "fkFoulLost": 12,
+                "totalYelCard": 0,
+                "totalRedCard": 0,
+                "goals": 3
+            }
+        },
+        "teamaway": {
+            "id": "96",
+            "name": "Germany",
+            "formationLayout": 4231,
+            "formation": [{
+                "id": "3652",
+                "name": "Marc-André ter Stegen",
+                "firstName": "Marc-André",
+                "lastName": "ter Stegen",
+                "nickName": "ter Stegen",
+                "position": "Goalkeeper",
+                "positionTactical": 1,
+                "number": 22,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/3652.jpg",
+                "teamId": "96",
+                "rating": {
+                    "value": "4.6",
+                    "grade": "LOW"
+                }
+            }, {
+                "id": "48080",
+                "name": "Niklas Süle",
+                "firstName": "Niklas",
+                "lastName": "Süle",
+                "nickName": "Süle",
+                "position": "Defender",
+                "positionTactical": 3,
+                "number": 15,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/48080.jpg",
+                "teamId": "96",
+                "rating": {
+                    "value": "6.4",
+                    "grade": "AVERAGE"
+                }
+            }, {
+                "id": "285577",
+                "name": "Nico Schlotterbeck",
+                "firstName": "Nico",
+                "lastName": "Schlotterbeck",
+                "nickName": "Schlotterbeck",
+                "position": "Defender",
+                "positionTactical": 4,
+                "number": 23,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/285577.jpg",
+                "teamId": "96",
+                "rating": {
+                    "value": "2.3",
+                    "grade": "LOW"
+                }
+            }, {
+                "id": "194121",
+                "name": "David Raum",
+                "firstName": "David",
+                "lastName": "Raum",
+                "nickName": "Raum",
+                "position": "Defender",
+                "positionTactical": 5,
+                "number": 3,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/194121.jpg",
+                "teamId": "96",
+                "rating": {
+                    "value": "5.7",
+                    "grade": "AVERAGE"
+                }
+            }, {
+                "id": "102072",
+                "name": "Thilo Kehrer",
+                "firstName": "Thilo",
+                "lastName": "Kehrer",
+                "nickName": "Kehrer",
+                "position": "Defender",
+                "positionTactical": 2,
+                "number": 5,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/102072.jpg",
+                "teamId": "96",
+                "rating": {
+                    "value": "4.5",
+                    "grade": "LOW"
+                }
+            }, {
+                "id": "3347",
+                "name": "Ilkay Gündogan",
+                "firstName": "Ilkay",
+                "lastName": "Gündogan",
+                "nickName": "Gündogan",
+                "position": "Midfielder",
+                "positionTactical": 7,
+                "number": 21,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/3347.jpg",
+                "teamId": "96",
+                "rating": {
+                    "value": "6.3",
+                    "grade": "AVERAGE"
+                }
+            }, {
+                "id": "63521",
+                "name": "Leroy Sane",
+                "firstName": "Leroy",
+                "lastName": "Sane",
+                "nickName": "Sane",
+                "position": "Midfielder",
+                "positionTactical": 10,
+                "number": 19,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/63521.jpg",
+                "teamId": "96",
+                "rating": {
+                    "value": "5.2",
+                    "grade": "AVERAGE"
+                }
+            }, {
+                "id": "27535",
+                "name": "Jonas Hofmann",
+                "firstName": "Jonas",
+                "lastName": "Hofmann",
+                "nickName": "Hofmann",
+                "position": "Midfielder",
+                "positionTactical": 8,
+                "number": 18,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/27535.jpg",
+                "teamId": "96",
+                "rating": {
+                    "value": "5.7",
+                    "grade": "AVERAGE"
+                }
+            }, {
+                "id": "50793",
+                "name": "Joshua Kimmich",
+                "firstName": "Joshua",
+                "lastName": "Kimmich",
+                "nickName": "Kimmich",
+                "position": "Midfielder",
+                "positionTactical": 6,
+                "number": 6,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/50793.jpg",
+                "teamId": "96",
+                "rating": {
+                    "value": "7.2",
+                    "grade": "HIGH"
+                }
+            }, {
+                "id": "376844",
+                "name": "Jamal Musiala",
+                "firstName": "Jamal",
+                "lastName": "Musiala",
+                "nickName": "Musiala",
+                "position": "Midfielder",
+                "positionTactical": 9,
+                "number": 14,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/376844.jpg",
+                "teamId": "96",
+                "rating": {
+                    "value": "5.7",
+                    "grade": "AVERAGE"
+                }
+            }, {
+                "id": "192324",
+                "name": "Kai Havertz",
+                "firstName": "Kai",
+                "lastName": "Havertz",
+                "nickName": "Havertz",
+                "position": "Forward",
+                "positionTactical": 11,
+                "number": 7,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/192324.jpg",
+                "teamId": "96",
+                "rating": {
+                    "value": "9.9",
+                    "grade": "HIGH"
+                }
+            }],
+            "substitutions": [{
+                "minute": 45,
+                "minute_display": "45'",
+                "order": 2,
+                "eventId": "130448145",
+                "playerIn": {
+                    "id": "50458",
+                    "name": "Timo Werner",
+                    "firstName": "Timo",
+                    "lastName": "Werner",
+                    "nickName": "Werner",
+                    "position": "Substitution",
+                    "positionTactical": 0,
+                    "number": 9,
+                    "teamId": "96",
+                    "thumbnailSrc": "https://images.onefootball.com/players/180/50458.jpg",
+                    "rating": {
+                        "value": "3.8",
+                        "grade": "LOW"
+                    }
+                },
+                "playerOut": {
+                    "id": "27535",
+                    "name": "Jonas Hofmann",
+                    "firstName": "Jonas",
+                    "lastName": "Hofmann",
+                    "nickName": "Hofmann",
+                    "position": "Midfielder",
+                    "positionTactical": 8,
+                    "number": 18,
+                    "teamId": "96",
+                    "thumbnailSrc": "https://images.onefootball.com/players/180/27535.jpg",
+                    "rating": {
+                        "value": "5.7",
+                        "grade": "AVERAGE"
+                    }
+                }
+            }, {
+                "minute": 68,
+                "minute_display": "68'",
+                "order": 7,
+                "eventId": "80115288",
+                "playerIn": {
+                    "id": "61987",
+                    "name": "Robin Gosens",
+                    "firstName": "Robin",
+                    "lastName": "Gosens",
+                    "nickName": "Gosens",
+                    "position": "Substitution",
+                    "positionTactical": 0,
+                    "number": 20,
+                    "teamId": "96",
+                    "thumbnailSrc": "https://images.onefootball.com/players/180/61987.jpg",
+                    "rating": {
+                        "value": "5.2",
+                        "grade": "AVERAGE"
+                    }
+                },
+                "playerOut": {
+                    "id": "194121",
+                    "name": "David Raum",
+                    "firstName": "David",
+                    "lastName": "Raum",
+                    "nickName": "Raum",
+                    "position": "Defender",
+                    "positionTactical": 5,
+                    "number": 3,
+                    "teamId": "96",
+                    "thumbnailSrc": "https://images.onefootball.com/players/180/194121.jpg",
+                    "rating": {
+                        "value": "5.7",
+                        "grade": "AVERAGE"
+                    }
+                }
+            }, {
+                "minute": 68,
+                "minute_display": "68'",
+                "order": 8,
+                "eventId": "96892907",
+                "playerIn": {
+                    "id": "35994",
+                    "name": "Serge Gnabry",
+                    "firstName": "Serge",
+                    "lastName": "Gnabry",
+                    "nickName": "Gnabry",
+                    "position": "Substitution",
+                    "positionTactical": 0,
+                    "number": 10,
+                    "teamId": "96",
+                    "thumbnailSrc": "https://images.onefootball.com/players/180/35994.jpg",
+                    "rating": {
+                        "value": "5.3",
+                        "grade": "AVERAGE"
+                    }
+                },
+                "playerOut": {
+                    "id": "63521",
+                    "name": "Leroy Sane",
+                    "firstName": "Leroy",
+                    "lastName": "Sane",
+                    "nickName": "Sane",
+                    "position": "Midfielder",
+                    "positionTactical": 10,
+                    "number": 19,
+                    "teamId": "96",
+                    "thumbnailSrc": "https://images.onefootball.com/players/180/63521.jpg",
+                    "rating": {
+                        "value": "5.2",
+                        "grade": "AVERAGE"
+                    }
+                }
+            }, {
+                "minute": 79,
+                "minute_display": "79'",
+                "order": 11,
+                "eventId": "180781002",
+                "playerIn": {
+                    "id": "173",
+                    "name": "Thomas Müller",
+                    "firstName": "Thomas",
+                    "lastName": "Müller",
+                    "nickName": "Müller",
+                    "position": "Substitution",
+                    "positionTactical": 0,
+                    "number": 13,
+                    "teamId": "96",
+                    "thumbnailSrc": "https://images.onefootball.com/players/180/173.jpg",
+                    "rating": {
+                        "value": "6.4",
+                        "grade": "AVERAGE"
+                    }
+                },
+                "playerOut": {
+                    "id": "376844",
+                    "name": "Jamal Musiala",
+                    "firstName": "Jamal",
+                    "lastName": "Musiala",
+                    "nickName": "Musiala",
+                    "position": "Midfielder",
+                    "positionTactical": 9,
+                    "number": 14,
+                    "teamId": "96",
+                    "thumbnailSrc": "https://images.onefootball.com/players/180/376844.jpg",
+                    "rating": {
+                        "value": "5.7",
+                        "grade": "AVERAGE"
+                    }
+                }
+            }, {
+                "minute": 91,
+                "minute_display": "90+1'",
+                "order": 17,
+                "eventId": "197558621",
+                "playerIn": {
+                    "id": "308087",
+                    "name": "Armel Bella-Kotchap",
+                    "firstName": "Armel",
+                    "lastName": "Bella-Kotchap",
+                    "nickName": "Bella-Kotchap",
+                    "position": "Substitution",
+                    "positionTactical": 0,
+                    "number": 17,
+                    "teamId": "96",
+                    "thumbnailSrc": "https://images.onefootball.com/players/180/308087.jpg",
+                    "rating": {
+                        "value": "6.0",
+                        "grade": "AVERAGE"
+                    }
+                },
+                "playerOut": {
+                    "id": "192324",
+                    "name": "Kai Havertz",
+                    "firstName": "Kai",
+                    "lastName": "Havertz",
+                    "nickName": "Havertz",
+                    "position": "Forward",
+                    "positionTactical": 11,
+                    "number": 7,
+                    "teamId": "96",
+                    "thumbnailSrc": "https://images.onefootball.com/players/180/192324.jpg",
+                    "rating": {
+                        "value": "9.9",
+                        "grade": "HIGH"
+                    }
+                }
+            }],
+            "bench": [{
+                "id": "24309",
+                "name": "Maximilian Arnold",
+                "firstName": "Maximilian",
+                "lastName": "Arnold",
+                "nickName": "Arnold",
+                "position": "Substitution",
+                "positionTactical": 0,
+                "number": 8,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/24309.jpg",
+                "teamId": "96"
+            }, {
+                "id": "61987",
+                "name": "Robin Gosens",
+                "firstName": "Robin",
+                "lastName": "Gosens",
+                "nickName": "Gosens",
+                "position": "Substitution",
+                "positionTactical": 0,
+                "number": 20,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/61987.jpg",
+                "teamId": "96",
+                "rating": {
+                    "value": "5.2",
+                    "grade": "AVERAGE"
+                }
+            }, {
+                "id": "35994",
+                "name": "Serge Gnabry",
+                "firstName": "Serge",
+                "lastName": "Gnabry",
+                "nickName": "Gnabry",
+                "position": "Substitution",
+                "positionTactical": 0,
+                "number": 10,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/35994.jpg",
+                "teamId": "96",
+                "rating": {
+                    "value": "5.3",
+                    "grade": "AVERAGE"
+                }
+            }, {
+                "id": "3975",
+                "name": "Oliver Baumann",
+                "firstName": "Oliver",
+                "lastName": "Baumann",
+                "nickName": "Baumann",
+                "position": "Substitution",
+                "positionTactical": 0,
+                "number": 1,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/3975.jpg",
+                "teamId": "96"
+            }, {
+                "id": "308087",
+                "name": "Armel Bella-Kotchap",
+                "firstName": "Armel",
+                "lastName": "Bella-Kotchap",
+                "nickName": "Bella-Kotchap",
+                "position": "Substitution",
+                "positionTactical": 0,
+                "number": 17,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/308087.jpg",
+                "teamId": "96",
+                "rating": {
+                    "value": "6.0",
+                    "grade": "AVERAGE"
+                }
+            }, {
+                "id": "133558",
+                "name": "Benjamin Henrichs",
+                "firstName": "Benjamin",
+                "lastName": "Henrichs",
+                "nickName": "Henrichs",
+                "position": "Substitution",
+                "positionTactical": 0,
+                "number": 16,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/133558.jpg",
+                "teamId": "96"
+            }, {
+                "id": "173",
+                "name": "Thomas Müller",
+                "firstName": "Thomas",
+                "lastName": "Müller",
+                "nickName": "Müller",
+                "position": "Substitution",
+                "positionTactical": 0,
+                "number": 13,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/173.jpg",
+                "teamId": "96",
+                "rating": {
+                    "value": "6.4",
+                    "grade": "AVERAGE"
+                }
+            }, {
+                "id": "50458",
+                "name": "Timo Werner",
+                "firstName": "Timo",
+                "lastName": "Werner",
+                "nickName": "Werner",
+                "position": "Substitution",
+                "positionTactical": 0,
+                "number": 9,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/50458.jpg",
+                "teamId": "96",
+                "rating": {
+                    "value": "3.8",
+                    "grade": "LOW"
+                }
+            }, {
+                "id": "3256",
+                "name": "Kevin Trapp",
+                "firstName": "Kevin",
+                "lastName": "Trapp",
+                "nickName": "Trapp",
+                "position": "Substitution",
+                "positionTactical": 0,
+                "number": 12,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/3256.jpg",
+                "teamId": "96"
+            }, {
+                "id": "24694",
+                "name": "Matthias Ginter",
+                "firstName": "Matthias",
+                "lastName": "Ginter",
+                "nickName": "Ginter",
+                "position": "Substitution",
+                "positionTactical": 0,
+                "number": 4,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/24694.jpg",
+                "teamId": "96"
+            }],
+            "absentPlayers": [],
+            "colors": {
+                "crestMainColor": "",
+                "mainColor": "FFFFFF",
+                "shirtColorAway": "000000",
+                "shirtColorHome": "FFFFFF"
+            },
+            "isDummy": false,
+            "stats": {
+                "totalScoringAtt": 10,
+                "ontargetScoringAtt": 4,
+                "blockedScoringAtt": 2,
+                "shotsHitPostOrBar": 0,
+                "shotsFromInsidebox": 4,
+                "shotsFromOutsidebox": 6,
+                "shotAccuracy": "40.0",
+                "possessionPercentage": "59.5",
+                "duelsWonPercentage": "51.1",
+                "duelsWonAirPercentage": "38.1",
+                "interception": 7,
+                "totalOffside": 1,
+                "cornerTaken": 2,
+                "totalPass": 581,
+                "longPassesPercent": "7.7",
+                "accuratePassesPercent": "86.9",
+                "accurateFwdZonePassesPercent": "79.7",
+                "accurateBackZonePassesPercent": "92.2",
+                "totalCross": 11,
+                "accurateCrossesPercent": "18.2",
+                "totalTackle": 24,
+                "wonTacklePercent": "50.0",
+                "totalClearance": 15,
+                "fkFoulLost": 8,
+                "totalYelCard": 2,
+                "totalRedCard": 0,
+                "goals": 3
+            }
+        },
+        "cards": [{
+            "eventId": "570325253",
+            "type": "Yellow",
+            "minute": 82,
+            "minute_display": "82'",
+            "order": 12,
+            "player": {
+                "id": "285577",
+                "name": "Nico Schlotterbeck",
+                "firstName": "Nico",
+                "lastName": "Schlotterbeck",
+                "nickName": "Schlotterbeck",
+                "teamId": "96",
+                "thumbnailSrc": "https://images.onefootball.com/players/180/285577.jpg",
+                "position": "Defender",
+                "positionTactical": 4,
+                "number": 23,
+                "rating": {
+                    "value": "2.3",
+                    "grade": "LOW"
+                }
+            }
+        }, {
+            "eventId": "2397256464",
+            "type": "Yellow",
+            "minute": 82,
+            "minute_display": "82'",
+            "order": 13,
+            "player": {
+                "id": "102072",
+                "name": "Thilo Kehrer",
+                "firstName": "Thilo",
+                "lastName": "Kehrer",
+                "nickName": "Kehrer",
+                "teamId": "96",
+                "thumbnailSrc": "https://images.onefootball.com/players/180/102072.jpg",
+                "position": "Defender",
+                "positionTactical": 2,
+                "number": 5,
+                "rating": {
+                    "value": "4.5",
+                    "grade": "LOW"
+                }
+            }
+        }],
+        "goals": [{
+            "eventId": "390417280",
+            "type": "Penalty",
+            "minute": 52,
+            "minute_display": "52'",
+            "order": 3,
+            "period": "SecondHalf",
+            "teamId": "96",
+            "player": {
+                "id": "3347",
+                "name": "Ilkay Gündogan",
+                "firstName": "Ilkay",
+                "lastName": "Gündogan",
+                "nickName": "Gündogan",
+                "teamId": "96",
+                "thumbnailSrc": "https://images.onefootball.com/players/180/3347.jpg",
+                "position": "Midfielder",
+                "positionTactical": 7,
+                "number": 21,
+                "rating": {
+                    "value": "6.3",
+                    "grade": "AVERAGE"
+                }
+            },
+            "assisting_player": null
+        }, {
+            "eventId": "1594895025",
+            "type": "Goal",
+            "minute": 67,
+            "minute_display": "67'",
+            "order": 6,
+            "period": "SecondHalf",
+            "teamId": "96",
+            "player": {
+                "id": "192324",
+                "name": "Kai Havertz",
+                "firstName": "Kai",
+                "lastName": "Havertz",
+                "nickName": "Havertz",
+                "teamId": "96",
+                "thumbnailSrc": "https://images.onefootball.com/players/180/192324.jpg",
+                "position": "Forward",
+                "positionTactical": 11,
+                "number": 7,
+                "rating": {
+                    "value": "9.9",
+                    "grade": "HIGH"
+                }
+            },
+            "assisting_player": {
+                "id": "50458",
+                "name": "Timo Werner",
+                "firstName": "Timo",
+                "lastName": "Werner",
+                "nickName": "Werner",
+                "teamId": "96",
+                "thumbnailSrc": "https://images.onefootball.com/players/180/50458.jpg",
+                "position": "Substitution",
+                "positionTactical": 0,
+                "number": 9,
+                "rating": {
+                    "value": "3.8",
+                    "grade": "LOW"
+                }
+            }
+        }, {
+            "eventId": "1236665224",
+            "type": "Goal",
+            "minute": 71,
+            "minute_display": "71'",
+            "order": 9,
+            "period": "SecondHalf",
+            "teamId": "61",
+            "player": {
+                "id": "31227",
+                "name": "Luke Shaw",
+                "firstName": "Luke",
+                "lastName": "Shaw",
+                "nickName": "Shaw",
+                "teamId": "61",
+                "thumbnailSrc": "https://images.onefootball.com/players/180/31227.jpg",
+                "position": "Midfielder",
+                "positionTactical": 8,
+                "number": 3,
+                "rating": {
+                    "value": "8.8",
+                    "grade": "HIGH"
+                }
+            },
+            "assisting_player": {
+                "id": "218631",
+                "name": "Reece James",
+                "firstName": "Reece",
+                "lastName": "James",
+                "nickName": "James",
+                "teamId": "61",
+                "thumbnailSrc": "https://images.onefootball.com/players/180/218631.jpg",
+                "position": "Midfielder",
+                "positionTactical": 5,
+                "number": 2,
+                "rating": {
+                    "value": "8.1",
+                    "grade": "HIGH"
+                }
+            }
+        }, {
+            "eventId": "3752611545",
+            "type": "Goal",
+            "minute": 75,
+            "minute_display": "75'",
+            "order": 10,
+            "period": "SecondHalf",
+            "teamId": "61",
+            "player": {
+                "id": "179564",
+                "name": "Mason Mount",
+                "firstName": "Mason",
+                "lastName": "Mount",
+                "nickName": "Mount",
+                "teamId": "61",
+                "thumbnailSrc": "https://images.onefootball.com/players/180/179564.jpg",
+                "position": "Substitution",
+                "positionTactical": 0,
+                "number": 19,
+                "rating": {
+                    "value": "8.3",
+                    "grade": "HIGH"
+                }
+            },
+            "assisting_player": {
+                "id": "257485",
+                "name": "Bukayo Saka",
+                "firstName": "Bukayo",
+                "lastName": "Saka",
+                "nickName": "Saka",
+                "teamId": "61",
+                "thumbnailSrc": "https://images.onefootball.com/players/180/257485.jpg",
+                "position": "Substitution",
+                "positionTactical": 0,
+                "number": 18,
+                "rating": {
+                    "value": "7.0",
+                    "grade": "HIGH"
+                }
+            }
+        }, {
+            "eventId": "2006802500",
+            "type": "Penalty",
+            "minute": 83,
+            "minute_display": "83'",
+            "order": 14,
+            "period": "SecondHalf",
+            "teamId": "61",
+            "player": {
+                "id": "3148",
+                "name": "Harry Kane",
+                "firstName": "Harry",
+                "lastName": "Kane",
+                "nickName": "Kane",
+                "teamId": "61",
+                "thumbnailSrc": "https://images.onefootball.com/players/180/3148.jpg",
+                "position": "Forward",
+                "positionTactical": 11,
+                "number": 9,
+                "rating": {
+                    "value": "3.8",
+                    "grade": "LOW"
+                }
+            },
+            "assisting_player": null
+        }, {
+            "eventId": "433647724",
+            "type": "Goal",
+            "minute": 87,
+            "minute_display": "87'",
+            "order": 15,
+            "period": "SecondHalf",
+            "teamId": "96",
+            "player": {
+                "id": "192324",
+                "name": "Kai Havertz",
+                "firstName": "Kai",
+                "lastName": "Havertz",
+                "nickName": "Havertz",
+                "teamId": "96",
+                "thumbnailSrc": "https://images.onefootball.com/players/180/192324.jpg",
+                "position": "Forward",
+                "positionTactical": 11,
+                "number": 7,
+                "rating": {
+                    "value": "9.9",
+                    "grade": "HIGH"
+                }
+            },
+            "assisting_player": null
+        }],
+        "retracted_goals": [],
+        "retracted_red_cards": [],
+        "teamsStandings": {
+            "tableColumns": ["played", "goals", "goal_difference", "points"],
+            "teamHome": {
+                "team": {
+                    "id": "61",
+                    "name": "England",
+                    "played": 6,
+                    "won": 0,
+                    "drawn": 3,
+                    "lost": 3,
+                    "goalsShot": 4,
+                    "goalsGot": 10,
+                    "diff": -6,
+                    "points": 3
+                },
+                "index": 4,
+                "indexOld": 4,
+                "indexHome": 4,
+                "indexAway": 4,
+                "indexChange": "",
+                "type": 0,
+                "type_name": ""
+            },
+            "teamAway": {
+                "team": {
+                    "id": "96",
+                    "name": "Germany",
+                    "played": 6,
+                    "won": 1,
+                    "drawn": 4,
+                    "lost": 1,
+                    "goalsShot": 11,
+                    "goalsGot": 9,
+                    "diff": 2,
+                    "points": 7
+                },
+                "index": 3,
+                "indexOld": 3,
+                "indexHome": 2,
+                "indexAway": 3,
+                "indexChange": "",
+                "type": 0,
+                "type_name": ""
+            }
+        }
+    }
+}

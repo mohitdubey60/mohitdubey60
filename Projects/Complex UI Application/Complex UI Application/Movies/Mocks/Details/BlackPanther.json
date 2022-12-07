@@ -1,0 +1,299 @@
+{
+    "id": "tt9114286",
+    "title": "Black Panther: Wakanda Forever",
+    "originalTitle": "",
+    "fullTitle": "Black Panther: Wakanda Forever (2022)",
+    "type": "Movie",
+    "year": "2022",
+    "image": "https://imdb-api.com/images/original/MV5BYjJlMjBmYzUtY2E3MC00OWI1LWE1YmUtOTdmM2IyMTQyZDBjXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_Ratio0.6751_AL_.jpg",
+    "releaseDate": "2022-11-11",
+    "runtimeMins": null,
+    "runtimeStr": null,
+    "plot": "A sequel that will continue to explore the world of Wakanda and all the characters introduced in the 2018 film.",
+    "plotLocal": "",
+    "plotLocalIsRtl": false,
+    "awards": "",
+    "directors": "Ryan Coogler",
+    "directorList": [
+        {
+            "id": "nm3363032",
+            "name": "Ryan Coogler"
+        }
+    ],
+    "writers": "Joe Robert Cole, Ryan Coogler",
+    "writerList": [
+        {
+            "id": "nm1963288",
+            "name": "Joe Robert Cole"
+        },
+        {
+            "id": "nm3363032",
+            "name": "Ryan Coogler"
+        }
+    ],
+    "stars": "Martin Freeman, Letitia Wright, Angela Bassett",
+    "starList": [
+        {
+            "id": "nm0293509",
+            "name": "Martin Freeman"
+        },
+        {
+            "id": "nm4004793",
+            "name": "Letitia Wright"
+        },
+        {
+            "id": "nm0000291",
+            "name": "Angela Bassett"
+        }
+    ],
+    "actorList": [
+        {
+            "id": "nm0293509",
+            "image": "https://imdb-api.com/images/original/MV5BMjE0MjAwOTMzMF5BMl5BanBnXkFtZTcwMDg1MjEyNw@@._V1_Ratio1.0000_AL_.jpg",
+            "name": "Martin Freeman",
+            "asCharacter": "Everett K. Rossas Everett K. Ross"
+        },
+        {
+            "id": "nm4004793",
+            "image": "https://imdb-api.com/images/original/MV5BMjIyMzgxMzc5N15BMl5BanBnXkFtZTgwNDg3NzYzMDI@._V1_Ratio1.0000_AL_.jpg",
+            "name": "Letitia Wright",
+            "asCharacter": "Shurias Shuri"
+        },
+        {
+            "id": "nm0000291",
+            "image": "https://imdb-api.com/images/original/MV5BMjI4OTQ1NTcxOF5BMl5BanBnXkFtZTcwOTc1NTU0OQ@@._V1_Ratio1.0000_AL_.jpg",
+            "name": "Angela Bassett",
+            "asCharacter": "Ramondaas Ramonda"
+        },
+        {
+            "id": "nm2143282",
+            "image": "https://imdb-api.com/images/original/MV5BMTY0NTQ4MDY2Nl5BMl5BanBnXkFtZTgwNDk1MTEyMDE@._V1_Ratio1.0000_AL_.jpg",
+            "name": "Lupita Nyong'o",
+            "asCharacter": "Nakiaas Nakia"
+        },
+        {
+            "id": "nm2257207",
+            "image": "https://imdb-api.com/images/original/MV5BOTk1MzgzOTg5OV5BMl5BanBnXkFtZTcwNDQ4NjMxOA@@._V1_Ratio1.0000_AL_.jpg",
+            "name": "Daniel Kaluuya",
+            "asCharacter": "W'Kabias W'Kabi"
+        },
+        {
+            "id": "nm2204178",
+            "image": "https://imdb-api.com/images/original/MV5BN2QwNmE4Y2YtZjNkMS00NDAzLTliYTgtYTgyZDYyMTcwYTM4XkEyXkFqcGdeQXVyMTE1MTYxNDAw._V1_Ratio1.0000_AL_.jpg",
+            "name": "Tenoch Huerta",
+            "asCharacter": ""
+        },
+        {
+            "id": "nm6328300",
+            "image": "https://imdb-api.com/images/original/MV5BODgzMTk5MTEyOV5BMl5BanBnXkFtZTgwOTQyNzE2NzM@._V1_Ratio1.0000_AL_.jpg",
+            "name": "Winston Duke",
+            "asCharacter": "M'Bakuas M'Baku"
+        },
+        {
+            "id": "nm1775091",
+            "image": "https://imdb-api.com/images/original/MV5BNjYyNjg1OTU1M15BMl5BanBnXkFtZTgwNzYyNTkzMDI@._V1_Ratio1.0000_AL_.jpg",
+            "name": "Danai Gurira",
+            "asCharacter": "Okoyeas Okoye"
+        },
+        {
+            "id": "nm3948190",
+            "image": "https://imdb-api.com/images/original/MV5BMmI4YzMzZjYtNDRhNS00OWY0LWE2OTMtMDQ5YTQyYTM0ZWQ2XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_Ratio1.0000_AL_.jpg",
+            "name": "Michaela Coel",
+            "asCharacter": ""
+        },
+        {
+            "id": "nm0441042",
+            "image": "https://imdb-api.com/images/original/MV5BOTZmM2M2YzQtMDcwZC00ZTZmLTkwNTMtNzdlZjRiZDExZGVjXkEyXkFqcGdeQXVyOTAyMDgxODQ@._V1_Ratio1.0000_AL_.jpg",
+            "name": "Florence Kasumba",
+            "asCharacter": "Ayoas Ayo"
+        },
+        {
+            "id": "nm9584861",
+            "image": "https://imdb-api.com/images/original/MV5BMTc2NTBjODMtYmIzOC00NTk5LWE2YzYtOGU2YWM5ZjIwZDhhXkEyXkFqcGdeQXVyODkzNTgxMDg@._V1_Ratio1.0000_AL_.jpg",
+            "name": "Dominique Thorne",
+            "asCharacter": "Riri Williamsas Riri Williams"
+        },
+        {
+            "id": "nm0207218",
+            "image": "https://imdb-api.com/images/original/MV5BMTc4MzE3OTgxMV5BMl5BanBnXkFtZTcwMzA4NTAzMQ@@._V1_Ratio1.0000_AL_.jpg",
+            "name": "Isaach De Bankolé",
+            "asCharacter": "River Tribe Elderas River Tribe Elder"
+        },
+        {
+            "id": "nm8668984",
+            "image": "https://imdb-api.com/images/original/MV5BZWNhNGQ3NDEtNmVhZS00ZDhlLTk0MmQtZGFkYzlhM2JiYThhXkEyXkFqcGdeQXVyNjY1MDczOTY@._V1_Ratio1.0000_AL_.jpg",
+            "name": "Aleks Alifirenko Jr.",
+            "asCharacter": "Warrioras Warrior"
+        },
+        {
+            "id": "nm11163108",
+            "image": "https://imdb-api.com/images/original/MV5BZDUxN2E0NTYtN2U2My00ZjU5LTgzNzctMWJhODk1ZTc3ZDBjXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_Ratio1.0000_AL_.jpg",
+            "name": "Shalet Monique",
+            "asCharacter": "FBI Agentas FBI Agent"
+        },
+        {
+            "id": "nm8133761",
+            "image": "https://imdb-api.com/images/original/MV5BNzhiOTcyMTMtZjA5YS00ZDczLWJiY2EtOWVkNjU1NjdhOTJiXkEyXkFqcGdeQXVyNjgxNTcxNjM@._V1_Ratio1.0000_AL_.jpg",
+            "name": "Dan Matteucci",
+            "asCharacter": "Warrioras Warrior"
+        },
+        {
+            "id": "nm9756130",
+            "image": "https://imdb-api.com/images/original/MV5BZGU1NDdlNjgtOGE0Yy00MzA1LTk5Y2UtZmQ1ZGJmZDJjZTBiXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_Ratio1.4429_AL_.jpg",
+            "name": "Curtis Bannister",
+            "asCharacter": ""
+        },
+        {
+            "id": "nm7262074",
+            "image": "https://imdb-api.com/images/original/MV5BZTk4YzIwM2EtNmUwMy00Mzg1LWIxM2MtYWE4Njk1MzBmYTlkXkEyXkFqcGdeQXVyNzgxOTY1MDk@._V1_Ratio1.0000_AL_.jpg",
+            "name": "Dorothy Steel",
+            "asCharacter": "Merchant Tribe Elderas Merchant Tribe Elder"
+        },
+        {
+            "id": "nm0083654",
+            "image": "https://imdb-api.com/images/original/MV5BN2UyYmJhZmQtODAzMi00YWQ5LTk5NGItMzIzZTBjNDIyMGI2XkEyXkFqcGdeQXVyMTM2NzQzMQ@@._V1_Ratio1.0000_AL_.jpg",
+            "name": "Gigi Bermingham",
+            "asCharacter": "French Secretary of Stateas French Secretary of State"
+        }
+    ],
+    "fullCast": null,
+    "genres": "Action, Adventure, Drama",
+    "genreList": [
+        {
+            "key": "Action",
+            "value": "Action"
+        },
+        {
+            "key": "Adventure",
+            "value": "Adventure"
+        },
+        {
+            "key": "Drama",
+            "value": "Drama"
+        }
+    ],
+    "companies": "Marvel Studios, Walt Disney Pictures, Xm2 Pursuit",
+    "companyList": [
+        {
+            "id": "co0051941",
+            "name": "Marvel Studios"
+        },
+        {
+            "id": "co0008970",
+            "name": "Walt Disney Pictures"
+        },
+        {
+            "id": "co0793355",
+            "name": "Xm2 Pursuit"
+        }
+    ],
+    "countries": "USA",
+    "countryList": [
+        {
+            "key": "USA",
+            "value": "USA"
+        }
+    ],
+    "languages": "English",
+    "languageList": [
+        {
+            "key": "English",
+            "value": "English"
+        }
+    ],
+    "contentRating": null,
+    "imDbRating": null,
+    "imDbRatingVotes": null,
+    "metacriticRating": null,
+    "ratings": null,
+    "wikipedia": null,
+    "posters": null,
+    "images": null,
+    "trailer": null,
+    "boxOffice": {
+        "budget": "",
+        "openingWeekendUSA": "",
+        "grossUSA": "",
+        "cumulativeWorldwideGross": ""
+    },
+    "tagline": null,
+    "keywords": "sequel,second part,superhero,marvel comics,marvel cinematic universe",
+    "keywordList": [
+        "sequel",
+        "second part",
+        "superhero",
+        "marvel comics",
+        "marvel cinematic universe"
+    ],
+    "similars": [
+        {
+            "id": "tt10954600",
+            "title": "Ant-Man and the Wasp: Quantumania",
+            "image": "https://imdb-api.com/images/original/MV5BMGYzYmU2YzMtODNiZC00ZDBmLWJmOGMtMmNkYmIxNTlmNDE1XkEyXkFqcGdeQXVyMTA1OTAyOTI@._V1_Ratio1.0048_AL_.jpg",
+            "imDbRating": ""
+        },
+        {
+            "id": "tt10676048",
+            "title": "The Marvels",
+            "image": "https://imdb-api.com/images/original/MV5BNjQ4NzQ2MmUtMTUwYi00ZTVhLWI5Y2MtYWM3ZmM5MTc1OGEyXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_Ratio0.6763_AL_.jpg",
+            "imDbRating": ""
+        },
+        {
+            "id": "tt8675462",
+            "title": "Black Panther: Origins",
+            "image": "https://imdb-api.com/images/original/MV5BYzVhZDYzNzYtZTJhZi00ZDIzLTg2YmEtNGQyMmI1NzJlMmMyXkEyXkFqcGdeQXVyNzg0NTkwNTU@._V1_Ratio0.7053_AL_.jpg",
+            "imDbRating": "5.7"
+        },
+        {
+            "id": "tt1825683",
+            "title": "Black Panther",
+            "image": "https://imdb-api.com/images/original/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_Ratio0.6763_AL_.jpg",
+            "imDbRating": "7.3"
+        },
+        {
+            "id": "tt6791350",
+            "title": "Guardians of the Galaxy Vol. 3",
+            "image": "https://imdb-api.com/images/original/MV5BMWM3ZWNlMjgtODZjMi00YTAwLWJhZTktMTM4NTgyMjE0NjMwXkEyXkFqcGdeQXVyNTE1NjY5Mg@@._V1_Ratio0.6763_AL_.jpg",
+            "imDbRating": ""
+        },
+        {
+            "id": "tt10151854",
+            "title": "Shazam! Fury of the Gods",
+            "image": "https://imdb-api.com/images/original/MV5BZDIyNjc3YzItMjE5Mi00OGVkLWFmNGYtMGJlMWMyZmVkM2E5XkEyXkFqcGdeQXVyNTQ2MjM5MTg@._V1_Ratio0.6763_AL_.jpg",
+            "imDbRating": ""
+        },
+        {
+            "id": "tt6443346",
+            "title": "Black Adam",
+            "image": "https://imdb-api.com/images/original/MV5BN2ZmYTlhNmMtODQ0OS00YWNiLWI1MmMtNzkwYWMzOGM4YWQxXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_Ratio0.6763_AL_.jpg",
+            "imDbRating": ""
+        },
+        {
+            "id": "tt13623148",
+            "title": "I Am Groot",
+            "image": "https://imdb-api.com/images/original/MV5BMzZjOTIzZmMtNWNmMi00ZmI2LWE2ZjAtMTA2OTY0ZTVjOTQwXkEyXkFqcGdeQXVyMTUxOTg5ODE5._V1_Ratio0.6763_AL_.jpg",
+            "imDbRating": ""
+        },
+        {
+            "id": "tt8790086",
+            "title": "Kraven the Hunter",
+            "image": "https://imdb-api.com/images/original/MV5BYzRmOTBjY2ItY2I1My00YjRkLTk1Y2MtZmYzZTExMTk3NDI5XkEyXkFqcGdeQXVyNTc2MDc2ODQ@._V1_Ratio0.6763_AL_.jpg",
+            "imDbRating": ""
+        },
+        {
+            "id": "tt13157618",
+            "title": "Secret Invasion",
+            "image": "https://imdb-api.com/images/original/MV5BYzk1ZjM3YzQtZjk3ZC00MzYzLTkxMjYtNGZmZTQxYzRlYjUxXkEyXkFqcGdeQXVyNTE1NjY5Mg@@._V1_Ratio0.6763_AL_.jpg",
+            "imDbRating": ""
+        },
+        {
+            "id": "tt13623136",
+            "title": "The Guardians of the Galaxy Holiday Special",
+            "image": "https://imdb-api.com/images/original/MV5BNTQ3ZDg5OWYtZjlhYi00Zjk0LTk3MGUtMTM4ZDVlYjg0ZjRmXkEyXkFqcGdeQXVyNTE1NjY5Mg@@._V1_Ratio0.6763_AL_.jpg",
+            "imDbRating": ""
+        }
+    ],
+    "tvSeriesInfo": null,
+    "tvEpisodeInfo": null,
+    "errorMessage": null
+}

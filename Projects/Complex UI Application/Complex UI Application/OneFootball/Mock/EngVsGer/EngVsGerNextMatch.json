@@ -1,0 +1,145 @@
+{
+    "matches": [{
+        "id": 2281880,
+        "kickoff": "2022-11-21T13:00:00Z",
+        "score_home": 0,
+        "score_away": 0,
+        "team_home": {
+            "id": 61,
+            "name": "England",
+            "is_national": true,
+            "country": {
+                "name": "England",
+                "code": "gb-eng"
+            },
+            "colors": [{
+                "name": "shirtColorHome",
+                "value": "FFFFFF"
+            }, {
+                "name": "shirtColorAway",
+                "value": "DE462E"
+            }, {
+                "name": "crestMainColor",
+                "value": "FFFFFF"
+            }, {
+                "name": "mainColor",
+                "value": "FFFFFF"
+            }],
+            "code": "ENG"
+        },
+        "team_away": {
+            "id": 102,
+            "name": "Iran",
+            "is_national": true,
+            "country": {
+                "name": "Iran",
+                "code": "ir"
+            },
+            "colors": [{
+                "name": "shirtColorHome",
+                "value": "FFFFFF"
+            }, {
+                "name": "shirtColorAway",
+                "value": "CC0000"
+            }, {
+                "name": "crestMainColor",
+                "value": "DA0000"
+            }, {
+                "name": "mainColor",
+                "value": "FFFFFF"
+            }],
+            "code": "IRN"
+        },
+        "competition": {
+            "id": 12,
+            "name": "FIFA World Cup"
+        },
+        "season": {
+            "id": 39963
+        },
+        "matchday": {
+            "id": 6228736,
+            "name": "Group stage: Matchday 1",
+            "number": 1
+        },
+        "group_name": "",
+        "minute": 0,
+        "minute_display": "",
+        "period": "PreMatch",
+        "score_home_first_half": 0,
+        "score_away_first_half": 0,
+        "coverage": {
+            "has_live_scores": true,
+            "has_minute": true
+        }
+    }, {
+        "id": 2342742,
+        "kickoff": "2022-11-16T00:00:00Z",
+        "score_home": 0,
+        "score_away": 0,
+        "team_home": {
+            "id": 714,
+            "name": "Oman",
+            "is_national": true,
+            "country": {
+                "name": "Oman",
+                "code": "om"
+            },
+            "colors": [{
+                "name": "shirtColorHome",
+                "value": "FF0000"
+            }, {
+                "name": "shirtColorAway",
+                "value": "FFFFFF"
+            }, {
+                "name": "crestMainColor",
+                "value": "CD1C19"
+            }, {
+                "name": "mainColor",
+                "value": "FF0000"
+            }]
+        },
+        "team_away": {
+            "id": 96,
+            "name": "Germany",
+            "is_national": true,
+            "country": {
+                "name": "Germany",
+                "code": "de"
+            },
+            "colors": [{
+                "name": "shirtColorHome",
+                "value": "FFFFFF"
+            }, {
+                "name": "shirtColorAway",
+                "value": "000000"
+            }, {
+                "name": "mainColor",
+                "value": "FFFFFF"
+            }],
+            "code": "GER"
+        },
+        "competition": {
+            "id": 24,
+            "name": "International Friendlies"
+        },
+        "season": {
+            "id": 39879
+        },
+        "matchday": {
+            "id": 6291386,
+            "name": "",
+            "number": 11
+        },
+        "group_name": "",
+        "minute": 0,
+        "minute_display": "",
+        "period": "PreMatch",
+        "score_home_first_half": 0,
+        "score_away_first_half": 0,
+        "coverage": {
+            "has_live_scores": true,
+            "has_minute": true
+        }
+    }]
+}

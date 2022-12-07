@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21E258" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="DaySlot" representedClassName="DaySlot" syncable="YES" codeGenerationType="class">
+        <attribute name="endDate" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="slotId" optional="YES" attributeType="String"/>
+        <attribute name="startDate" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="timeSlot" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="TimeSlot" inverseName="daySlot" inverseEntity="TimeSlot"/>
+    </entity>
+    <entity name="ProgressCurrentDate" representedClassName="ProgressCurrentDate" syncable="YES" codeGenerationType="class">
+        <attribute name="endTime" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="startTime" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="topicId" optional="YES" attributeType="String"/>
+        <relationship name="topic" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Topic"/>
+    </entity>
+    <entity name="ProgressPastDate" representedClassName="ProgressPastDate" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="expectedHours" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="hours" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="topicIds" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ProgressWeek" representedClassName="ProgressWeek" syncable="YES" codeGenerationType="class">
+        <attribute name="endDate" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="expectedHours" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="hours" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="startDate" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="topicIds" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TimeSlot" representedClassName="TimeSlot" syncable="YES" codeGenerationType="class">
+        <attribute name="dayName" optional="YES" attributeType="String"/>
+        <attribute name="endTime" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="slotId" optional="YES" attributeType="String"/>
+        <attribute name="startTime" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="daySlot" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DaySlot" inverseName="timeSlot" inverseEntity="DaySlot"/>
+        <relationship name="topic" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Topic" inverseName="topicTimeSlot" inverseEntity="Topic"/>
+    </entity>
+    <entity name="Topic" representedClassName="Topic" syncable="YES" codeGenerationType="class">
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="topicID" optional="YES" attributeType="String"/>
+        <relationship name="topicTimeSlot" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TimeSlot" inverseName="topic" inverseEntity="TimeSlot"/>
+    </entity>
+    <elements>
+        <element name="DaySlot" positionX="-54" positionY="18" width="128" height="89"/>
+        <element name="ProgressCurrentDate" positionX="-18" positionY="54" width="128" height="104"/>
+        <element name="ProgressPastDate" positionX="0" positionY="81" width="128" height="104"/>
+        <element name="ProgressWeek" positionX="18" positionY="117" width="128" height="134"/>
+        <element name="TimeSlot" positionX="-63" positionY="-18" width="128" height="119"/>
+        <element name="Topic" positionX="-36" positionY="45" width="128" height="74"/>
+    </elements>
+</model>

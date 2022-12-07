@@ -1,0 +1,16 @@
+PODS:
+  - ADDatePicker (1.0.0)
+
+DEPENDENCIES:
+  - ADDatePicker
+
+SPEC REPOS:
+  trunk:
+    - ADDatePicker
+
+SPEC CHECKSUMS:
+  ADDatePicker: 62cd9bb25b71b261bbd008020ea9347b84979873
+
+PODFILE CHECKSUM: 93d7b450342f4a486ca97c8f11b086b1ef2ed910
+
+COCOAPODS: 1.11.3

@@ -1,0 +1,1475 @@
+{
+    "match": {
+        "coverage": {
+            "watchable": false,
+            "has_live_scores": true,
+            "has_minute": true
+        },
+        "competitionId": "5",
+        "competitionName": "Champions League",
+        "seasonId": "40154",
+        "id": "2325469",
+        "matchdayId": "6286784",
+        "kickoff": "2022-09-07T19:00:00Z",
+        "endTimestamp": "2022-09-07T20:53:57Z",
+        "minute": 94,
+        "minute_display": "",
+        "attendance": 77411,
+        "stadium": {
+            "id": "9",
+            "name": "Spotify Camp Nou",
+            "city": "Barcelona",
+            "country": "",
+            "countryCode": ""
+        },
+        "referee": {
+            "id": "1286",
+            "name": "Lawrence Visser"
+        },
+        "period": "FullTime",
+        "scorehome": 5,
+        "scoreaway": 1,
+        "scorehomefirsthalf": 3,
+        "scoreawayfirsthalf": 1,
+        "lineups_confirmed": true,
+        "has_headtohead": true,
+        "teamhome": {
+            "id": "5",
+            "name": "Barcelona",
+            "formationLayout": 433,
+            "formation": [{
+                "id": "3652",
+                "name": "Marc-André ter Stegen",
+                "firstName": "Marc-André",
+                "lastName": "ter Stegen",
+                "nickName": "ter Stegen",
+                "position": "Goalkeeper",
+                "positionTactical": 1,
+                "number": 1,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/3652.jpg",
+                "teamId": "5",
+                "rating": {
+                    "value": "4.5",
+                    "grade": "LOW"
+                }
+            }, {
+                "id": "4049",
+                "name": "Jordi Alba",
+                "firstName": "Jordi",
+                "lastName": "Alba",
+                "nickName": "Alba",
+                "position": "Defender",
+                "positionTactical": 5,
+                "number": 18,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/4049.jpg",
+                "teamId": "5",
+                "rating": {
+                    "value": "9.2",
+                    "grade": "HIGH"
+                }
+            }, {
+                "id": "12630",
+                "name": "Sergi Roberto",
+                "firstName": "Sergi",
+                "lastName": "Roberto",
+                "nickName": "Roberto",
+                "position": "Defender",
+                "positionTactical": 2,
+                "number": 20,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/12630.jpg",
+                "teamId": "5",
+                "rating": {
+                    "value": "7.4",
+                    "grade": "HIGH"
+                }
+            }, {
+                "id": "48225",
+                "name": "Andreas Christensen",
+                "firstName": "Andreas",
+                "lastName": "Christensen",
+                "nickName": "Christensen",
+                "position": "Defender",
+                "positionTactical": 3,
+                "number": 15,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/48225.jpg",
+                "teamId": "5",
+                "rating": {
+                    "value": "8.3",
+                    "grade": "HIGH"
+                }
+            }, {
+                "id": "172882",
+                "name": "Jules Koundé",
+                "firstName": "Jules",
+                "lastName": "Koundé",
+                "nickName": "Koundé",
+                "position": "Defender",
+                "positionTactical": 4,
+                "number": 23,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/172882.jpg",
+                "teamId": "5",
+                "rating": {
+                    "value": "8.4",
+                    "grade": "HIGH"
+                }
+            }, {
+                "id": "348883",
+                "name": "Pedri",
+                "firstName": "",
+                "lastName": "",
+                "nickName": "Pedri",
+                "position": "Midfielder",
+                "positionTactical": 8,
+                "number": 8,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/348883.jpg",
+                "teamId": "5",
+                "rating": {
+                    "value": "7.8",
+                    "grade": "HIGH"
+                }
+            }, {
+                "id": "125537",
+                "name": "Franck Kessie",
+                "firstName": "Franck",
+                "lastName": "Kessie",
+                "nickName": "Kessie",
+                "position": "Midfielder",
+                "positionTactical": 6,
+                "number": 19,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/125537.jpg",
+                "teamId": "5",
+                "rating": {
+                    "value": "9.0",
+                    "grade": "HIGH"
+                }
+            }, {
+                "id": "127795",
+                "name": "Frenkie de Jong",
+                "firstName": "Frenkie",
+                "lastName": "de Jong",
+                "nickName": "de Jong",
+                "position": "Midfielder",
+                "positionTactical": 7,
+                "number": 21,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/127795.jpg",
+                "teamId": "5",
+                "rating": {
+                    "value": "6.9",
+                    "grade": "AVERAGE"
+                }
+            }, {
+                "id": "312998",
+                "name": "Ansu Fati",
+                "firstName": "Anssumane",
+                "lastName": "Fati Vieira",
+                "nickName": "Fati Vieira",
+                "position": "Forward",
+                "positionTactical": 11,
+                "number": 10,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/312998.jpg",
+                "teamId": "5",
+                "rating": {
+                    "value": "3.6",
+                    "grade": "LOW"
+                }
+            }, {
+                "id": "1992",
+                "name": "Robert Lewandowski",
+                "firstName": "Robert",
+                "lastName": "Lewandowski",
+                "nickName": "Lewandowski",
+                "position": "Forward",
+                "positionTactical": 10,
+                "number": 9,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/1992.jpg",
+                "teamId": "5",
+                "rating": {
+                    "value": "10.0",
+                    "grade": "HIGH"
+                }
+            }, {
+                "id": "167741",
+                "name": "Ousmane Dembélé",
+                "firstName": "Ousmane",
+                "lastName": "Dembélé",
+                "nickName": "Dembélé",
+                "position": "Forward",
+                "positionTactical": 9,
+                "number": 7,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/167741.jpg",
+                "teamId": "5",
+                "rating": {
+                    "value": "9.0",
+                    "grade": "HIGH"
+                }
+            }],
+            "substitutions": [{
+                "minute": 45,
+                "minute_display": "45'",
+                "order": 7,
+                "eventId": "1312102287",
+                "playerIn": {
+                    "id": "144",
+                    "name": "Gerard Pique",
+                    "firstName": "Gerard",
+                    "lastName": "Pique",
+                    "nickName": "Pique",
+                    "position": "Substitution",
+                    "positionTactical": 0,
+                    "number": 3,
+                    "teamId": "5",
+                    "thumbnailSrc": "https://images.onefootball.com/players/180/144.jpg",
+                    "rating": {
+                        "value": "7.3",
+                        "grade": "HIGH"
+                    }
+                },
+                "playerOut": {
+                    "id": "12630",
+                    "name": "Sergi Roberto",
+                    "firstName": "Sergi",
+                    "lastName": "Roberto",
+                    "nickName": "Roberto",
+                    "position": "Defender",
+                    "positionTactical": 2,
+                    "number": 20,
+                    "teamId": "5",
+                    "thumbnailSrc": "https://images.onefootball.com/players/180/12630.jpg",
+                    "rating": {
+                        "value": "7.4",
+                        "grade": "HIGH"
+                    }
+                }
+            }, {
+                "minute": 65,
+                "minute_display": "65'",
+                "order": 10,
+                "eventId": "1328879906",
+                "playerIn": {
+                    "id": "238648",
+                    "name": "Ferran Torres",
+                    "firstName": "Ferran",
+                    "lastName": "Torres",
+                    "nickName": "Torres",
+                    "position": "Substitution",
+                    "positionTactical": 0,
+                    "number": 11,
+                    "teamId": "5",
+                    "thumbnailSrc": "https://images.onefootball.com/players/180/238648.jpg",
+                    "rating": {
+                        "value": "9.0",
+                        "grade": "HIGH"
+                    }
+                },
+                "playerOut": {
+                    "id": "312998",
+                    "name": "Ansu Fati",
+                    "firstName": "Anssumane",
+                    "lastName": "Fati Vieira",
+                    "nickName": "Fati Vieira",
+                    "position": "Forward",
+                    "positionTactical": 11,
+                    "number": 10,
+                    "teamId": "5",
+                    "thumbnailSrc": "https://images.onefootball.com/players/180/312998.jpg",
+                    "rating": {
+                        "value": "3.6",
+                        "grade": "LOW"
+                    }
+                }
+            }, {
+                "minute": 75,
+                "minute_display": "75'",
+                "order": 14,
+                "eventId": "1345657525",
+                "playerIn": {
+                    "id": "387991",
+                    "name": "Gavi",
+                    "firstName": "",
+                    "lastName": "",
+                    "nickName": "Gavi",
+                    "position": "Substitution",
+                    "positionTactical": 0,
+                    "number": 30,
+                    "teamId": "5",
+                    "thumbnailSrc": "https://images.onefootball.com/players/180/387991.jpg",
+                    "rating": {
+                        "value": "6.5",
+                        "grade": "AVERAGE"
+                    }
+                },
+                "playerOut": {
+                    "id": "348883",
+                    "name": "Pedri",
+                    "firstName": "",
+                    "lastName": "",
+                    "nickName": "Pedri",
+                    "position": "Midfielder",
+                    "positionTactical": 8,
+                    "number": 8,
+                    "teamId": "5",
+                    "thumbnailSrc": "https://images.onefootball.com/players/180/348883.jpg",
+                    "rating": {
+                        "value": "7.8",
+                        "grade": "HIGH"
+                    }
+                }
+            }, {
+                "minute": 75,
+                "minute_display": "75'",
+                "order": 15,
+                "eventId": "1228214192",
+                "playerIn": {
+                    "id": "24048",
+                    "name": "Memphis",
+                    "firstName": "",
+                    "lastName": "",
+                    "nickName": "Memphis",
+                    "position": "Substitution",
+                    "positionTactical": 0,
+                    "number": 14,
+                    "teamId": "5",
+                    "thumbnailSrc": "https://images.onefootball.com/players/180/24048.jpg",
+                    "rating": {
+                        "value": "5.9",
+                        "grade": "AVERAGE"
+                    }
+                },
+                "playerOut": {
+                    "id": "167741",
+                    "name": "Ousmane Dembélé",
+                    "firstName": "Ousmane",
+                    "lastName": "Dembélé",
+                    "nickName": "Dembélé",
+                    "position": "Forward",
+                    "positionTactical": 9,
+                    "number": 7,
+                    "teamId": "5",
+                    "thumbnailSrc": "https://images.onefootball.com/players/180/167741.jpg",
+                    "rating": {
+                        "value": "9.0",
+                        "grade": "HIGH"
+                    }
+                }
+            }, {
+                "minute": 81,
+                "minute_display": "81'",
+                "order": 19,
+                "eventId": "1244991811",
+                "playerIn": {
+                    "id": "394416",
+                    "name": "Pablo Torre",
+                    "firstName": "Pablo",
+                    "lastName": "Torre",
+                    "nickName": "Torre",
+                    "position": "Substitution",
+                    "positionTactical": 0,
+                    "number": 32,
+                    "teamId": "5",
+                    "thumbnailSrc": "https://images.onefootball.com/players/180/394416.jpg",
+                    "rating": {
+                        "value": "5.5",
+                        "grade": "AVERAGE"
+                    }
+                },
+                "playerOut": {
+                    "id": "125537",
+                    "name": "Franck Kessie",
+                    "firstName": "Franck",
+                    "lastName": "Kessie",
+                    "nickName": "Kessie",
+                    "position": "Midfielder",
+                    "positionTactical": 6,
+                    "number": 19,
+                    "teamId": "5",
+                    "thumbnailSrc": "https://images.onefootball.com/players/180/125537.jpg",
+                    "rating": {
+                        "value": "9.0",
+                        "grade": "HIGH"
+                    }
+                }
+            }],
+            "bench": [{
+                "id": "238648",
+                "name": "Ferran Torres",
+                "firstName": "Ferran",
+                "lastName": "Torres",
+                "nickName": "Torres",
+                "position": "Substitution",
+                "positionTactical": 0,
+                "number": 11,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/238648.jpg",
+                "teamId": "5",
+                "rating": {
+                    "value": "9.0",
+                    "grade": "HIGH"
+                }
+            }, {
+                "id": "263348",
+                "name": "Eric",
+                "firstName": "",
+                "lastName": "",
+                "nickName": "Eric",
+                "position": "Substitution",
+                "positionTactical": 0,
+                "number": 24,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/263348.jpg",
+                "teamId": "5"
+            }, {
+                "id": "144",
+                "name": "Gerard Pique",
+                "firstName": "Gerard",
+                "lastName": "Pique",
+                "nickName": "Pique",
+                "position": "Substitution",
+                "positionTactical": 0,
+                "number": 3,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/144.jpg",
+                "teamId": "5",
+                "rating": {
+                    "value": "7.3",
+                    "grade": "HIGH"
+                }
+            }, {
+                "id": "250203",
+                "name": "Ronald Araújo",
+                "firstName": "Ronald",
+                "lastName": "Araújo",
+                "nickName": "Araújo",
+                "position": "Substitution",
+                "positionTactical": 0,
+                "number": 4,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/250203.jpg",
+                "teamId": "5"
+            }, {
+                "id": "225822",
+                "name": "Arnau Tenas",
+                "firstName": "Arnau",
+                "lastName": "Tenas",
+                "nickName": "Tenas",
+                "position": "Substitution",
+                "positionTactical": 0,
+                "number": 36,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/225822.jpg",
+                "teamId": "5"
+            }, {
+                "id": "148",
+                "name": "Sergio Busquets",
+                "firstName": "Sergio",
+                "lastName": "Busquets",
+                "nickName": "Busquets",
+                "position": "Substitution",
+                "positionTactical": 0,
+                "number": 5,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/148.jpg",
+                "teamId": "5"
+            }, {
+                "id": "367653",
+                "name": "Alejandro Baldé",
+                "firstName": "Alejandro",
+                "lastName": "Baldé",
+                "nickName": "Baldé",
+                "position": "Substitution",
+                "positionTactical": 0,
+                "number": 28,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/367653.jpg",
+                "teamId": "5"
+            }, {
+                "id": "387991",
+                "name": "Gavi",
+                "firstName": "",
+                "lastName": "",
+                "nickName": "Gavi",
+                "position": "Substitution",
+                "positionTactical": 0,
+                "number": 30,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/387991.jpg",
+                "teamId": "5",
+                "rating": {
+                    "value": "6.5",
+                    "grade": "AVERAGE"
+                }
+            }, {
+                "id": "24048",
+                "name": "Memphis",
+                "firstName": "",
+                "lastName": "",
+                "nickName": "Memphis",
+                "position": "Substitution",
+                "positionTactical": 0,
+                "number": 14,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/24048.jpg",
+                "teamId": "5",
+                "rating": {
+                    "value": "5.9",
+                    "grade": "AVERAGE"
+                }
+            }, {
+                "id": "394416",
+                "name": "Pablo Torre",
+                "firstName": "Pablo",
+                "lastName": "Torre",
+                "nickName": "Torre",
+                "position": "Substitution",
+                "positionTactical": 0,
+                "number": 32,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/394416.jpg",
+                "teamId": "5",
+                "rating": {
+                    "value": "5.5",
+                    "grade": "AVERAGE"
+                }
+            }, {
+                "id": "275839",
+                "name": "Iñaki Peña",
+                "firstName": "Iñaki",
+                "lastName": "Peña",
+                "nickName": "Peña",
+                "position": "Substitution",
+                "positionTactical": 0,
+                "number": 26,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/275839.jpg",
+                "teamId": "5"
+            }, {
+                "id": "172081",
+                "name": "Raphinha",
+                "firstName": "",
+                "lastName": "",
+                "nickName": "Raphinha",
+                "position": "Substitution",
+                "positionTactical": 0,
+                "number": 22,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/172081.jpg",
+                "teamId": "5"
+            }],
+            "absentPlayers": [],
+            "colors": {
+                "crestMainColor": "DDB500",
+                "mainColor": "8E1B3B",
+                "shirtColorAway": "E4BF78",
+                "shirtColorHome": "004A95"
+            },
+            "isDummy": false,
+            "stats": {
+                "totalScoringAtt": 20,
+                "ontargetScoringAtt": 11,
+                "blockedScoringAtt": 6,
+                "shotsHitPostOrBar": 0,
+                "shotsFromInsidebox": 13,
+                "shotsFromOutsidebox": 7,
+                "shotAccuracy": "55.0",
+                "possessionPercentage": "76.3",
+                "duelsWonPercentage": "57.8",
+                "duelsWonAirPercentage": "52.6",
+                "interception": 8,
+                "totalOffside": 1,
+                "cornerTaken": 10,
+                "totalPass": 738,
+                "longPassesPercent": "4.7",
+                "accuratePassesPercent": "91.2",
+                "accurateFwdZonePassesPercent": "86.6",
+                "accurateBackZonePassesPercent": "96.9",
+                "totalCross": 18,
+                "accurateCrossesPercent": "27.8",
+                "totalTackle": 19,
+                "wonTacklePercent": "52.6",
+                "totalClearance": 2,
+                "fkFoulLost": 5,
+                "totalYelCard": 0,
+                "totalRedCard": 0,
+                "goals": 5
+            }
+        },
+        "teamaway": {
+            "id": "440",
+            "name": "Viktoria Plzeň",
+            "formationLayout": 4231,
+            "formation": [{
+                "id": "70475",
+                "name": "Jindrich Stanek",
+                "firstName": "Jindrich",
+                "lastName": "Stanek",
+                "nickName": "Stanek",
+                "position": "Goalkeeper",
+                "positionTactical": 1,
+                "number": 36,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/70475.jpg",
+                "teamId": "440",
+                "rating": {
+                    "value": "2.3",
+                    "grade": "LOW"
+                }
+            }, {
+                "id": "101283",
+                "name": "Ludek Pernica",
+                "firstName": "Ludek",
+                "lastName": "Pernica",
+                "nickName": "Pernica",
+                "position": "Defender",
+                "positionTactical": 4,
+                "number": 4,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/101283.jpg",
+                "teamId": "440",
+                "rating": {
+                    "value": "4.1",
+                    "grade": "LOW"
+                }
+            }, {
+                "id": "105527",
+                "name": "Milan Havel",
+                "firstName": "Milan",
+                "lastName": "Havel",
+                "nickName": "Havel",
+                "position": "Defender",
+                "positionTactical": 2,
+                "number": 24,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/105527.jpg",
+                "teamId": "440",
+                "rating": {
+                    "value": "3.8",
+                    "grade": "LOW"
+                }
+            }, {
+                "id": "7811",
+                "name": "Lukás Hejda",
+                "firstName": "Lukás",
+                "lastName": "Hejda",
+                "nickName": "Hejda",
+                "position": "Defender",
+                "positionTactical": 3,
+                "number": 2,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/7811.jpg",
+                "teamId": "440",
+                "rating": {
+                    "value": "4.8",
+                    "grade": "LOW"
+                }
+            }, {
+                "id": "143869",
+                "name": "Václav Jemelka",
+                "firstName": "Václav",
+                "lastName": "Jemelka",
+                "nickName": "Jemelka",
+                "position": "Defender",
+                "positionTactical": 5,
+                "number": 21,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/143869.jpg",
+                "teamId": "440",
+                "rating": {
+                    "value": "3.7",
+                    "grade": "LOW"
+                }
+            }, {
+                "id": "38607",
+                "name": "Jhon Mosquera",
+                "firstName": "Jhon",
+                "lastName": "Mosquera",
+                "nickName": "Mosquera",
+                "position": "Midfielder",
+                "positionTactical": 10,
+                "number": 18,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/38607.jpg",
+                "teamId": "440",
+                "rating": {
+                    "value": "4.1",
+                    "grade": "LOW"
+                }
+            }, {
+                "id": "29122",
+                "name": "Jan Sýkora",
+                "firstName": "Jan",
+                "lastName": "Sykora",
+                "nickName": "Sykora",
+                "position": "Midfielder",
+                "positionTactical": 8,
+                "number": 7,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/29122.jpg",
+                "teamId": "440",
+                "rating": {
+                    "value": "7.9",
+                    "grade": "HIGH"
+                }
+            }, {
+                "id": "171481",
+                "name": "Lukás Kalvach",
+                "firstName": "Lukás",
+                "lastName": "Kalvach",
+                "nickName": "Kalvach",
+                "position": "Midfielder",
+                "positionTactical": 6,
+                "number": 23,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/171481.jpg",
+                "teamId": "440",
+                "rating": {
+                    "value": "5.8",
+                    "grade": "AVERAGE"
+                }
+            }, {
+                "id": "119060",
+                "name": "Adam Vlkanova",
+                "firstName": "Adam",
+                "lastName": "Vlkanova",
+                "nickName": "Vlkanova",
+                "position": "Midfielder",
+                "positionTactical": 9,
+                "number": 88,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/119060.jpg",
+                "teamId": "440",
+                "rating": {
+                    "value": "4.3",
+                    "grade": "LOW"
+                }
+            }, {
+                "id": "238355",
+                "name": "Pavel Bucha",
+                "firstName": "Pavel",
+                "lastName": "Bucha",
+                "nickName": "Bucha",
+                "position": "Midfielder",
+                "positionTactical": 7,
+                "number": 20,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/238355.jpg",
+                "teamId": "440",
+                "rating": {
+                    "value": "6.2",
+                    "grade": "AVERAGE"
+                }
+            }, {
+                "id": "103749",
+                "name": "Tomás Chorý",
+                "firstName": "Tomás",
+                "lastName": "Chory",
+                "nickName": "Chory",
+                "position": "Forward",
+                "positionTactical": 11,
+                "number": 15,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/103749.jpg",
+                "teamId": "440",
+                "rating": {
+                    "value": "3.2",
+                    "grade": "LOW"
+                }
+            }],
+            "substitutions": [{
+                "minute": 66,
+                "minute_display": "66'",
+                "order": 11,
+                "eventId": "3066142764",
+                "playerIn": {
+                    "id": "272385",
+                    "name": "Fortune Bassey",
+                    "firstName": "Fortune",
+                    "lastName": "Bassey",
+                    "nickName": "Bassey",
+                    "position": "Substitution",
+                    "positionTactical": 0,
+                    "number": 90,
+                    "teamId": "440",
+                    "thumbnailSrc": "https://images.onefootball.com/players/180/272385.jpg",
+                    "rating": {
+                        "value": "5.6",
+                        "grade": "AVERAGE"
+                    }
+                },
+                "playerOut": {
+                    "id": "103749",
+                    "name": "Tomás Chorý",
+                    "firstName": "Tomás",
+                    "lastName": "Chory",
+                    "nickName": "Chory",
+                    "position": "Forward",
+                    "positionTactical": 11,
+                    "number": 15,
+                    "teamId": "440",
+                    "thumbnailSrc": "https://images.onefootball.com/players/180/103749.jpg",
+                    "rating": {
+                        "value": "3.2",
+                        "grade": "LOW"
+                    }
+                }
+            }, {
+                "minute": 78,
+                "minute_display": "78'",
+                "order": 16,
+                "eventId": "3116475621",
+                "playerIn": {
+                    "id": "50178",
+                    "name": "Ales Čermák",
+                    "firstName": "Ales",
+                    "lastName": "Cermák",
+                    "nickName": "Cermák",
+                    "position": "Substitution",
+                    "positionTactical": 0,
+                    "number": 25,
+                    "teamId": "440",
+                    "thumbnailSrc": "https://images.onefootball.com/players/180/50178.jpg",
+                    "rating": {
+                        "value": "5.6",
+                        "grade": "AVERAGE"
+                    }
+                },
+                "playerOut": {
+                    "id": "119060",
+                    "name": "Adam Vlkanova",
+                    "firstName": "Adam",
+                    "lastName": "Vlkanova",
+                    "nickName": "Vlkanova",
+                    "position": "Midfielder",
+                    "positionTactical": 9,
+                    "number": 88,
+                    "teamId": "440",
+                    "thumbnailSrc": "https://images.onefootball.com/players/180/119060.jpg",
+                    "rating": {
+                        "value": "4.3",
+                        "grade": "LOW"
+                    }
+                }
+            }, {
+                "minute": 79,
+                "minute_display": "79'",
+                "order": 17,
+                "eventId": "3099698002",
+                "playerIn": {
+                    "id": "20153",
+                    "name": "Václav Pilař",
+                    "firstName": "Václav",
+                    "lastName": "Pilar",
+                    "nickName": "Pilar",
+                    "position": "Substitution",
+                    "positionTactical": 0,
+                    "number": 6,
+                    "teamId": "440",
+                    "thumbnailSrc": "https://images.onefootball.com/players/180/20153.jpg",
+                    "rating": {
+                        "value": "5.7",
+                        "grade": "AVERAGE"
+                    }
+                },
+                "playerOut": {
+                    "id": "29122",
+                    "name": "Jan Sýkora",
+                    "firstName": "Jan",
+                    "lastName": "Sykora",
+                    "nickName": "Sykora",
+                    "position": "Midfielder",
+                    "positionTactical": 8,
+                    "number": 7,
+                    "teamId": "440",
+                    "thumbnailSrc": "https://images.onefootball.com/players/180/29122.jpg",
+                    "rating": {
+                        "value": "7.9",
+                        "grade": "HIGH"
+                    }
+                }
+            }, {
+                "minute": 79,
+                "minute_display": "79'",
+                "order": 18,
+                "eventId": "3015809907",
+                "playerIn": {
+                    "id": "104190",
+                    "name": "Erik Jirka",
+                    "firstName": "Erik",
+                    "lastName": "Jirka",
+                    "nickName": "Jirka",
+                    "position": "Substitution",
+                    "positionTactical": 0,
+                    "number": 77,
+                    "teamId": "440",
+                    "thumbnailSrc": "https://images.onefootball.com/players/180/104190.jpg",
+                    "rating": {
+                        "value": "6.3",
+                        "grade": "AVERAGE"
+                    }
+                },
+                "playerOut": {
+                    "id": "38607",
+                    "name": "Jhon Mosquera",
+                    "firstName": "Jhon",
+                    "lastName": "Mosquera",
+                    "nickName": "Mosquera",
+                    "position": "Midfielder",
+                    "positionTactical": 10,
+                    "number": 18,
+                    "teamId": "440",
+                    "thumbnailSrc": "https://images.onefootball.com/players/180/38607.jpg",
+                    "rating": {
+                        "value": "4.1",
+                        "grade": "LOW"
+                    }
+                }
+            }, {
+                "minute": 86,
+                "minute_display": "86'",
+                "order": 20,
+                "eventId": "2999032288",
+                "playerIn": {
+                    "id": "172061",
+                    "name": "Libor Holík",
+                    "firstName": "Libor",
+                    "lastName": "Holík",
+                    "nickName": "Holík",
+                    "position": "Substitution",
+                    "positionTactical": 0,
+                    "number": 44,
+                    "teamId": "440",
+                    "thumbnailSrc": "https://images.onefootball.com/players/180/172061.jpg",
+                    "rating": {
+                        "value": "6.4",
+                        "grade": "AVERAGE"
+                    }
+                },
+                "playerOut": {
+                    "id": "143869",
+                    "name": "Václav Jemelka",
+                    "firstName": "Václav",
+                    "lastName": "Jemelka",
+                    "nickName": "Jemelka",
+                    "position": "Defender",
+                    "positionTactical": 5,
+                    "number": 21,
+                    "teamId": "440",
+                    "thumbnailSrc": "https://images.onefootball.com/players/180/143869.jpg",
+                    "rating": {
+                        "value": "3.7",
+                        "grade": "LOW"
+                    }
+                }
+            }],
+            "bench": [{
+                "id": "311017",
+                "name": "Mohamed Tijani",
+                "firstName": "Mohamed",
+                "lastName": "Tijani",
+                "nickName": "Tijani",
+                "position": "Substitution",
+                "positionTactical": 0,
+                "number": 3,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/311017.jpg",
+                "teamId": "440"
+            }, {
+                "id": "172061",
+                "name": "Libor Holík",
+                "firstName": "Libor",
+                "lastName": "Holík",
+                "nickName": "Holík",
+                "position": "Substitution",
+                "positionTactical": 0,
+                "number": 44,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/172061.jpg",
+                "teamId": "440",
+                "rating": {
+                    "value": "6.4",
+                    "grade": "AVERAGE"
+                }
+            }, {
+                "id": "50178",
+                "name": "Ales Čermák",
+                "firstName": "Ales",
+                "lastName": "Cermák",
+                "nickName": "Cermák",
+                "position": "Substitution",
+                "positionTactical": 0,
+                "number": 25,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/50178.jpg",
+                "teamId": "440",
+                "rating": {
+                    "value": "5.6",
+                    "grade": "AVERAGE"
+                }
+            }, {
+                "id": "20153",
+                "name": "Václav Pilař",
+                "firstName": "Václav",
+                "lastName": "Pilar",
+                "nickName": "Pilar",
+                "position": "Substitution",
+                "positionTactical": 0,
+                "number": 6,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/20153.jpg",
+                "teamId": "440",
+                "rating": {
+                    "value": "5.7",
+                    "grade": "AVERAGE"
+                }
+            }, {
+                "id": "272385",
+                "name": "Fortune Bassey",
+                "firstName": "Fortune",
+                "lastName": "Bassey",
+                "nickName": "Bassey",
+                "position": "Substitution",
+                "positionTactical": 0,
+                "number": 90,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/272385.jpg",
+                "teamId": "440",
+                "rating": {
+                    "value": "5.6",
+                    "grade": "AVERAGE"
+                }
+            }, {
+                "id": "104190",
+                "name": "Erik Jirka",
+                "firstName": "Erik",
+                "lastName": "Jirka",
+                "nickName": "Jirka",
+                "position": "Substitution",
+                "positionTactical": 0,
+                "number": 77,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/104190.jpg",
+                "teamId": "440",
+                "rating": {
+                    "value": "6.3",
+                    "grade": "AVERAGE"
+                }
+            }, {
+                "id": "216649",
+                "name": "Martin Jedlička",
+                "firstName": "Martin",
+                "lastName": "Jedlicka",
+                "nickName": "Jedlicka",
+                "position": "Substitution",
+                "positionTactical": 0,
+                "number": 16,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/216649.jpg",
+                "teamId": "440"
+            }, {
+                "id": "395095",
+                "name": "Modou N'Diaye",
+                "firstName": "Modou",
+                "lastName": "N'Diaye",
+                "nickName": "N'Diaye",
+                "position": "Substitution",
+                "positionTactical": 0,
+                "number": 99,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/395095.jpg",
+                "teamId": "440"
+            }, {
+                "id": "104803",
+                "name": "Marián Tvrdoň",
+                "firstName": "Marián",
+                "lastName": "Tvrdon",
+                "nickName": "Tvrdon",
+                "position": "Substitution",
+                "positionTactical": 0,
+                "number": 13,
+                "thumbnailSrc": "https://images.onefootball.com/players/180/104803.jpg",
+                "teamId": "440"
+            }],
+            "absentPlayers": [],
+            "colors": {
+                "crestMainColor": "FBFBFB",
+                "mainColor": "B0252E",
+                "shirtColorAway": "253A65",
+                "shirtColorHome": "FF383D"
+            },
+            "isDummy": false,
+            "stats": {
+                "totalScoringAtt": 8,
+                "ontargetScoringAtt": 1,
+                "blockedScoringAtt": 4,
+                "shotsHitPostOrBar": 0,
+                "shotsFromInsidebox": 4,
+                "shotsFromOutsidebox": 4,
+                "shotAccuracy": "12.5",
+                "possessionPercentage": "23.7",
+                "duelsWonPercentage": "42.2",
+                "duelsWonAirPercentage": "47.4",
+                "interception": 14,
+                "totalOffside": 3,
+                "cornerTaken": 1,
+                "totalPass": 223,
+                "longPassesPercent": "19.7",
+                "accuratePassesPercent": "71.3",
+                "accurateFwdZonePassesPercent": "60.8",
+                "accurateBackZonePassesPercent": "82.0",
+                "totalCross": 8,
+                "accurateCrossesPercent": "62.5",
+                "totalTackle": 19,
+                "wonTacklePercent": "68.4",
+                "totalClearance": 23,
+                "fkFoulLost": 8,
+                "totalYelCard": 4,
+                "totalRedCard": 0,
+                "goals": 1
+            }
+        },
+        "cards": [{
+            "eventId": "3525957001",
+            "type": "Yellow",
+            "minute": 4,
+            "minute_display": "4'",
+            "order": 1,
+            "player": {
+                "id": "101283",
+                "name": "Ludek Pernica",
+                "firstName": "Ludek",
+                "lastName": "Pernica",
+                "nickName": "Pernica",
+                "teamId": "440",
+                "thumbnailSrc": "https://images.onefootball.com/players/180/101283.jpg",
+                "position": "Defender",
+                "positionTactical": 4,
+                "number": 4,
+                "rating": {
+                    "value": "4.1",
+                    "grade": "LOW"
+                }
+            }
+        }, {
+            "eventId": "1237189884",
+            "type": "Yellow",
+            "minute": 27,
+            "minute_display": "27'",
+            "order": 3,
+            "player": {
+                "id": "38607",
+                "name": "Jhon Mosquera",
+                "firstName": "Jhon",
+                "lastName": "Mosquera",
+                "nickName": "Mosquera",
+                "teamId": "440",
+                "thumbnailSrc": "https://images.onefootball.com/players/180/38607.jpg",
+                "position": "Midfielder",
+                "positionTactical": 10,
+                "number": 18,
+                "rating": {
+                    "value": "4.1",
+                    "grade": "LOW"
+                }
+            }
+        }, {
+            "eventId": "1732965936",
+            "type": "Yellow",
+            "minute": 56,
+            "minute_display": "56'",
+            "order": 8,
+            "player": {
+                "id": "103749",
+                "name": "Tomás Chorý",
+                "firstName": "Tomás",
+                "lastName": "Chory",
+                "nickName": "Chory",
+                "teamId": "440",
+                "thumbnailSrc": "https://images.onefootball.com/players/180/103749.jpg",
+                "position": "Forward",
+                "positionTactical": 11,
+                "number": 15,
+                "rating": {
+                    "value": "3.2",
+                    "grade": "LOW"
+                }
+            }
+        }, {
+            "eventId": "993475753",
+            "type": "Yellow",
+            "minute": 62,
+            "minute_display": "62'",
+            "order": 9,
+            "player": {
+                "id": "143869",
+                "name": "Václav Jemelka",
+                "firstName": "Václav",
+                "lastName": "Jemelka",
+                "nickName": "Jemelka",
+                "teamId": "440",
+                "thumbnailSrc": "https://images.onefootball.com/players/180/143869.jpg",
+                "position": "Defender",
+                "positionTactical": 5,
+                "number": 21,
+                "rating": {
+                    "value": "3.7",
+                    "grade": "LOW"
+                }
+            }
+        }],
+        "goals": [{
+            "eventId": "1370919745",
+            "type": "Goal",
+            "minute": 13,
+            "minute_display": "13'",
+            "order": 2,
+            "period": "FirstHalf",
+            "teamId": "5",
+            "player": {
+                "id": "125537",
+                "name": "Franck Kessie",
+                "firstName": "Franck",
+                "lastName": "Kessie",
+                "nickName": "Kessie",
+                "teamId": "5",
+                "thumbnailSrc": "https://images.onefootball.com/players/180/125537.jpg",
+                "position": "Midfielder",
+                "positionTactical": 6,
+                "number": 19,
+                "rating": {
+                    "value": "9.0",
+                    "grade": "HIGH"
+                }
+            },
+            "assisting_player": {
+                "id": "172882",
+                "name": "Jules Koundé",
+                "firstName": "Jules",
+                "lastName": "Koundé",
+                "nickName": "Koundé",
+                "teamId": "5",
+                "thumbnailSrc": "https://images.onefootball.com/players/180/172882.jpg",
+                "position": "Defender",
+                "positionTactical": 4,
+                "number": 23,
+                "rating": {
+                    "value": "8.4",
+                    "grade": "HIGH"
+                }
+            }
+        }, {
+            "eventId": "4032211800",
+            "type": "Goal",
+            "minute": 34,
+            "minute_display": "34'",
+            "order": 4,
+            "period": "FirstHalf",
+            "teamId": "5",
+            "player": {
+                "id": "1992",
+                "name": "Robert Lewandowski",
+                "firstName": "Robert",
+                "lastName": "Lewandowski",
+                "nickName": "Lewandowski",
+                "teamId": "5",
+                "thumbnailSrc": "https://images.onefootball.com/players/180/1992.jpg",
+                "position": "Forward",
+                "positionTactical": 10,
+                "number": 9,
+                "rating": {
+                    "value": "10.0",
+                    "grade": "HIGH"
+                }
+            },
+            "assisting_player": {
+                "id": "12630",
+                "name": "Sergi Roberto",
+                "firstName": "Sergi",
+                "lastName": "Roberto",
+                "nickName": "Roberto",
+                "teamId": "5",
+                "thumbnailSrc": "https://images.onefootball.com/players/180/12630.jpg",
+                "position": "Defender",
+                "positionTactical": 2,
+                "number": 20,
+                "rating": {
+                    "value": "7.4",
+                    "grade": "HIGH"
+                }
+            }
+        }, {
+            "eventId": "1094080594",
+            "type": "Goal",
+            "minute": 44,
+            "minute_display": "44'",
+            "order": 5,
+            "period": "FirstHalf",
+            "teamId": "440",
+            "player": {
+                "id": "29122",
+                "name": "Jan Sýkora",
+                "firstName": "Jan",
+                "lastName": "Sykora",
+                "nickName": "Sykora",
+                "teamId": "440",
+                "thumbnailSrc": "https://images.onefootball.com/players/180/29122.jpg",
+                "position": "Midfielder",
+                "positionTactical": 8,
+                "number": 7,
+                "rating": {
+                    "value": "7.9",
+                    "grade": "HIGH"
+                }
+            },
+            "assisting_player": {
+                "id": "143869",
+                "name": "Václav Jemelka",
+                "firstName": "Václav",
+                "lastName": "Jemelka",
+                "nickName": "Jemelka",
+                "teamId": "440",
+                "thumbnailSrc": "https://images.onefootball.com/players/180/143869.jpg",
+                "position": "Defender",
+                "positionTactical": 5,
+                "number": 21,
+                "rating": {
+                    "value": "3.7",
+                    "grade": "LOW"
+                }
+            }
+        }, {
+            "eventId": "150700745",
+            "type": "Goal",
+            "minute": 48,
+            "minute_display": "45+3'",
+            "order": 6,
+            "period": "FirstHalf",
+            "teamId": "5",
+            "player": {
+                "id": "1992",
+                "name": "Robert Lewandowski",
+                "firstName": "Robert",
+                "lastName": "Lewandowski",
+                "nickName": "Lewandowski",
+                "teamId": "5",
+                "thumbnailSrc": "https://images.onefootball.com/players/180/1992.jpg",
+                "position": "Forward",
+                "positionTactical": 10,
+                "number": 9,
+                "rating": {
+                    "value": "10.0",
+                    "grade": "HIGH"
+                }
+            },
+            "assisting_player": {
+                "id": "167741",
+                "name": "Ousmane Dembélé",
+                "firstName": "Ousmane",
+                "lastName": "Dembélé",
+                "nickName": "Dembélé",
+                "teamId": "5",
+                "thumbnailSrc": "https://images.onefootball.com/players/180/167741.jpg",
+                "position": "Forward",
+                "positionTactical": 9,
+                "number": 7,
+                "rating": {
+                    "value": "9.0",
+                    "grade": "HIGH"
+                }
+            }
+        }, {
+            "eventId": "3251090461",
+            "type": "Goal",
+            "minute": 67,
+            "minute_display": "67'",
+            "order": 12,
+            "period": "SecondHalf",
+            "teamId": "5",
+            "player": {
+                "id": "1992",
+                "name": "Robert Lewandowski",
+                "firstName": "Robert",
+                "lastName": "Lewandowski",
+                "nickName": "Lewandowski",
+                "teamId": "5",
+                "thumbnailSrc": "https://images.onefootball.com/players/180/1992.jpg",
+                "position": "Forward",
+                "positionTactical": 10,
+                "number": 9,
+                "rating": {
+                    "value": "10.0",
+                    "grade": "HIGH"
+                }
+            },
+            "assisting_player": {
+                "id": "238648",
+                "name": "Ferran Torres",
+                "firstName": "Ferran",
+                "lastName": "Torres",
+                "nickName": "Torres",
+                "teamId": "5",
+                "thumbnailSrc": "https://images.onefootball.com/players/180/238648.jpg",
+                "position": "Substitution",
+                "positionTactical": 0,
+                "number": 11,
+                "rating": {
+                    "value": "9.0",
+                    "grade": "HIGH"
+                }
+            }
+        }, {
+            "eventId": "2627609950",
+            "type": "Goal",
+            "minute": 71,
+            "minute_display": "71'",
+            "order": 13,
+            "period": "SecondHalf",
+            "teamId": "5",
+            "player": {
+                "id": "238648",
+                "name": "Ferran Torres",
+                "firstName": "Ferran",
+                "lastName": "Torres",
+                "nickName": "Torres",
+                "teamId": "5",
+                "thumbnailSrc": "https://images.onefootball.com/players/180/238648.jpg",
+                "position": "Substitution",
+                "positionTactical": 0,
+                "number": 11,
+                "rating": {
+                    "value": "9.0",
+                    "grade": "HIGH"
+                }
+            },
+            "assisting_player": {
+                "id": "167741",
+                "name": "Ousmane Dembélé",
+                "firstName": "Ousmane",
+                "lastName": "Dembélé",
+                "nickName": "Dembélé",
+                "teamId": "5",
+                "thumbnailSrc": "https://images.onefootball.com/players/180/167741.jpg",
+                "position": "Forward",
+                "positionTactical": 9,
+                "number": 7,
+                "rating": {
+                    "value": "9.0",
+                    "grade": "HIGH"
+                }
+            }
+        }],
+        "retracted_goals": [],
+        "retracted_red_cards": [],
+        "teamsStandings": {
+            "tableColumns": ["played", "goals", "goal_difference", "points"],
+            "teamHome": {
+                "team": {
+                    "id": "5",
+                    "name": "Barcelona",
+                    "played": 2,
+                    "won": 1,
+                    "drawn": 0,
+                    "lost": 1,
+                    "goalsShot": 5,
+                    "goalsGot": 3,
+                    "diff": 2,
+                    "points": 3
+                },
+                "index": 2,
+                "indexOld": 1,
+                "indexHome": 1,
+                "indexAway": 3,
+                "indexChange": "down",
+                "type": 12,
+                "type_name": "Knockout Stage"
+            },
+            "teamAway": {
+                "team": {
+                    "id": "440",
+                    "name": "Viktoria Plzeň",
+                    "played": 2,
+                    "won": 0,
+                    "drawn": 0,
+                    "lost": 2,
+                    "goalsShot": 1,
+                    "goalsGot": 7,
+                    "diff": -6,
+                    "points": 0
+                },
+                "index": 4,
+                "indexOld": 4,
+                "indexHome": 4,
+                "indexAway": 4,
+                "indexChange": "",
+                "type": 0,
+                "type_name": ""
+            }
+        }
+    }
+}

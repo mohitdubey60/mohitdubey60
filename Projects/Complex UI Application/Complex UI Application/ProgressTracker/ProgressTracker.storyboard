@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Progress Tracker Dashboard View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="ProgressTrackerDashboardViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="ProgressTrackerDashboardViewController" customModule="Complex_UI_Application" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8ZG-EA-e3D" customClass="ADDatePicker" customModule="ADDatePicker">
+                                <rect key="frame" x="0.0" y="44" width="414" height="128"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="xMv-d8-kan"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0i8-He-ntb">
+                                <rect key="frame" x="0.0" y="172" width="414" height="200"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="iog-SK-1st"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="1bU-tY-bfE">
+                                <rect key="frame" x="0.0" y="372" width="414" height="490"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="8ZG-EA-e3D" secondAttribute="trailing" id="97Q-qn-7gD"/>
+                            <constraint firstItem="0i8-He-ntb" firstAttribute="top" secondItem="8ZG-EA-e3D" secondAttribute="bottom" id="9Tx-Gb-9ng"/>
+                            <constraint firstItem="8ZG-EA-e3D" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="BxW-PI-oh4"/>
+                            <constraint firstItem="8ZG-EA-e3D" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="ByZ-56-xar"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="1bU-tY-bfE" secondAttribute="trailing" id="JHr-v9-AHi"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="1bU-tY-bfE" secondAttribute="bottom" id="VMM-eG-g04"/>
+                            <constraint firstItem="1bU-tY-bfE" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="beY-ql-VZN"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="0i8-He-ntb" secondAttribute="trailing" id="gX4-kF-jhK"/>
+                            <constraint firstItem="1bU-tY-bfE" firstAttribute="top" secondItem="0i8-He-ntb" secondAttribute="bottom" id="pgt-ZZ-SVA"/>
+                            <constraint firstItem="0i8-He-ntb" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="ykN-nM-nAA"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="datePickerHorizontal" destination="8ZG-EA-e3D" id="8hh-Em-NU9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-525" y="139"/>
+        </scene>
+        <!--Progress Add Time Slots View Controller-->
+        <scene sceneID="H81-Kb-CD0">
+            <objects>
+                <viewController storyboardIdentifier="ProgressAddTimeSlotsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="4xO-Sm-7hx" customClass="ProgressAddTimeSlotsViewController" customModule="Complex_UI_Application" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jse-dC-19F">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Xi7-p7-gNE">
+                                <rect key="frame" x="0.0" y="44" width="414" height="80"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="VvE-Aj-srl"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="YrQ-Jz-U33">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="ew8-m4-TTz">
+                                <rect key="frame" x="12" y="136" width="390" height="212"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0H6-q4-xCo" userLabel="Start Time Stack View">
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="44"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Start time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qoL-zj-9yU">
+                                                <rect key="frame" x="0.0" y="0.0" width="290" height="44"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="30" style="compact" translatesAutoresizingMaskIntoConstraints="NO" id="YNT-uo-Usp">
+                                                <rect key="frame" x="290" y="0.0" width="100" height="44"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="100" id="N1g-Tz-NHV"/>
+                                                    <constraint firstAttribute="height" constant="44" id="NFr-wf-vFS"/>
+                                                </constraints>
+                                                <connections>
+                                                    <action selector="startTimeChanged:" destination="4xO-Sm-7hx" eventType="valueChanged" id="7Zs-GZ-uGa"/>
+                                                </connections>
+                                            </datePicker>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="56h-Jg-d9R" userLabel="End Time Stack View">
+                                        <rect key="frame" x="0.0" y="56" width="390" height="44"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="End time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FUt-dv-GCg">
+                                                <rect key="frame" x="0.0" y="0.0" width="290" height="44"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="30" style="compact" translatesAutoresizingMaskIntoConstraints="NO" id="M1w-m6-t3w">
+                                                <rect key="frame" x="290" y="0.0" width="100" height="44"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="44" id="Q0v-Ya-E4E"/>
+                                                    <constraint firstAttribute="width" constant="100" id="TjQ-Hg-2wI"/>
+                                                </constraints>
+                                                <connections>
+                                                    <action selector="endTimeChange:" destination="4xO-Sm-7hx" eventType="valueChanged" id="0gq-xK-MbO"/>
+                                                </connections>
+                                            </datePicker>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vYx-Nu-MVH" userLabel="Start Date Stack View">
+                                        <rect key="frame" x="0.0" y="112" width="390" height="44"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Start date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kio-SK-WFq">
+                                                <rect key="frame" x="0.0" y="0.0" width="290" height="44"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" style="compact" translatesAutoresizingMaskIntoConstraints="NO" id="QRx-WF-bfy">
+                                                <rect key="frame" x="290" y="0.0" width="100" height="44"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="44" id="g8u-D3-acn"/>
+                                                    <constraint firstAttribute="width" constant="100" id="v6c-pc-CCI"/>
+                                                </constraints>
+                                                <connections>
+                                                    <action selector="startDate:" destination="4xO-Sm-7hx" eventType="valueChanged" id="38C-Kq-hTf"/>
+                                                </connections>
+                                            </datePicker>
+                                        </subviews>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KWz-uU-CeD">
+                                        <rect key="frame" x="0.0" y="168" width="390" height="44"/>
+                                        <color key="backgroundColor" name="AccentColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="Jfw-NK-kDJ"/>
+                                        </constraints>
+                                        <color key="tintColor" red="0.93333339689999995" green="0.93333339689999995" blue="0.93333339689999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Confirm">
+                                            <color key="baseForegroundColor" red="0.93333339689999995" green="0.93333339689999995" blue="0.93333339689999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="8"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="confirmButtonClickAction:" destination="4xO-Sm-7hx" eventType="touchUpInside" id="UBe-cs-Urs"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" systemColor="labelColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="4" height="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </stackView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="UxO-lM-QfB">
+                                <rect key="frame" x="0.0" y="360" width="414" height="502"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w5k-UJ-7aq">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="tj2-xx-aYo">
+                                        <rect key="frame" x="167" y="369" width="80" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="80" id="O7r-Wm-8hD"/>
+                                            <constraint firstAttribute="height" constant="80" id="PsK-L0-hAI"/>
+                                        </constraints>
+                                    </activityIndicatorView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="tj2-xx-aYo" firstAttribute="centerX" secondItem="w5k-UJ-7aq" secondAttribute="centerX" id="A2K-gi-Xks"/>
+                                    <constraint firstItem="tj2-xx-aYo" firstAttribute="centerY" secondItem="w5k-UJ-7aq" secondAttribute="centerY" id="thX-dW-uNa"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="2qR-X5-0EW"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="2qR-X5-0EW" firstAttribute="trailing" secondItem="w5k-UJ-7aq" secondAttribute="trailing" id="AKn-kF-hNK"/>
+                            <constraint firstItem="2qR-X5-0EW" firstAttribute="trailing" secondItem="UxO-lM-QfB" secondAttribute="trailing" id="HGI-qM-mSz"/>
+                            <constraint firstItem="Xi7-p7-gNE" firstAttribute="leading" secondItem="2qR-X5-0EW" secondAttribute="leading" id="K5G-eO-CHb"/>
+                            <constraint firstItem="Xi7-p7-gNE" firstAttribute="trailing" secondItem="2qR-X5-0EW" secondAttribute="trailing" id="LQC-TQ-3ai"/>
+                            <constraint firstItem="w5k-UJ-7aq" firstAttribute="bottom" secondItem="2qR-X5-0EW" secondAttribute="bottom" id="Mpo-xM-9zJ"/>
+                            <constraint firstItem="w5k-UJ-7aq" firstAttribute="top" secondItem="2qR-X5-0EW" secondAttribute="top" id="Oxn-da-n7A"/>
+                            <constraint firstItem="2qR-X5-0EW" firstAttribute="trailing" secondItem="ew8-m4-TTz" secondAttribute="trailing" constant="12" id="Pt1-5o-02N"/>
+                            <constraint firstItem="2qR-X5-0EW" firstAttribute="bottom" secondItem="UxO-lM-QfB" secondAttribute="bottom" id="Qmm-sf-SHL"/>
+                            <constraint firstItem="ew8-m4-TTz" firstAttribute="top" secondItem="Xi7-p7-gNE" secondAttribute="bottom" constant="12" id="WhO-pF-v6k"/>
+                            <constraint firstItem="UxO-lM-QfB" firstAttribute="leading" secondItem="2qR-X5-0EW" secondAttribute="leading" id="eQX-XC-BuK"/>
+                            <constraint firstItem="w5k-UJ-7aq" firstAttribute="leading" secondItem="2qR-X5-0EW" secondAttribute="leading" id="qXe-qo-9D4"/>
+                            <constraint firstItem="Xi7-p7-gNE" firstAttribute="top" secondItem="2qR-X5-0EW" secondAttribute="top" id="tjm-co-nCe"/>
+                            <constraint firstItem="UxO-lM-QfB" firstAttribute="top" secondItem="ew8-m4-TTz" secondAttribute="bottom" constant="12" id="tky-RP-fTf"/>
+                            <constraint firstItem="ew8-m4-TTz" firstAttribute="leading" secondItem="2qR-X5-0EW" secondAttribute="leading" constant="12" id="vZS-lQ-3UP"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="confirmButton" destination="KWz-uU-CeD" id="dVj-ei-YDf"/>
+                        <outlet property="dateTimeListTable" destination="UxO-lM-QfB" id="Fno-Ps-UAB"/>
+                        <outlet property="daysCollectionView" destination="Xi7-p7-gNE" id="HsX-Um-dwk"/>
+                        <outlet property="endTime" destination="M1w-m6-t3w" id="R5n-4t-1uX"/>
+                        <outlet property="progressIndicator" destination="tj2-xx-aYo" id="lBb-L3-zlM"/>
+                        <outlet property="progressView" destination="w5k-UJ-7aq" id="U6j-2D-74X"/>
+                        <outlet property="startDate" destination="QRx-WF-bfy" id="gJK-hz-zey"/>
+                        <outlet property="startTime" destination="YNT-uo-Usp" id="Wq4-9v-qmG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="egU-no-24h" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="182.60869565217394" y="138.61607142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
