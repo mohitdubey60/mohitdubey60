@@ -36,7 +36,8 @@ struct ContentView: View {
                 
                     //        ContactsDetails()
                 
-                TodoAppView()
+//                TodoAppView()
+                PlanetCardStackUI()
             }
             .navigationBarColor(backgroundColor: .clear, titleColor: .white)
         }

@@ -50,6 +50,7 @@
 		5B2ED4492947137C0049062C /* TodoAppUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2ED4482947137C0049062C /* TodoAppUser.swift */; };
 		5BB733D4294720C5002C363A /* TodoAppUserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB733D3294720C5002C363A /* TodoAppUserListView.swift */; };
 		5BB733D6294730D5002C363A /* TodoAppSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB733D5294730D5002C363A /* TodoAppSettingsView.swift */; };
+		5BB733DB294822A2002C363A /* PlanetCardStackUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB733DA294822A2002C363A /* PlanetCardStackUI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -97,6 +98,7 @@
 		5B2ED4482947137C0049062C /* TodoAppUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAppUser.swift; sourceTree = "<group>"; };
 		5BB733D3294720C5002C363A /* TodoAppUserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAppUserListView.swift; sourceTree = "<group>"; };
 		5BB733D5294730D5002C363A /* TodoAppSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAppSettingsView.swift; sourceTree = "<group>"; };
+		5BB733DA294822A2002C363A /* PlanetCardStackUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetCardStackUI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 		5B2987EF291F37D900202D8D /* FancyControls */ = {
 			isa = PBXGroup;
 			children = (
+				5BB733D729482179002C363A /* FancyUX */,
 				5B2ED4362944951A0049062C /* AppLogic */,
 				5B2ED431293F88FA0049062C /* GlassMorphicViews */,
 				5B2ED427293CF7C60049062C /* ParallaxEffect */,
@@ -406,7 +409,6 @@
 		5B2ED4362944951A0049062C /* AppLogic */ = {
 			isa = PBXGroup;
 			children = (
-				5B2ED4472947136D0049062C /* Model */,
 				5B2ED439294495970049062C /* TodoApp */,
 			);
 			path = AppLogic;
@@ -415,6 +417,7 @@
 		5B2ED439294495970049062C /* TodoApp */ = {
 			isa = PBXGroup;
 			children = (
+				5B2ED4472947136D0049062C /* Model */,
 				5B2ED43D2944BFC70049062C /* Modifier */,
 				5B2ED43A294495A50049062C /* Views */,
 			);
@@ -454,6 +457,30 @@
 				5B2ED4482947137C0049062C /* TodoAppUser.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		5BB733D729482179002C363A /* FancyUX */ = {
+			isa = PBXGroup;
+			children = (
+				5BB733D829482191002C363A /* CardsUI */,
+			);
+			path = FancyUX;
+			sourceTree = "<group>";
+		};
+		5BB733D829482191002C363A /* CardsUI */ = {
+			isa = PBXGroup;
+			children = (
+				5BB733D92948219D002C363A /* View */,
+			);
+			path = CardsUI;
+			sourceTree = "<group>";
+		};
+		5BB733D92948219D002C363A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5BB733DA294822A2002C363A /* PlanetCardStackUI.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -548,6 +575,7 @@
 				5B2987F1291F37F800202D8D /* CompositeCollectionView.swift in Sources */,
 				5B29882B2935F59C00202D8D /* PhotosListView.swift in Sources */,
 				5B298818292F0EDB00202D8D /* ChatsFactory.swift in Sources */,
+				5BB733DB294822A2002C363A /* PlanetCardStackUI.swift in Sources */,
 				5B29881B292F0F0400202D8D /* GenericCollectionFactory.swift in Sources */,
 				5B298822292F173500202D8D /* GenericCollectionViewModel.swift in Sources */,
 				5B2ED4202937D4F10049062C /* ShadowedViewWithBackground.swift in Sources */,
