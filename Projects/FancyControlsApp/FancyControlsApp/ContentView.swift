@@ -9,25 +9,43 @@ import SwiftUI
 
 struct ContentView: View {
     let mock = ChatsMock()
+    
+    init() {
+        
+    }
+    
     var body: some View {
-//            SwiftUIControlsView(viewModel: SwiftUIControlsViewModel(urlString: "https://www.online-image-editor.com/styles/2019/images/power_girl.png"))
-            
-//            SwiftUIKitControlToSwiftUI().edgesIgnoringSafeArea(.all)
+        NavigationView {
+            VStack {
+                    //            SwiftUIControlsView(viewModel: SwiftUIControlsViewModel(urlString: "https://www.online-image-editor.com/styles/2019/images/power_girl.png"))
+                
+                    //            SwiftUIKitControlToSwiftUI().edgesIgnoringSafeArea(.all)
+                
+                
+                    //                        VStack {
+                    //                            GenericListView<ChatsCollectionViewModel, ChatsFactory>(viewModel: ChatsCollectionViewModel(listItems: mock.chats, groupedList: mock.groupedChats), factory: ChatsFactory())
+                    //                        }
+                    //                        .padding()
+                
+                
+                    //            PhotosListView(viewModel: PhotosLibraryViewModel(manager: PhotosListManager()))
+                
+                    //        SpotifyAlbumDetailView()
+                
+                    //        ParallaxListView()
+                
+                    //        ContactsDetails()
+                
+                TodoAppView()
+            }
+            .navigationBarColor(backgroundColor: .clear, titleColor: .white)
+        }
+    }
+}
 
-
-//                        VStack {
-//                            GenericListView<ChatsCollectionViewModel, ChatsFactory>(viewModel: ChatsCollectionViewModel(listItems: mock.chats, groupedList: mock.groupedChats), factory: ChatsFactory())
-//                        }
-//                        .padding()
-            
-            
-//            PhotosListView(viewModel: PhotosLibraryViewModel(manager: PhotosListManager()))
-        
-//        SpotifyAlbumDetailView()
-        
-//        ParallaxListView()
-        
-        ContactsDetails()
+extension View {
+    func navigationBarColor(backgroundColor: UIColor?, titleColor: UIColor?) -> some View {
+        self.modifier(NavigationBarModifier(backgroundColor: backgroundColor, titleColor: titleColor))
     }
 }
 

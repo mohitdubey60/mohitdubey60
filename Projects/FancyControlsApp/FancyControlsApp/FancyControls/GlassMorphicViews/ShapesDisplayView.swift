@@ -19,7 +19,7 @@ struct ShapesDisplayView: View {
 //            TrapezoidShape(xLeft: moveLeft ? 0.4 : 0, xRight: moveRight ? 0 : 0.4)
             TrapezoidShape()
                 .fill(LinearGradient(colors: [Color.black, Color.gray], startPoint: .topLeading, endPoint: .bottomTrailing))
-                .frame(width: 200, height: 50)
+                .frame(width: 400, height: 50)
                 .background(backgroundColor)
 //                .onAppear {
 //                    withAnimation(Animation.linear(duration: 1)) {
@@ -47,7 +47,7 @@ struct ShapesDisplayView: View {
             
             TopRoundedCornerRectangleShape(radius: 20)
                 .fill(LinearGradient(colors: [Color.blue, Color.cyan], startPoint: .topLeading, endPoint: .bottomTrailing))
-                .frame(width: 200, height: 50)
+                .frame(width: 400, height: 50)
                 .background(backgroundColor)
             
             

@@ -42,6 +42,14 @@
 		5B2ED430293F77190049062C /* GlassmorphicBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2ED42F293F77190049062C /* GlassmorphicBackground.swift */; };
 		5B2ED433293FFCBE0049062C /* ShapesGlassmorphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2ED432293FFCBE0049062C /* ShapesGlassmorphic.swift */; };
 		5B2ED435293FFDEF0049062C /* ShapesDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2ED434293FFDEF0049062C /* ShapesDisplayView.swift */; };
+		5B2ED43C294495C50049062C /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2ED43B294495C50049062C /* WelcomeView.swift */; };
+		5B2ED43F2944BFE60049062C /* UserTextFieldViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2ED43E2944BFE60049062C /* UserTextFieldViewModifier.swift */; };
+		5B2ED4422947009F0049062C /* NavigationConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2ED4412947009F0049062C /* NavigationConfigurator.swift */; };
+		5B2ED444294702310049062C /* NavigationBarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2ED443294702310049062C /* NavigationBarModifier.swift */; };
+		5B2ED446294706E70049062C /* TodoAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2ED445294706E70049062C /* TodoAppView.swift */; };
+		5B2ED4492947137C0049062C /* TodoAppUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2ED4482947137C0049062C /* TodoAppUser.swift */; };
+		5BB733D4294720C5002C363A /* TodoAppUserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB733D3294720C5002C363A /* TodoAppUserListView.swift */; };
+		5BB733D6294730D5002C363A /* TodoAppSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB733D5294730D5002C363A /* TodoAppSettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +89,14 @@
 		5B2ED42F293F77190049062C /* GlassmorphicBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassmorphicBackground.swift; sourceTree = "<group>"; };
 		5B2ED432293FFCBE0049062C /* ShapesGlassmorphic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesGlassmorphic.swift; sourceTree = "<group>"; };
 		5B2ED434293FFDEF0049062C /* ShapesDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesDisplayView.swift; sourceTree = "<group>"; };
+		5B2ED43B294495C50049062C /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		5B2ED43E2944BFE60049062C /* UserTextFieldViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTextFieldViewModifier.swift; sourceTree = "<group>"; };
+		5B2ED4412947009F0049062C /* NavigationConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationConfigurator.swift; sourceTree = "<group>"; };
+		5B2ED443294702310049062C /* NavigationBarModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarModifier.swift; sourceTree = "<group>"; };
+		5B2ED445294706E70049062C /* TodoAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAppView.swift; sourceTree = "<group>"; };
+		5B2ED4482947137C0049062C /* TodoAppUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAppUser.swift; sourceTree = "<group>"; };
+		5BB733D3294720C5002C363A /* TodoAppUserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAppUserListView.swift; sourceTree = "<group>"; };
+		5BB733D5294730D5002C363A /* TodoAppSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAppSettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +152,7 @@
 		5B2987EF291F37D900202D8D /* FancyControls */ = {
 			isa = PBXGroup;
 			children = (
+				5B2ED4362944951A0049062C /* AppLogic */,
 				5B2ED431293F88FA0049062C /* GlassMorphicViews */,
 				5B2ED427293CF7C60049062C /* ParallaxEffect */,
 				5B2ED422293CAB910049062C /* Clones */,
@@ -175,6 +192,7 @@
 		5B2987F92920E4AA00202D8D /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				5B2ED440294700830049062C /* UIKitControls */,
 				5B2ED41E2937D4980049062C /* ViewModifier */,
 				5B2988022923DF0400202D8D /* ImageLoader */,
 				5B2987FA2920E4B100202D8D /* Extensions */,
@@ -321,6 +339,7 @@
 			isa = PBXGroup;
 			children = (
 				5B2ED41F2937D4F10049062C /* ShadowedViewWithBackground.swift */,
+				5B2ED443294702310049062C /* NavigationBarModifier.swift */,
 			);
 			path = ViewModifier;
 			sourceTree = "<group>";
@@ -382,6 +401,59 @@
 				5B2ED434293FFDEF0049062C /* ShapesDisplayView.swift */,
 			);
 			path = GlassMorphicViews;
+			sourceTree = "<group>";
+		};
+		5B2ED4362944951A0049062C /* AppLogic */ = {
+			isa = PBXGroup;
+			children = (
+				5B2ED4472947136D0049062C /* Model */,
+				5B2ED439294495970049062C /* TodoApp */,
+			);
+			path = AppLogic;
+			sourceTree = "<group>";
+		};
+		5B2ED439294495970049062C /* TodoApp */ = {
+			isa = PBXGroup;
+			children = (
+				5B2ED43D2944BFC70049062C /* Modifier */,
+				5B2ED43A294495A50049062C /* Views */,
+			);
+			path = TodoApp;
+			sourceTree = "<group>";
+		};
+		5B2ED43A294495A50049062C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5B2ED43B294495C50049062C /* WelcomeView.swift */,
+				5B2ED445294706E70049062C /* TodoAppView.swift */,
+				5BB733D3294720C5002C363A /* TodoAppUserListView.swift */,
+				5BB733D5294730D5002C363A /* TodoAppSettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5B2ED43D2944BFC70049062C /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				5B2ED43E2944BFE60049062C /* UserTextFieldViewModifier.swift */,
+			);
+			path = Modifier;
+			sourceTree = "<group>";
+		};
+		5B2ED440294700830049062C /* UIKitControls */ = {
+			isa = PBXGroup;
+			children = (
+				5B2ED4412947009F0049062C /* NavigationConfigurator.swift */,
+			);
+			path = UIKitControls;
+			sourceTree = "<group>";
+		};
+		5B2ED4472947136D0049062C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5B2ED4482947137C0049062C /* TodoAppUser.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -454,11 +526,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BB733D6294730D5002C363A /* TodoAppSettingsView.swift in Sources */,
 				5B2987F42920DC4000202D8D /* CompositeLayoutFactory.swift in Sources */,
+				5BB733D4294720C5002C363A /* TodoAppUserListView.swift in Sources */,
 				5B29883729373B2D00202D8D /* PhotosCellViewModel.swift in Sources */,
 				5B2987FE29213E0500202D8D /* CompositeCollectionViewGalleryView.swift in Sources */,
 				5B2ED433293FFCBE0049062C /* ShapesGlassmorphic.swift in Sources */,
 				5B298815292F0D2800202D8D /* GenericListView.swift in Sources */,
+				5B2ED43C294495C50049062C /* WelcomeView.swift in Sources */,
+				5B2ED446294706E70049062C /* TodoAppView.swift in Sources */,
 				5B2988062923E45000202D8D /* ImageLoader.swift in Sources */,
 				5B2ED430293F77190049062C /* GlassmorphicBackground.swift in Sources */,
 				5B29880B2924176900202D8D /* SwiftUIKitViewController.swift in Sources */,
@@ -481,11 +557,15 @@
 				5B2988352937397C00202D8D /* PhotosLibraryViewModel.swift in Sources */,
 				5B2ED426293CAC3B0049062C /* SpotifyAlbumDetailView.swift in Sources */,
 				5B298824292F18AB00202D8D /* ChatsCollectionViewModel.swift in Sources */,
+				5B2ED4492947137C0049062C /* TodoAppUser.swift in Sources */,
 				5B29882D2935F5AC00202D8D /* PhotosCellView.swift in Sources */,
+				5B2ED444294702310049062C /* NavigationBarModifier.swift in Sources */,
+				5B2ED43F2944BFE60049062C /* UserTextFieldViewModifier.swift in Sources */,
 				5B2988012923536800202D8D /* SwiftUIControlsView.swift in Sources */,
 				5B2987FC2920E4C900202D8D /* UIColorExtension.swift in Sources */,
 				5B298826292F86D500202D8D /* GroupChatCellView.swift in Sources */,
 				5B2988332936FFE900202D8D /* PhotosListManager.swift in Sources */,
+				5B2ED4422947009F0049062C /* NavigationConfigurator.swift in Sources */,
 				5B2988082923EA0A00202D8D /* SwiftUIControlsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
