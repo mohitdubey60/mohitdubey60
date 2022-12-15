@@ -37,9 +37,13 @@ struct ContentView: View {
                     //        ContactsDetails()
                 
 //                TodoAppView()
-                PlanetCardStackUI()
+//                PlanetCardStackUI()
+                
+                CommentsTableView()
+                    .navigationTitle("Fade List items")
+                
             }
-            .navigationBarColor(backgroundColor: .clear, titleColor: .white)
+            .navigationBarColor(backgroundColor: .clear, titleColor: .black)
         }
     }
 }

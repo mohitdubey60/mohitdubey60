@@ -48,6 +48,12 @@
 		5B2ED444294702310049062C /* NavigationBarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2ED443294702310049062C /* NavigationBarModifier.swift */; };
 		5B2ED446294706E70049062C /* TodoAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2ED445294706E70049062C /* TodoAppView.swift */; };
 		5B2ED4492947137C0049062C /* TodoAppUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2ED4482947137C0049062C /* TodoAppUser.swift */; };
+		5B4EFA06294B10F30065E150 /* SwiftUIViewPaymentsJosh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4EFA05294B10F30065E150 /* SwiftUIViewPaymentsJosh.swift */; };
+		5B4EFA09294B32600065E150 /* AllDeviceNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4EFA08294B32600065E150 /* AllDeviceNames.swift */; };
+		5B4EFA0C294B848E0065E150 /* FadeOutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4EFA0B294B848E0065E150 /* FadeOutTableViewController.swift */; };
+		5B4EFA0E294B84FA0065E150 /* MockArray.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B4EFA0D294B84FA0065E150 /* MockArray.json */; };
+		5B4EFA10294B852F0065E150 /* MockCommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4EFA0F294B852F0065E150 /* MockCommentModel.swift */; };
+		5B4EFA12294B85590065E150 /* MockCommentListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4EFA11294B85590065E150 /* MockCommentListViewModel.swift */; };
 		5BB733D4294720C5002C363A /* TodoAppUserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB733D3294720C5002C363A /* TodoAppUserListView.swift */; };
 		5BB733D6294730D5002C363A /* TodoAppSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB733D5294730D5002C363A /* TodoAppSettingsView.swift */; };
 		5BB733DB294822A2002C363A /* PlanetCardStackUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB733DA294822A2002C363A /* PlanetCardStackUI.swift */; };
@@ -96,6 +102,12 @@
 		5B2ED443294702310049062C /* NavigationBarModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarModifier.swift; sourceTree = "<group>"; };
 		5B2ED445294706E70049062C /* TodoAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAppView.swift; sourceTree = "<group>"; };
 		5B2ED4482947137C0049062C /* TodoAppUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAppUser.swift; sourceTree = "<group>"; };
+		5B4EFA05294B10F30065E150 /* SwiftUIViewPaymentsJosh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewPaymentsJosh.swift; sourceTree = "<group>"; };
+		5B4EFA08294B32600065E150 /* AllDeviceNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllDeviceNames.swift; sourceTree = "<group>"; };
+		5B4EFA0B294B848E0065E150 /* FadeOutTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeOutTableViewController.swift; sourceTree = "<group>"; };
+		5B4EFA0D294B84FA0065E150 /* MockArray.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MockArray.json; sourceTree = "<group>"; };
+		5B4EFA0F294B852F0065E150 /* MockCommentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCommentModel.swift; sourceTree = "<group>"; };
+		5B4EFA11294B85590065E150 /* MockCommentListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCommentListViewModel.swift; sourceTree = "<group>"; };
 		5BB733D3294720C5002C363A /* TodoAppUserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAppUserListView.swift; sourceTree = "<group>"; };
 		5BB733D5294730D5002C363A /* TodoAppSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAppSettingsView.swift; sourceTree = "<group>"; };
 		5BB733DA294822A2002C363A /* PlanetCardStackUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetCardStackUI.swift; sourceTree = "<group>"; };
@@ -161,6 +173,7 @@
 				5B2ED422293CAB910049062C /* Clones */,
 				5B29880E292E3F0D00202D8D /* CollectionControl */,
 				5B2987F62920DEB800202D8D /* CompositeLayout */,
+				5B4EFA05294B10F30065E150 /* SwiftUIViewPaymentsJosh.swift */,
 			);
 			path = FancyControls;
 			sourceTree = "<group>";
@@ -195,6 +208,7 @@
 		5B2987F92920E4AA00202D8D /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				5B4EFA07294B32540065E150 /* Helper */,
 				5B2ED440294700830049062C /* UIKitControls */,
 				5B2ED41E2937D4980049062C /* ViewModifier */,
 				5B2988022923DF0400202D8D /* ImageLoader */,
@@ -240,6 +254,7 @@
 		5B29880E292E3F0D00202D8D /* CollectionControl */ = {
 			isa = PBXGroup;
 			children = (
+				5B4EFA0A294B84550065E150 /* TableViewFadeOutListItems */,
 				5B2988272935F56300202D8D /* GridControl */,
 				5B29880F292E3FA000202D8D /* ListControl */,
 			);
@@ -459,6 +474,25 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		5B4EFA07294B32540065E150 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				5B4EFA08294B32600065E150 /* AllDeviceNames.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		5B4EFA0A294B84550065E150 /* TableViewFadeOutListItems */ = {
+			isa = PBXGroup;
+			children = (
+				5B4EFA0B294B848E0065E150 /* FadeOutTableViewController.swift */,
+				5B4EFA0D294B84FA0065E150 /* MockArray.json */,
+				5B4EFA0F294B852F0065E150 /* MockCommentModel.swift */,
+				5B4EFA11294B85590065E150 /* MockCommentListViewModel.swift */,
+			);
+			path = TableViewFadeOutListItems;
+			sourceTree = "<group>";
+		};
 		5BB733D729482179002C363A /* FancyUX */ = {
 			isa = PBXGroup;
 			children = (
@@ -543,6 +577,7 @@
 			files = (
 				5B2987E9291F379700202D8D /* Preview Assets.xcassets in Resources */,
 				5B2987E6291F379700202D8D /* Assets.xcassets in Resources */,
+				5B4EFA0E294B84FA0065E150 /* MockArray.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -561,11 +596,13 @@
 				5B2ED433293FFCBE0049062C /* ShapesGlassmorphic.swift in Sources */,
 				5B298815292F0D2800202D8D /* GenericListView.swift in Sources */,
 				5B2ED43C294495C50049062C /* WelcomeView.swift in Sources */,
+				5B4EFA12294B85590065E150 /* MockCommentListViewModel.swift in Sources */,
 				5B2ED446294706E70049062C /* TodoAppView.swift in Sources */,
 				5B2988062923E45000202D8D /* ImageLoader.swift in Sources */,
 				5B2ED430293F77190049062C /* GlassmorphicBackground.swift in Sources */,
 				5B29880B2924176900202D8D /* SwiftUIKitViewController.swift in Sources */,
 				5B2987E4291F379500202D8D /* ContentView.swift in Sources */,
+				5B4EFA10294B852F0065E150 /* MockCommentModel.swift in Sources */,
 				5B29881E292F0FDF00202D8D /* UserChatCellView.swift in Sources */,
 				5B2ED435293FFDEF0049062C /* ShapesDisplayView.swift in Sources */,
 				5B2988042923DF2300202D8D /* ImageCache.swift in Sources */,
@@ -575,8 +612,10 @@
 				5B2987F1291F37F800202D8D /* CompositeCollectionView.swift in Sources */,
 				5B29882B2935F59C00202D8D /* PhotosListView.swift in Sources */,
 				5B298818292F0EDB00202D8D /* ChatsFactory.swift in Sources */,
+				5B4EFA0C294B848E0065E150 /* FadeOutTableViewController.swift in Sources */,
 				5BB733DB294822A2002C363A /* PlanetCardStackUI.swift in Sources */,
 				5B29881B292F0F0400202D8D /* GenericCollectionFactory.swift in Sources */,
+				5B4EFA09294B32600065E150 /* AllDeviceNames.swift in Sources */,
 				5B298822292F173500202D8D /* GenericCollectionViewModel.swift in Sources */,
 				5B2ED4202937D4F10049062C /* ShadowedViewWithBackground.swift in Sources */,
 				5B2987F82920DEDE00202D8D /* CompositeLayoutSectionAndItemMap.swift in Sources */,
@@ -590,6 +629,7 @@
 				5B2ED444294702310049062C /* NavigationBarModifier.swift in Sources */,
 				5B2ED43F2944BFE60049062C /* UserTextFieldViewModifier.swift in Sources */,
 				5B2988012923536800202D8D /* SwiftUIControlsView.swift in Sources */,
+				5B4EFA06294B10F30065E150 /* SwiftUIViewPaymentsJosh.swift in Sources */,
 				5B2987FC2920E4C900202D8D /* UIColorExtension.swift in Sources */,
 				5B298826292F86D500202D8D /* GroupChatCellView.swift in Sources */,
 				5B2988332936FFE900202D8D /* PhotosListManager.swift in Sources */,
