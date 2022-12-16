@@ -39,8 +39,10 @@ struct ContentView: View {
 //                TodoAppView()
 //                PlanetCardStackUI()
                 
-                CommentsTableView()
-                    .navigationTitle("Fade List items")
+//                CommentsTableView()
+//                    .navigationTitle("Fade List items")
+                
+                SwiftUIViewPaymentsJosh()
                 
             }
             .navigationBarColor(backgroundColor: .clear, titleColor: .black)

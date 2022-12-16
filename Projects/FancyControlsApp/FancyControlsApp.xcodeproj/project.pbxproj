@@ -54,6 +54,9 @@
 		5B4EFA0E294B84FA0065E150 /* MockArray.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B4EFA0D294B84FA0065E150 /* MockArray.json */; };
 		5B4EFA10294B852F0065E150 /* MockCommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4EFA0F294B852F0065E150 /* MockCommentModel.swift */; };
 		5B4EFA12294B85590065E150 /* MockCommentListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4EFA11294B85590065E150 /* MockCommentListViewModel.swift */; };
+		5B4EFA15294C3A890065E150 /* CreatorPayoutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4EFA14294C3A890065E150 /* CreatorPayoutModel.swift */; };
+		5B4EFA17294C46EF0065E150 /* JoshWalletViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4EFA16294C46EF0065E150 /* JoshWalletViewModel.swift */; };
+		5B4EFA19294C4E6E0065E150 /* JoshWalletMockData.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B4EFA18294C4E6E0065E150 /* JoshWalletMockData.json */; };
 		5BB733D4294720C5002C363A /* TodoAppUserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB733D3294720C5002C363A /* TodoAppUserListView.swift */; };
 		5BB733D6294730D5002C363A /* TodoAppSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB733D5294730D5002C363A /* TodoAppSettingsView.swift */; };
 		5BB733DB294822A2002C363A /* PlanetCardStackUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB733DA294822A2002C363A /* PlanetCardStackUI.swift */; };
@@ -108,6 +111,9 @@
 		5B4EFA0D294B84FA0065E150 /* MockArray.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MockArray.json; sourceTree = "<group>"; };
 		5B4EFA0F294B852F0065E150 /* MockCommentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCommentModel.swift; sourceTree = "<group>"; };
 		5B4EFA11294B85590065E150 /* MockCommentListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCommentListViewModel.swift; sourceTree = "<group>"; };
+		5B4EFA14294C3A890065E150 /* CreatorPayoutModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatorPayoutModel.swift; sourceTree = "<group>"; };
+		5B4EFA16294C46EF0065E150 /* JoshWalletViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoshWalletViewModel.swift; sourceTree = "<group>"; };
+		5B4EFA18294C4E6E0065E150 /* JoshWalletMockData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = JoshWalletMockData.json; sourceTree = "<group>"; };
 		5BB733D3294720C5002C363A /* TodoAppUserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAppUserListView.swift; sourceTree = "<group>"; };
 		5BB733D5294730D5002C363A /* TodoAppSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAppSettingsView.swift; sourceTree = "<group>"; };
 		5BB733DA294822A2002C363A /* PlanetCardStackUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetCardStackUI.swift; sourceTree = "<group>"; };
@@ -166,6 +172,7 @@
 		5B2987EF291F37D900202D8D /* FancyControls */ = {
 			isa = PBXGroup;
 			children = (
+				5B4EFA13294C3A690065E150 /* JoshPayments */,
 				5BB733D729482179002C363A /* FancyUX */,
 				5B2ED4362944951A0049062C /* AppLogic */,
 				5B2ED431293F88FA0049062C /* GlassMorphicViews */,
@@ -173,7 +180,6 @@
 				5B2ED422293CAB910049062C /* Clones */,
 				5B29880E292E3F0D00202D8D /* CollectionControl */,
 				5B2987F62920DEB800202D8D /* CompositeLayout */,
-				5B4EFA05294B10F30065E150 /* SwiftUIViewPaymentsJosh.swift */,
 			);
 			path = FancyControls;
 			sourceTree = "<group>";
@@ -493,6 +499,17 @@
 			path = TableViewFadeOutListItems;
 			sourceTree = "<group>";
 		};
+		5B4EFA13294C3A690065E150 /* JoshPayments */ = {
+			isa = PBXGroup;
+			children = (
+				5B4EFA05294B10F30065E150 /* SwiftUIViewPaymentsJosh.swift */,
+				5B4EFA14294C3A890065E150 /* CreatorPayoutModel.swift */,
+				5B4EFA16294C46EF0065E150 /* JoshWalletViewModel.swift */,
+				5B4EFA18294C4E6E0065E150 /* JoshWalletMockData.json */,
+			);
+			path = JoshPayments;
+			sourceTree = "<group>";
+		};
 		5BB733D729482179002C363A /* FancyUX */ = {
 			isa = PBXGroup;
 			children = (
@@ -575,6 +592,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B4EFA19294C4E6E0065E150 /* JoshWalletMockData.json in Resources */,
 				5B2987E9291F379700202D8D /* Preview Assets.xcassets in Resources */,
 				5B2987E6291F379700202D8D /* Assets.xcassets in Resources */,
 				5B4EFA0E294B84FA0065E150 /* MockArray.json in Resources */,
@@ -594,6 +612,7 @@
 				5B29883729373B2D00202D8D /* PhotosCellViewModel.swift in Sources */,
 				5B2987FE29213E0500202D8D /* CompositeCollectionViewGalleryView.swift in Sources */,
 				5B2ED433293FFCBE0049062C /* ShapesGlassmorphic.swift in Sources */,
+				5B4EFA15294C3A890065E150 /* CreatorPayoutModel.swift in Sources */,
 				5B298815292F0D2800202D8D /* GenericListView.swift in Sources */,
 				5B2ED43C294495C50049062C /* WelcomeView.swift in Sources */,
 				5B4EFA12294B85590065E150 /* MockCommentListViewModel.swift in Sources */,
@@ -614,6 +633,7 @@
 				5B298818292F0EDB00202D8D /* ChatsFactory.swift in Sources */,
 				5B4EFA0C294B848E0065E150 /* FadeOutTableViewController.swift in Sources */,
 				5BB733DB294822A2002C363A /* PlanetCardStackUI.swift in Sources */,
+				5B4EFA17294C46EF0065E150 /* JoshWalletViewModel.swift in Sources */,
 				5B29881B292F0F0400202D8D /* GenericCollectionFactory.swift in Sources */,
 				5B4EFA09294B32600065E150 /* AllDeviceNames.swift in Sources */,
 				5B298822292F173500202D8D /* GenericCollectionViewModel.swift in Sources */,
