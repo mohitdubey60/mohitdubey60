@@ -39,10 +39,29 @@ struct ContentView: View {
 //                TodoAppView()
 //                PlanetCardStackUI()
                 
-                CommentsTableView()
-                    .navigationTitle("Fade List items")
+//                CommentsTableView()
+//                    .navigationTitle("Fade List items")
+                
+                InstagramCardView()
+                    .navigationTitle("Instagram feed card")
+                
+//                BumbleListView()
+//                    .navigationTitle("Bumble Card")
+                
+//                RatingsView()
+//                    .navigationTitle("Rating + Haptic")
+                
+                
+                Button("Send notification", action: {
+                    LocalPushNotificationManager.shared.sendNotification(title: "My notification", subTitle: "My notification subtitle")
+                })
+                .buttonStyle(BorderedButtonStyle())
+                .padding()
             }
-            .navigationBarColor(backgroundColor: .clear, titleColor: .black)
+            .navigationBarColor(backgroundColor: .systemBackground, titleColor: .label)
+            .onAppear {
+                UIApplication.shared.applicationIconBadgeNumber = 0
+            }
         }
     }
 }

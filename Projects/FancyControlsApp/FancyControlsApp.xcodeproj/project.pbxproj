@@ -53,6 +53,11 @@
 		5B4EFA0E294B84FA0065E150 /* MockArray.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B4EFA0D294B84FA0065E150 /* MockArray.json */; };
 		5B4EFA10294B852F0065E150 /* MockCommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4EFA0F294B852F0065E150 /* MockCommentModel.swift */; };
 		5B4EFA12294B85590065E150 /* MockCommentListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4EFA11294B85590065E150 /* MockCommentListViewModel.swift */; };
+		5B4EFA5D29503A4C0065E150 /* InstagramCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4EFA5C29503A4C0065E150 /* InstagramCardView.swift */; };
+		5B4EFA5F29504C900065E150 /* BumbleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4EFA5E29504C900065E150 /* BumbleListView.swift */; };
+		5B4EFA62295186760065E150 /* RatingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4EFA61295186760065E150 /* RatingsView.swift */; };
+		5B4EFA652951928A0065E150 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4EFA642951928A0065E150 /* HapticManager.swift */; };
+		5B4EFA68295195CB0065E150 /* LocalPushNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4EFA67295195CB0065E150 /* LocalPushNotifications.swift */; };
 		5BB733D4294720C5002C363A /* TodoAppUserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB733D3294720C5002C363A /* TodoAppUserListView.swift */; };
 		5BB733D6294730D5002C363A /* TodoAppSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB733D5294730D5002C363A /* TodoAppSettingsView.swift */; };
 		5BB733DB294822A2002C363A /* PlanetCardStackUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB733DA294822A2002C363A /* PlanetCardStackUI.swift */; };
@@ -106,6 +111,11 @@
 		5B4EFA0D294B84FA0065E150 /* MockArray.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MockArray.json; sourceTree = "<group>"; };
 		5B4EFA0F294B852F0065E150 /* MockCommentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCommentModel.swift; sourceTree = "<group>"; };
 		5B4EFA11294B85590065E150 /* MockCommentListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCommentListViewModel.swift; sourceTree = "<group>"; };
+		5B4EFA5C29503A4C0065E150 /* InstagramCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramCardView.swift; sourceTree = "<group>"; };
+		5B4EFA5E29504C900065E150 /* BumbleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BumbleListView.swift; sourceTree = "<group>"; };
+		5B4EFA61295186760065E150 /* RatingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsView.swift; sourceTree = "<group>"; };
+		5B4EFA642951928A0065E150 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		5B4EFA67295195CB0065E150 /* LocalPushNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalPushNotifications.swift; sourceTree = "<group>"; };
 		5BB733D3294720C5002C363A /* TodoAppUserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAppUserListView.swift; sourceTree = "<group>"; };
 		5BB733D5294730D5002C363A /* TodoAppSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAppSettingsView.swift; sourceTree = "<group>"; };
 		5BB733DA294822A2002C363A /* PlanetCardStackUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetCardStackUI.swift; sourceTree = "<group>"; };
@@ -164,6 +174,7 @@
 		5B2987EF291F37D900202D8D /* FancyControls */ = {
 			isa = PBXGroup;
 			children = (
+				5B4EFA60295186620065E150 /* RatingControlAndHaptic */,
 				5BB733D729482179002C363A /* FancyUX */,
 				5B2ED4362944951A0049062C /* AppLogic */,
 				5B2ED431293F88FA0049062C /* GlassMorphicViews */,
@@ -205,6 +216,8 @@
 		5B2987F92920E4AA00202D8D /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				5B4EFA66295195B60065E150 /* LocalNotifications */,
+				5B4EFA632951927B0065E150 /* Haptic */,
 				5B4EFA07294B32540065E150 /* Helper */,
 				5B2ED440294700830049062C /* UIKitControls */,
 				5B2ED41E2937D4980049062C /* ViewModifier */,
@@ -362,6 +375,8 @@
 		5B2ED422293CAB910049062C /* Clones */ = {
 			isa = PBXGroup;
 			children = (
+				5B4EFA5B29502E740065E150 /* Instagram */,
+				5B4EFA5A29502E660065E150 /* Bumble */,
 				5B2ED42A293DF99B0049062C /* Contacts */,
 				5B2ED423293CAB970049062C /* Spotify */,
 			);
@@ -490,6 +505,46 @@
 			path = TableViewFadeOutListItems;
 			sourceTree = "<group>";
 		};
+		5B4EFA5A29502E660065E150 /* Bumble */ = {
+			isa = PBXGroup;
+			children = (
+				5B4EFA5E29504C900065E150 /* BumbleListView.swift */,
+			);
+			path = Bumble;
+			sourceTree = "<group>";
+		};
+		5B4EFA5B29502E740065E150 /* Instagram */ = {
+			isa = PBXGroup;
+			children = (
+				5B4EFA5C29503A4C0065E150 /* InstagramCardView.swift */,
+			);
+			path = Instagram;
+			sourceTree = "<group>";
+		};
+		5B4EFA60295186620065E150 /* RatingControlAndHaptic */ = {
+			isa = PBXGroup;
+			children = (
+				5B4EFA61295186760065E150 /* RatingsView.swift */,
+			);
+			path = RatingControlAndHaptic;
+			sourceTree = "<group>";
+		};
+		5B4EFA632951927B0065E150 /* Haptic */ = {
+			isa = PBXGroup;
+			children = (
+				5B4EFA642951928A0065E150 /* HapticManager.swift */,
+			);
+			path = Haptic;
+			sourceTree = "<group>";
+		};
+		5B4EFA66295195B60065E150 /* LocalNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				5B4EFA67295195CB0065E150 /* LocalPushNotifications.swift */,
+			);
+			path = LocalNotifications;
+			sourceTree = "<group>";
+		};
 		5BB733D729482179002C363A /* FancyUX */ = {
 			isa = PBXGroup;
 			children = (
@@ -593,11 +648,13 @@
 				5B2ED433293FFCBE0049062C /* ShapesGlassmorphic.swift in Sources */,
 				5B298815292F0D2800202D8D /* GenericListView.swift in Sources */,
 				5B2ED43C294495C50049062C /* WelcomeView.swift in Sources */,
+				5B4EFA62295186760065E150 /* RatingsView.swift in Sources */,
 				5B4EFA12294B85590065E150 /* MockCommentListViewModel.swift in Sources */,
 				5B2ED446294706E70049062C /* TodoAppView.swift in Sources */,
 				5B2988062923E45000202D8D /* ImageLoader.swift in Sources */,
 				5B2ED430293F77190049062C /* GlassmorphicBackground.swift in Sources */,
 				5B29880B2924176900202D8D /* SwiftUIKitViewController.swift in Sources */,
+				5B4EFA5F29504C900065E150 /* BumbleListView.swift in Sources */,
 				5B2987E4291F379500202D8D /* ContentView.swift in Sources */,
 				5B4EFA10294B852F0065E150 /* MockCommentModel.swift in Sources */,
 				5B29881E292F0FDF00202D8D /* UserChatCellView.swift in Sources */,
@@ -609,12 +666,15 @@
 				5B2987F1291F37F800202D8D /* CompositeCollectionView.swift in Sources */,
 				5B29882B2935F59C00202D8D /* PhotosListView.swift in Sources */,
 				5B298818292F0EDB00202D8D /* ChatsFactory.swift in Sources */,
+				5B4EFA652951928A0065E150 /* HapticManager.swift in Sources */,
 				5B4EFA0C294B848E0065E150 /* FadeOutTableViewController.swift in Sources */,
 				5BB733DB294822A2002C363A /* PlanetCardStackUI.swift in Sources */,
 				5B29881B292F0F0400202D8D /* GenericCollectionFactory.swift in Sources */,
 				5B4EFA09294B32600065E150 /* AllDeviceNames.swift in Sources */,
 				5B298822292F173500202D8D /* GenericCollectionViewModel.swift in Sources */,
 				5B2ED4202937D4F10049062C /* ShadowedViewWithBackground.swift in Sources */,
+				5B4EFA68295195CB0065E150 /* LocalPushNotifications.swift in Sources */,
+				5B4EFA5D29503A4C0065E150 /* InstagramCardView.swift in Sources */,
 				5B2987F82920DEDE00202D8D /* CompositeLayoutSectionAndItemMap.swift in Sources */,
 				5B2ED42C293DF9B10049062C /* ContactsDetails.swift in Sources */,
 				5B298812292E3FDB00202D8D /* CollectionListModel.swift in Sources */,
