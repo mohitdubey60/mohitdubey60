@@ -32,7 +32,7 @@ struct ContentView: View {
                 
                     //        SpotifyAlbumDetailView()
                 
-                    //        ParallaxListView()
+                            ParallaxListView()
                 
                     //        ContactsDetails()
                 
@@ -42,8 +42,8 @@ struct ContentView: View {
 //                CommentsTableView()
 //                    .navigationTitle("Fade List items")
                 
-                InstagramCardView()
-                    .navigationTitle("Instagram feed card")
+//                InstagramCardView()
+//                    .navigationTitle("Instagram feed card")
                 
 //                BumbleListView()
 //                    .navigationTitle("Bumble Card")
@@ -59,6 +59,7 @@ struct ContentView: View {
                 .padding()
             }
             .navigationBarColor(backgroundColor: .systemBackground, titleColor: .label)
+            .edgesIgnoringSafeArea(.top)
             .onAppear {
                 UIApplication.shared.applicationIconBadgeNumber = 0
             }
