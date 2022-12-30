@@ -44,6 +44,20 @@ struct CoordinatorHomeView: View {
                     .background(.purple)
                     .cornerRadius(10)
             }
+            Button {
+                guard let url = URL(string: "www.google.com") else {
+                    return
+                }
+                
+                UIApplication.shared.open(url)
+            } label: {
+                Text("Open Url")
+                    .frame(minWidth: 150)
+                    .foregroundColor(.white)
+                    .padding()
+                    .background(.cyan)
+                    .cornerRadius(10)
+            }
             
             Spacer()
             if coordinator.isBackEnabled {

@@ -19,6 +19,9 @@ struct CoordinatorMainView: View {
                 .navigationDestination(for: AllPages.self) { page in
                     coordinator.getPage(page)
                 }
+                .onOpenURL { url in
+                    print("Clicked on url")
+                }
         }
     }
 }
