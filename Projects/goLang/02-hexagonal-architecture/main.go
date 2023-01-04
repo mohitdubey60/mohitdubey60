@@ -19,6 +19,7 @@ func main() {
 	route.SetupCustomerRouter(router)
 	route.SetupAccountRouter(router)
 	route.SetupTransactionRouter(router)
+	route.SetupUserLoginRouter(router)
 
 	app.StartServer(router)
 }

@@ -13,6 +13,11 @@ type Config struct {
 	port string
 }
 
+const GET_ALL_CUSTOMER = "GET_ALL_CUSTOMER"
+const GET_CUSTOMER = "GET_CUSTOMER"
+const NEW_ACCOUNT = "NEW_ACCOUNT"
+const NEW_TRANSACTION = "NEW_TRANSACTION"
+
 // Start server at port
 func StartServer(router *mux.Router) {
 	config := Config{

@@ -30,6 +30,13 @@ func IssueInInsert(message string) *AppError {
 	}
 }
 
+func UnauthorisedUser(message string) *AppError {
+	return &AppError{
+		Code:    http.StatusUnauthorized,
+		Message: message,
+	}
+}
+
 func (s AppError) ErrorMessage() *AppError {
 	appError := AppError{Message: s.Message}
 
