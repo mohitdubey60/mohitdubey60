@@ -1,5 +1,5 @@
-#Command to create a go project:-> mod init <FolderName>
-Eg: mod init booking-app
+#Command to create a go project:-> go mod init <FolderName>
+Eg: go mod init booking-app
 
 #Command to run a file:-> go run <FileName>.go
 Eg: go run main.go

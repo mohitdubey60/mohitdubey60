@@ -1,0 +1,34 @@
+query GetAllCharacters {
+  characters {
+    results {
+      id
+      name
+      gender
+      image
+      species
+      episode {
+        id
+        name
+        episode
+        air_date
+      }
+    }
+  }
+}
+
+query GetAllEpisodes {
+  episodes {
+    results {
+      id
+      name
+      air_date
+      created
+      episode
+      characters {
+        id
+        name
+        image
+      }
+    }
+  }
+}

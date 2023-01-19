@@ -1,0 +1,42 @@
+Install the apollo client to your MAC - 
+https://www.npmjs.com/package/apollo
+$ npm install -g apollo
+$ apollo (-v|--version|version)
+$ apollo --help [COMMAND]
+
+Setup Apollo client - iOS
+https://www.apollographql.com/docs/ios/
+
+Step #1
+- Download schema from API to the root folder 
+apollo schema:download --endpoint=<URL>
+EG: apollo schema:download --endpoint=https://countries.trevorblades.com/
+
+Step #2
+- Add schema.json file to the project
+- Add new Folder with name GraphQL
+- Add new file "Queries.graphql"
+- Add new file "GraphQLAPIModel.swift"
+
+Step #3
+- Add Apollo packages to the Project (We can add it as Package Manager or Cocoapod). Below steps are for adding it through package manager
+- Right click on project -> select add packages
+- search for apollo-ios 
+- select Exact branch version "0.43.0"
+- select "Apollo" from choices
+- Add package
+
+Step #4
+- Add Run script to Build Phases and name it "GraphQL Runscript" in Xcode project. Refer file runscript.sh
+- Copy the commands from runscript.sh and paste in the "GraphQL Runscript"
+- Move "GraphQL Runscript" above compile
+
+
+Step #5
+- Add new GraphQL query in the "Queries.graphql"
+- Build the project
+- New classes should be added to "GraphQLAPIModel.swift"
+
+
+
+
