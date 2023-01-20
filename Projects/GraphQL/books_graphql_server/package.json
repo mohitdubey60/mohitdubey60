@@ -1,0 +1,15 @@
+{
+  "name": "books_graphql_server",
+  "version": "1.0.0",
+  "description": "Books graphQL server application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mohit kumar dubey",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.11.1",
+    "graphql": "^16.6.0"
+  }
+}

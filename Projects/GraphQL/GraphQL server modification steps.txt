@@ -1,0 +1,17 @@
+Step #1
+- create a new folder, lets name it "books_graphql_server"
+- run -> npm init
+- This will show some options, press enter for each
+- Notice that you have a package.json created
+
+Step #2
+- Install apollo server and graphQL package by running the below command
+npm install apollo-server
+npm install graphql
+
+Step #3
+- Write code for your server (refer index.js)
+
+Step #4 
+- run server with below command
+node index.js

@@ -1,8 +1,8 @@
-    //  ContentView.swift
-    //  RickAndMortyGraphQL
-    //
-    //  Created by mohit.dubey on 18/01/23.
-    //
+//  ContentView.swift
+//  RickAndMortyGraphQL
+//
+//  Created by mohit.dubey on 18/01/23.
+//
 
 import SwiftUI
 
