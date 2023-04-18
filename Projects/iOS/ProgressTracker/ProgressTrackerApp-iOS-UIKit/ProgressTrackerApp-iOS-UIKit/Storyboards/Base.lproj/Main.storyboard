@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="X9D-lJ-B7R">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Splash View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="SplashViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="SplashViewController" customModule="ProgressTrackerApp_iOS_UIKit" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-216" y="-6"/>
+        </scene>
+        <!--Set Progress Hours View Controller-->
+        <scene sceneID="tT2-jd-kMn">
+            <objects>
+                <viewController storyboardIdentifier="SetProgressHoursViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="X9D-lJ-B7R" customClass="SetProgressHoursViewController" customModule="ProgressTrackerApp_iOS_UIKit" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4bk-ck-RfX">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="SuH-Mn-Fsx">
+                                <rect key="frame" x="16" y="83" width="361" height="267"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Set Productive Hours" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1a5-gB-8jP">
+                                        <rect key="frame" x="0.0" y="0.0" width="361" height="40.666666666666664"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="0UJ-2Y-sQA">
+                                        <rect key="frame" x="0.0" y="48.666666666666657" width="361" height="60"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="aHA-8h-Hpn"/>
+                                        </constraints>
+                                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="xuJ-8F-LzN">
+                                            <size key="itemSize" width="128" height="128"/>
+                                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        </collectionViewFlowLayout>
+                                        <cells/>
+                                    </collectionView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gCn-MM-9D6">
+                                        <rect key="frame" x="0.0" y="116.66666666666666" width="361" height="50"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Start Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ViE-2I-61I">
+                                                <rect key="frame" x="0.0" y="0.0" width="241" height="50"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="30" translatesAutoresizingMaskIntoConstraints="NO" id="BTO-pC-c0w">
+                                                <rect key="frame" x="241" y="0.0" width="120" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="120" id="B72-fj-06m"/>
+                                                </constraints>
+                                            </datePicker>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WXf-Mb-7Br">
+                                        <rect key="frame" x="0.0" y="174.66666666666669" width="361" height="50"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="End Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mjd-Kn-bUo">
+                                                <rect key="frame" x="0.0" y="0.0" width="241" height="50"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="30" translatesAutoresizingMaskIntoConstraints="NO" id="Hrn-NO-Bjk">
+                                                <rect key="frame" x="241" y="0.0" width="120" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="120" id="Rwc-Aa-tLS"/>
+                                                </constraints>
+                                            </datePicker>
+                                        </subviews>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jgp-Kw-tzX">
+                                        <rect key="frame" x="0.0" y="232.66666666666669" width="361" height="34.333333333333314"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Add Hours"/>
+                                        <connections>
+                                            <action selector="addLogsAction:" destination="X9D-lJ-B7R" eventType="touchUpInside" id="MSO-w8-VWU"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Spj-dJ-pH3">
+                                <rect key="frame" x="0.0" y="366" width="393" height="452"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Daily logs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fit-7b-jGF">
+                                        <rect key="frame" x="16" y="12" width="361" height="43"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" id="L5J-3I-4Lj">
+                                        <rect key="frame" x="0.0" y="67" width="393" height="405"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="gST-di-SpH">
+                                                <rect key="frame" x="0.0" y="0.0" width="393" height="405"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            </tableView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="gST-di-SpH" firstAttribute="top" secondItem="L5J-3I-4Lj" secondAttribute="top" id="2td-Gh-yE6"/>
+                                            <constraint firstAttribute="bottom" secondItem="gST-di-SpH" secondAttribute="bottom" id="BHA-e8-i2B"/>
+                                            <constraint firstItem="gST-di-SpH" firstAttribute="leading" secondItem="L5J-3I-4Lj" secondAttribute="leading" id="c9Y-Cb-s3S"/>
+                                            <constraint firstItem="gST-di-SpH" firstAttribute="top" secondItem="L5J-3I-4Lj" secondAttribute="top" id="geM-66-4g0"/>
+                                            <constraint firstAttribute="trailing" secondItem="gST-di-SpH" secondAttribute="trailing" id="kAi-xi-qyv"/>
+                                            <constraint firstItem="gST-di-SpH" firstAttribute="leading" secondItem="L5J-3I-4Lj" secondAttribute="leading" id="keN-8e-s2A"/>
+                                            <constraint firstAttribute="bottom" secondItem="gST-di-SpH" secondAttribute="bottom" id="mnm-85-gnp"/>
+                                            <constraint firstAttribute="trailing" secondItem="gST-di-SpH" secondAttribute="trailing" id="wXI-K0-PFq"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="L5J-3I-4Lj" firstAttribute="top" secondItem="fit-7b-jGF" secondAttribute="bottom" constant="12" id="01H-U8-pkN"/>
+                                    <constraint firstItem="fit-7b-jGF" firstAttribute="leading" secondItem="Spj-dJ-pH3" secondAttribute="leading" constant="16" id="3zw-9e-0Ip"/>
+                                    <constraint firstAttribute="trailing" secondItem="fit-7b-jGF" secondAttribute="trailing" constant="16" id="VtS-uI-vxy"/>
+                                    <constraint firstItem="fit-7b-jGF" firstAttribute="top" secondItem="Spj-dJ-pH3" secondAttribute="top" constant="12" id="qcL-9N-C4G"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="UUc-On-Fba"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="UUc-On-Fba" firstAttribute="trailing" secondItem="SuH-Mn-Fsx" secondAttribute="trailing" constant="16" id="4tP-pt-aiS"/>
+                            <constraint firstItem="SuH-Mn-Fsx" firstAttribute="leading" secondItem="UUc-On-Fba" secondAttribute="leading" constant="16" id="GJT-4e-rD2"/>
+                            <constraint firstItem="SuH-Mn-Fsx" firstAttribute="top" secondItem="UUc-On-Fba" secondAttribute="top" constant="24" id="Mb0-l8-KVn"/>
+                            <constraint firstItem="Spj-dJ-pH3" firstAttribute="bottom" secondItem="UUc-On-Fba" secondAttribute="bottom" id="fOp-3G-N5v"/>
+                            <constraint firstItem="Spj-dJ-pH3" firstAttribute="top" secondItem="SuH-Mn-Fsx" secondAttribute="bottom" constant="16" id="gyR-6N-yYy"/>
+                            <constraint firstItem="UUc-On-Fba" firstAttribute="trailing" secondItem="Spj-dJ-pH3" secondAttribute="trailing" id="mef-sm-cNE"/>
+                            <constraint firstItem="Spj-dJ-pH3" firstAttribute="leading" secondItem="UUc-On-Fba" secondAttribute="leading" id="roV-ks-hn3"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="addHoursActionButton" destination="Jgp-Kw-tzX" id="JIf-kV-XrJ"/>
+                        <outlet property="daysCollectionView" destination="0UJ-2Y-sQA" id="ak4-cP-IYb"/>
+                        <outlet property="endTime" destination="Hrn-NO-Bjk" id="smr-yR-gff"/>
+                        <outlet property="progressTimeLogsTV" destination="gST-di-SpH" id="nWg-lb-Hyl"/>
+                        <outlet property="startTime" destination="BTO-pC-c0w" id="obG-z7-Tft"/>
+                        <outlet property="uiTableViewParentContainer" destination="L5J-3I-4Lj" id="MSd-Uf-XlR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hE5-Vs-Bha" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="925.95419847328242" y="-2.1126760563380285"/>
+        </scene>
+        <!--Goals Dashboard View Controller-->
+        <scene sceneID="4dt-oY-0Uj">
+            <objects>
+                <viewController storyboardIdentifier="GoalsDashboardViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Bnf-ak-mXc" customClass="GoalsDashboardViewController" customModule="ProgressTrackerApp_iOS_UIKit" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="P4Q-Vk-S0u">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Goals dashboard" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="upK-Uy-K58">
+                                <rect key="frame" x="16" y="75" width="361" height="41"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nh8-bK-fFc">
+                                <rect key="frame" x="16" y="132" width="361" height="180"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="180" id="34W-wW-p5O"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weekly goal complete status" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KqO-gh-e3F">
+                                <rect key="frame" x="87.333333333333329" y="316" width="218.66666666666669" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NVr-NO-WDi">
+                                <rect key="frame" x="16" y="353" width="361" height="180"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="180" id="X9m-pM-38N"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="bA2-Gf-OFp"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="NVr-NO-WDi" firstAttribute="leading" secondItem="bA2-Gf-OFp" secondAttribute="leading" constant="16" id="Evt-Dd-0BF"/>
+                            <constraint firstItem="KqO-gh-e3F" firstAttribute="centerX" secondItem="P4Q-Vk-S0u" secondAttribute="centerX" id="K4D-uU-Ike"/>
+                            <constraint firstItem="upK-Uy-K58" firstAttribute="leading" secondItem="bA2-Gf-OFp" secondAttribute="leading" constant="16" id="Lk5-9A-ixe"/>
+                            <constraint firstItem="KqO-gh-e3F" firstAttribute="top" secondItem="Nh8-bK-fFc" secondAttribute="bottom" constant="4" id="SKJ-od-vlk"/>
+                            <constraint firstItem="upK-Uy-K58" firstAttribute="top" secondItem="bA2-Gf-OFp" secondAttribute="top" constant="16" id="Zto-q0-fVN"/>
+                            <constraint firstItem="bA2-Gf-OFp" firstAttribute="trailing" secondItem="Nh8-bK-fFc" secondAttribute="trailing" constant="16" id="eDU-pM-Anz"/>
+                            <constraint firstItem="NVr-NO-WDi" firstAttribute="top" secondItem="KqO-gh-e3F" secondAttribute="bottom" constant="16" id="flu-8O-p1f"/>
+                            <constraint firstItem="Nh8-bK-fFc" firstAttribute="leading" secondItem="bA2-Gf-OFp" secondAttribute="leading" constant="16" id="k0V-4q-zyx"/>
+                            <constraint firstItem="bA2-Gf-OFp" firstAttribute="trailing" secondItem="NVr-NO-WDi" secondAttribute="trailing" constant="16" id="kRh-Js-GDM"/>
+                            <constraint firstItem="bA2-Gf-OFp" firstAttribute="trailing" secondItem="upK-Uy-K58" secondAttribute="trailing" constant="16" id="xJW-Ld-M5A"/>
+                            <constraint firstItem="Nh8-bK-fFc" firstAttribute="top" secondItem="upK-Uy-K58" secondAttribute="bottom" constant="16" id="ydN-iy-VbY"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="chartsContainerView" destination="NVr-NO-WDi" id="yCa-45-Pbt"/>
+                        <outlet property="ringProgressView" destination="Nh8-bK-fFc" id="GuN-Iv-4QF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Ov-bV-J5q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1791.6030534351144" y="-6.3380281690140849"/>
+        </scene>
+        <!--Log Hours View Controller-->
+        <scene sceneID="KY0-HD-M8e">
+            <objects>
+                <viewController storyboardIdentifier="LogHoursViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="WKa-5a-MIm" customClass="LogHoursViewController" customModule="ProgressTrackerApp_iOS_UIKit" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QSx-le-FBv">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Log hours" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EI3-JR-PMo">
+                                <rect key="frame" x="16" y="75" width="361" height="41"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="HlQ-mz-AHE"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="EI3-JR-PMo" firstAttribute="top" secondItem="HlQ-mz-AHE" secondAttribute="top" constant="16" id="9t0-X6-5gp"/>
+                            <constraint firstItem="HlQ-mz-AHE" firstAttribute="trailing" secondItem="EI3-JR-PMo" secondAttribute="trailing" constant="16" id="Ri1-gO-zab"/>
+                            <constraint firstItem="EI3-JR-PMo" firstAttribute="leading" secondItem="HlQ-mz-AHE" secondAttribute="leading" constant="16" id="g6d-QG-d1C"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mF9-5c-p11" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2593" y="-2"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

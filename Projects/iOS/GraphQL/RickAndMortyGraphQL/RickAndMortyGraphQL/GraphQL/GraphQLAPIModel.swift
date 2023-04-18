@@ -531,3 +531,110 @@ public final class GetAllEpisodesQuery: GraphQLQuery {
     }
   }
 }
+
+public final class GetCharacterQuery: GraphQLQuery {
+  /// The raw GraphQL definition of this operation.
+  public let operationDefinition: String =
+    """
+    query GetCharacter($charId: ID!) {
+      character(id: $charId) {
+        __typename
+        id
+        name
+      }
+    }
+    """
+
+  public let operationName: String = "GetCharacter"
+
+  public var charId: GraphQLID
+
+  public init(charId: GraphQLID) {
+    self.charId = charId
+  }
+
+  public var variables: GraphQLMap? {
+    return ["charId": charId]
+  }
+
+  public struct Data: GraphQLSelectionSet {
+    public static let possibleTypes: [String] = ["Query"]
+
+    public static var selections: [GraphQLSelection] {
+      return [
+        GraphQLField("character", arguments: ["id": GraphQLVariable("charId")], type: .object(Character.selections)),
+      ]
+    }
+
+    public private(set) var resultMap: ResultMap
+
+    public init(unsafeResultMap: ResultMap) {
+      self.resultMap = unsafeResultMap
+    }
+
+    public init(character: Character? = nil) {
+      self.init(unsafeResultMap: ["__typename": "Query", "character": character.flatMap { (value: Character) -> ResultMap in value.resultMap }])
+    }
+
+    /// Get a specific character by ID
+    public var character: Character? {
+      get {
+        return (resultMap["character"] as? ResultMap).flatMap { Character(unsafeResultMap: $0) }
+      }
+      set {
+        resultMap.updateValue(newValue?.resultMap, forKey: "character")
+      }
+    }
+
+    public struct Character: GraphQLSelectionSet {
+      public static let possibleTypes: [String] = ["Character"]
+
+      public static var selections: [GraphQLSelection] {
+        return [
+          GraphQLField("__typename", type: .nonNull(.scalar(String.self))),
+          GraphQLField("id", type: .scalar(GraphQLID.self)),
+          GraphQLField("name", type: .scalar(String.self)),
+        ]
+      }
+
+      public private(set) var resultMap: ResultMap
+
+      public init(unsafeResultMap: ResultMap) {
+        self.resultMap = unsafeResultMap
+      }
+
+      public init(id: GraphQLID? = nil, name: String? = nil) {
+        self.init(unsafeResultMap: ["__typename": "Character", "id": id, "name": name])
+      }
+
+      public var __typename: String {
+        get {
+          return resultMap["__typename"]! as! String
+        }
+        set {
+          resultMap.updateValue(newValue, forKey: "__typename")
+        }
+      }
+
+      /// The id of the character.
+      public var id: GraphQLID? {
+        get {
+          return resultMap["id"] as? GraphQLID
+        }
+        set {
+          resultMap.updateValue(newValue, forKey: "id")
+        }
+      }
+
+      /// The name of the character.
+      public var name: String? {
+        get {
+          return resultMap["name"] as? String
+        }
+        set {
+          resultMap.updateValue(newValue, forKey: "name")
+        }
+      }
+    }
+  }
+}

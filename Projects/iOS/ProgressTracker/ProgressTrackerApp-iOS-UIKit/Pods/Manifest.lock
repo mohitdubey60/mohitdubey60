@@ -1,0 +1,32 @@
+PODS:
+  - Charts (4.1.0):
+    - Charts/Core (= 4.1.0)
+  - Charts/Core (4.1.0):
+    - SwiftAlgorithms (~> 1.0)
+  - lottie-ios (4.1.2)
+  - SwiftAlgorithms (1.0.0)
+  - SwiftyRSA (1.7.0):
+    - SwiftyRSA/ObjC (= 1.7.0)
+  - SwiftyRSA/ObjC (1.7.0)
+
+DEPENDENCIES:
+  - Charts (= 4.1.0)
+  - lottie-ios (= 4.1.2)
+  - SwiftyRSA
+
+SPEC REPOS:
+  trunk:
+    - Charts
+    - lottie-ios
+    - SwiftAlgorithms
+    - SwiftyRSA
+
+SPEC CHECKSUMS:
+  Charts: 354f86803d11d9c35de280587fef50d1af063978
+  lottie-ios: b3846a9fa8ca1a1a3bebfa256ebe8b6fd4aaaaad
+  SwiftAlgorithms: 38dda4731d19027fdeee1125f973111bf3386b53
+  SwiftyRSA: 8c6dd1ea7db1b8dc4fb517a202f88bb1354bc2c6
+
+PODFILE CHECKSUM: c30f485a811c32cd074d7e1501f205a156e2139a
+
+COCOAPODS: 1.11.3

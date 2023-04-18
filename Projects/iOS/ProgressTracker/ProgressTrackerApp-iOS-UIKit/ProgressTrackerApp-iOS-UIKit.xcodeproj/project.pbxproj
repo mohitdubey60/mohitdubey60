@@ -1,0 +1,922 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27DE1E549439197457CF53AD /* Pods_ProgressTrackerApp_iOS_UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044A2BB5D13B1740A9BA3B68 /* Pods_ProgressTrackerApp_iOS_UIKit.framework */; };
+		5B1CAE6729AA846000D938F7 /* GoalsDashboardCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1CAE6629AA846000D938F7 /* GoalsDashboardCoordinator.swift */; };
+		5B1CAE6A29AA850F00D938F7 /* GoalsDashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1CAE6929AA850F00D938F7 /* GoalsDashboardViewModel.swift */; };
+		5B1CAE6C29AA853C00D938F7 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1CAE6B29AA853C00D938F7 /* BaseViewController.swift */; };
+		5BA0811B29ACAC6A00BF6F0F /* CoreDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA0811A29ACAC6A00BF6F0F /* CoreDataStore.swift */; };
+		5BA0811D29ACADE500BF6F0F /* CoreDataFetchResultPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA0811C29ACADE500BF6F0F /* CoreDataFetchResultPublisher.swift */; };
+		5BA0811F29ACAF4200BF6F0F /* CoreDataAddPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA0811E29ACAF4200BF6F0F /* CoreDataAddPublisher.swift */; };
+		5BA0812129ACB06900BF6F0F /* CoreDataDeletePublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA0812029ACB06900BF6F0F /* CoreDataDeletePublisher.swift */; };
+		5BA0812429ADC20800BF6F0F /* GoalsDashboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA0812329ADC20800BF6F0F /* GoalsDashboardManager.swift */; };
+		5BC6D71D29A540E80091C1F8 /* LogManagerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC6D71C29A540E80091C1F8 /* LogManagerFactory.swift */; };
+		5BC6D72329A726840091C1F8 /* NoDataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC6D72129A726840091C1F8 /* NoDataTableViewCell.swift */; };
+		5BC6D72429A726840091C1F8 /* NoDataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BC6D72229A726840091C1F8 /* NoDataTableViewCell.xib */; };
+		5BC6D72629A7498F0091C1F8 /* SetProgressHoursCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC6D72529A7498F0091C1F8 /* SetProgressHoursCoordinator.swift */; };
+		5BC6D72829A74A320091C1F8 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC6D72729A74A320091C1F8 /* UIViewControllerExtension.swift */; };
+		5BC6D72A29A75E950091C1F8 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC6D72929A75E950091C1F8 /* CircularProgressView.swift */; };
+		5BC6D72C29A75EA60091C1F8 /* CircularProgressView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BC6D72B29A75EA60091C1F8 /* CircularProgressView.xib */; };
+		5BC6D73329A7A1A00091C1F8 /* BarChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC6D73229A7A1A00091C1F8 /* BarChartsView.swift */; };
+		5BC6D73529A7A1AA0091C1F8 /* BarChartsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BC6D73429A7A1AA0091C1F8 /* BarChartsView.xib */; };
+		5BDAF644299F6A1F005DF662 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDAF643299F6A1F005DF662 /* DateExtension.swift */; };
+		5BDAF646299F6FB3005DF662 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDAF645299F6FB3005DF662 /* AppConstants.swift */; };
+		5BDAF64A299F8B7D005DF662 /* LogHourService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDAF649299F8B7D005DF662 /* LogHourService.swift */; };
+		5BDAF64C299F8BC9005DF662 /* CoreDataLogHourService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDAF64B299F8BC9005DF662 /* CoreDataLogHourService.swift */; };
+		5BDD5F7F2995457700440B02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDD5F7E2995457700440B02 /* AppDelegate.swift */; };
+		5BDD5F812995457700440B02 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDD5F802995457700440B02 /* SceneDelegate.swift */; };
+		5BDD5F832995457700440B02 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDD5F822995457700440B02 /* SplashViewController.swift */; };
+		5BDD5F862995457700440B02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BDD5F842995457700440B02 /* Main.storyboard */; };
+		5BDD5F882995457800440B02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BDD5F872995457800440B02 /* Assets.xcassets */; };
+		5BDD5F8B2995457800440B02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BDD5F892995457800440B02 /* LaunchScreen.storyboard */; };
+		5BDD5F942995639B00440B02 /* progressTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5BDD5F922995639B00440B02 /* progressTracker.xcdatamodeld */; };
+		5BDD5F972995674900440B02 /* DaysOfWeekModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDD5F962995674900440B02 /* DaysOfWeekModel.swift */; };
+		5BDD5F9A29956B7700440B02 /* CoreDataTimeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDD5F9929956B7700440B02 /* CoreDataTimeExtension.swift */; };
+		5BDD5F9E2995703900440B02 /* DayHourTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDD5F9D2995703900440B02 /* DayHourTable.swift */; };
+		5BDD5FA42996024500440B02 /* SetProgressHoursViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDD5FA32996024500440B02 /* SetProgressHoursViewController.swift */; };
+		5BDD5FA629960EC100440B02 /* GoalsDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDD5FA529960EC100440B02 /* GoalsDashboardViewController.swift */; };
+		5BDD5FA829960F3500440B02 /* LogHoursViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDD5FA729960F3500440B02 /* LogHoursViewController.swift */; };
+		5BDD5FAE2996107000440B02 /* DaysCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDD5FAC2996107000440B02 /* DaysCollectionViewCell.swift */; };
+		5BDD5FAF2996107000440B02 /* DaysCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BDD5FAD2996107000440B02 /* DaysCollectionViewCell.xib */; };
+		5BDD5FB12996126300440B02 /* CornerRadiusUIVIewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDD5FB02996126300440B02 /* CornerRadiusUIVIewExtension.swift */; };
+		5BDD5FB42996154C00440B02 /* WeekRowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDD5FB22996154C00440B02 /* WeekRowTableViewCell.swift */; };
+		5BDD5FB52996154C00440B02 /* WeekRowTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BDD5FB32996154C00440B02 /* WeekRowTableViewCell.xib */; };
+		5BDD5FB82998914200440B02 /* Encrypt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDD5FB72998914200440B02 /* Encrypt.swift */; };
+		5BDD5FBB29994C3900440B02 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BDD5FBA29994C3900440B02 /* Security.framework */; };
+		5BDD5FBE2999F89400440B02 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDD5FBD2999F89400440B02 /* StringExtension.swift */; };
+		5BDD5FC0299B996200440B02 /* UIVIewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDD5FBF299B996200440B02 /* UIVIewExtension.swift */; };
+		5BDD5FC3299B9AB600440B02 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDD5FC2299B9AB600440B02 /* Errors.swift */; };
+		5BDD5FC5299C97CE00440B02 /* SetProgressHoursViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDD5FC4299C97CE00440B02 /* SetProgressHoursViewModel.swift */; };
+		5BDD5FC8299C9CE200440B02 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDD5FC7299C9CE200440B02 /* ErrorView.swift */; };
+		5BDD5FCA299C9CEF00440B02 /* ErrorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BDD5FC9299C9CEF00440B02 /* ErrorView.xib */; };
+		5BDD5FCC299CE24D00440B02 /* LogHoursManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDD5FCB299CE24D00440B02 /* LogHoursManager.swift */; };
+		5BDD5FCF299E236800440B02 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDD5FCE299E236800440B02 /* Coordinator.swift */; };
+		5BDD5FD1299E269C00440B02 /* ApplicationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDD5FD0299E269C00440B02 /* ApplicationCoordinator.swift */; };
+		5BDD5FDB299E2B0E00440B02 /* SplashCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDD5FDA299E2B0E00440B02 /* SplashCoordinator.swift */; };
+		5BDD5FDD299E3F6100440B02 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDD5FDC299E3F6100440B02 /* BaseNavigationController.swift */; };
+		5BDD5FE2299F41FE00440B02 /* progress-human.json in Resources */ = {isa = PBXBuildFile; fileRef = 5BDD5FE1299F41FE00440B02 /* progress-human.json */; };
+		5BDD5FE4299F4F1B00440B02 /* LottieAnimationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDD5FE3299F4F1B00440B02 /* LottieAnimationHelper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		044A2BB5D13B1740A9BA3B68 /* Pods_ProgressTrackerApp_iOS_UIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProgressTrackerApp_iOS_UIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		488F75F57046297E1B873570 /* Pods-ProgressTrackerApp-iOS-UIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgressTrackerApp-iOS-UIKit.debug.xcconfig"; path = "Target Support Files/Pods-ProgressTrackerApp-iOS-UIKit/Pods-ProgressTrackerApp-iOS-UIKit.debug.xcconfig"; sourceTree = "<group>"; };
+		4D9FEA62D8600DFC28375951 /* Pods-ProgressTrackerApp-iOS-UIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgressTrackerApp-iOS-UIKit.release.xcconfig"; path = "Target Support Files/Pods-ProgressTrackerApp-iOS-UIKit/Pods-ProgressTrackerApp-iOS-UIKit.release.xcconfig"; sourceTree = "<group>"; };
+		5B1CAE6629AA846000D938F7 /* GoalsDashboardCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsDashboardCoordinator.swift; sourceTree = "<group>"; };
+		5B1CAE6929AA850F00D938F7 /* GoalsDashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsDashboardViewModel.swift; sourceTree = "<group>"; };
+		5B1CAE6B29AA853C00D938F7 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		5BA0811A29ACAC6A00BF6F0F /* CoreDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStore.swift; sourceTree = "<group>"; };
+		5BA0811C29ACADE500BF6F0F /* CoreDataFetchResultPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataFetchResultPublisher.swift; sourceTree = "<group>"; };
+		5BA0811E29ACAF4200BF6F0F /* CoreDataAddPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataAddPublisher.swift; sourceTree = "<group>"; };
+		5BA0812029ACB06900BF6F0F /* CoreDataDeletePublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataDeletePublisher.swift; sourceTree = "<group>"; };
+		5BA0812329ADC20800BF6F0F /* GoalsDashboardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsDashboardManager.swift; sourceTree = "<group>"; };
+		5BC6D71C29A540E80091C1F8 /* LogManagerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogManagerFactory.swift; sourceTree = "<group>"; };
+		5BC6D72129A726840091C1F8 /* NoDataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoDataTableViewCell.swift; sourceTree = "<group>"; };
+		5BC6D72229A726840091C1F8 /* NoDataTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoDataTableViewCell.xib; sourceTree = "<group>"; };
+		5BC6D72529A7498F0091C1F8 /* SetProgressHoursCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetProgressHoursCoordinator.swift; sourceTree = "<group>"; };
+		5BC6D72729A74A320091C1F8 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		5BC6D72929A75E950091C1F8 /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		5BC6D72B29A75EA60091C1F8 /* CircularProgressView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CircularProgressView.xib; sourceTree = "<group>"; };
+		5BC6D73229A7A1A00091C1F8 /* BarChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartsView.swift; sourceTree = "<group>"; };
+		5BC6D73429A7A1AA0091C1F8 /* BarChartsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BarChartsView.xib; sourceTree = "<group>"; };
+		5BDAF643299F6A1F005DF662 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		5BDAF645299F6FB3005DF662 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		5BDAF649299F8B7D005DF662 /* LogHourService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogHourService.swift; sourceTree = "<group>"; };
+		5BDAF64B299F8BC9005DF662 /* CoreDataLogHourService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataLogHourService.swift; sourceTree = "<group>"; };
+		5BDD5F7B2995457700440B02 /* ProgressTrackerApp-iOS-UIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ProgressTrackerApp-iOS-UIKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BDD5F7E2995457700440B02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5BDD5F802995457700440B02 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5BDD5F822995457700440B02 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		5BDD5F852995457700440B02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5BDD5F872995457800440B02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BDD5F8A2995457800440B02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5BDD5F8C2995457800440B02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BDD5F932995639B00440B02 /* progressTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = progressTracker.xcdatamodel; sourceTree = "<group>"; };
+		5BDD5F962995674900440B02 /* DaysOfWeekModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysOfWeekModel.swift; sourceTree = "<group>"; };
+		5BDD5F9929956B7700440B02 /* CoreDataTimeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataTimeExtension.swift; sourceTree = "<group>"; };
+		5BDD5F9D2995703900440B02 /* DayHourTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayHourTable.swift; sourceTree = "<group>"; };
+		5BDD5FA32996024500440B02 /* SetProgressHoursViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetProgressHoursViewController.swift; sourceTree = "<group>"; };
+		5BDD5FA529960EC100440B02 /* GoalsDashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsDashboardViewController.swift; sourceTree = "<group>"; };
+		5BDD5FA729960F3500440B02 /* LogHoursViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogHoursViewController.swift; sourceTree = "<group>"; };
+		5BDD5FAC2996107000440B02 /* DaysCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysCollectionViewCell.swift; sourceTree = "<group>"; };
+		5BDD5FAD2996107000440B02 /* DaysCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DaysCollectionViewCell.xib; sourceTree = "<group>"; };
+		5BDD5FB02996126300440B02 /* CornerRadiusUIVIewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadiusUIVIewExtension.swift; sourceTree = "<group>"; };
+		5BDD5FB22996154C00440B02 /* WeekRowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekRowTableViewCell.swift; sourceTree = "<group>"; };
+		5BDD5FB32996154C00440B02 /* WeekRowTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeekRowTableViewCell.xib; sourceTree = "<group>"; };
+		5BDD5FB72998914200440B02 /* Encrypt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encrypt.swift; sourceTree = "<group>"; };
+		5BDD5FBA29994C3900440B02 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		5BDD5FBC2999F11A00440B02 /* ProgressTracker-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProgressTracker-Bridging-Header.h"; sourceTree = "<group>"; };
+		5BDD5FBD2999F89400440B02 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		5BDD5FBF299B996200440B02 /* UIVIewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIVIewExtension.swift; sourceTree = "<group>"; };
+		5BDD5FC2299B9AB600440B02 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		5BDD5FC4299C97CE00440B02 /* SetProgressHoursViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetProgressHoursViewModel.swift; sourceTree = "<group>"; };
+		5BDD5FC7299C9CE200440B02 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		5BDD5FC9299C9CEF00440B02 /* ErrorView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ErrorView.xib; sourceTree = "<group>"; };
+		5BDD5FCB299CE24D00440B02 /* LogHoursManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogHoursManager.swift; sourceTree = "<group>"; };
+		5BDD5FCE299E236800440B02 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		5BDD5FD0299E269C00440B02 /* ApplicationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationCoordinator.swift; sourceTree = "<group>"; };
+		5BDD5FDA299E2B0E00440B02 /* SplashCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashCoordinator.swift; sourceTree = "<group>"; };
+		5BDD5FDC299E3F6100440B02 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		5BDD5FE1299F41FE00440B02 /* progress-human.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "progress-human.json"; sourceTree = "<group>"; };
+		5BDD5FE3299F4F1B00440B02 /* LottieAnimationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieAnimationHelper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BDD5F782995457700440B02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BDD5FBB29994C3900440B02 /* Security.framework in Frameworks */,
+				27DE1E549439197457CF53AD /* Pods_ProgressTrackerApp_iOS_UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B1CAE6529AA843100D938F7 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				5B1CAE6629AA846000D938F7 /* GoalsDashboardCoordinator.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		5B1CAE6829AA84F600D938F7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5B1CAE6929AA850F00D938F7 /* GoalsDashboardViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5BA0812229ADC12800BF6F0F /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				5BA0812329ADC20800BF6F0F /* GoalsDashboardManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		5BA0812529B9BAE000BF6F0F /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				5BC6D72E29A763D20091C1F8 /* GoalsDashboard */,
+				5BC6D72D29A763880091C1F8 /* DailyLog */,
+				5BDD5FD3299E2A5B00440B02 /* LogHours */,
+			);
+			path = Progress;
+			sourceTree = "<group>";
+		};
+		5BC6D71B29A540CA0091C1F8 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				5BC6D71C29A540E80091C1F8 /* LogManagerFactory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		5BC6D72029A721740091C1F8 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		5BC6D72D29A763880091C1F8 /* DailyLog */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DailyLog;
+			sourceTree = "<group>";
+		};
+		5BC6D72E29A763D20091C1F8 /* GoalsDashboard */ = {
+			isa = PBXGroup;
+			children = (
+				5BA0812229ADC12800BF6F0F /* Manager */,
+				5B1CAE6829AA84F600D938F7 /* ViewModel */,
+				5B1CAE6529AA843100D938F7 /* Navigation */,
+				5BC6D72F29A763E20091C1F8 /* Views */,
+			);
+			path = GoalsDashboard;
+			sourceTree = "<group>";
+		};
+		5BC6D72F29A763E20091C1F8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5BDD5FA529960EC100440B02 /* GoalsDashboardViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5BDAF647299F8B58005DF662 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				5BDD5FCB299CE24D00440B02 /* LogHoursManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		5BDAF648299F8B62005DF662 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				5BDAF649299F8B7D005DF662 /* LogHourService.swift */,
+				5BDAF64B299F8BC9005DF662 /* CoreDataLogHourService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		5BDD5F722995457700440B02 = {
+			isa = PBXGroup;
+			children = (
+				5BDD5F7D2995457700440B02 /* ProgressTrackerApp-iOS-UIKit */,
+				5BDD5F7C2995457700440B02 /* Products */,
+				5BDD5FB929994C3900440B02 /* Frameworks */,
+				C5F5B2180F1A18C8C058BC10 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		5BDD5F7C2995457700440B02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BDD5F7B2995457700440B02 /* ProgressTrackerApp-iOS-UIKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BDD5F7D2995457700440B02 /* ProgressTrackerApp-iOS-UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				5BDD5FDF299F3FB000440B02 /* Storyboards */,
+				5BDD5FDE299F3FA200440B02 /* Assets */,
+				5BDD5FD2299E2A5300440B02 /* Modules */,
+				5BDD5F9F299601D400440B02 /* BusinessLogic */,
+				5BDD5F95299566C600440B02 /* Common */,
+				5BDD5F7E2995457700440B02 /* AppDelegate.swift */,
+				5BDD5F802995457700440B02 /* SceneDelegate.swift */,
+				5BDD5FBC2999F11A00440B02 /* ProgressTracker-Bridging-Header.h */,
+				5BDD5F8C2995457800440B02 /* Info.plist */,
+				5BDD5F922995639B00440B02 /* progressTracker.xcdatamodeld */,
+			);
+			path = "ProgressTrackerApp-iOS-UIKit";
+			sourceTree = "<group>";
+		};
+		5BDD5F95299566C600440B02 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5BDD5FA1299601F500440B02 /* ViewModels */,
+				5BDD5FA0299601EF00440B02 /* Views */,
+				5BDD5FCD299E235300440B02 /* Navigation */,
+				5BDD5FC1299B9AA700440B02 /* General */,
+				5BDD5FB62998912600440B02 /* Security */,
+				5BDD5FA2299601FF00440B02 /* Models */,
+				5BDD5F9B2995702000440B02 /* CoreData */,
+				5BDD5F9829956B5D00440B02 /* Extensions */,
+				5BDD5F962995674900440B02 /* DaysOfWeekModel.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		5BDD5F9829956B5D00440B02 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5BDD5F9929956B7700440B02 /* CoreDataTimeExtension.swift */,
+				5BDD5FB02996126300440B02 /* CornerRadiusUIVIewExtension.swift */,
+				5BDD5FBD2999F89400440B02 /* StringExtension.swift */,
+				5BDD5FBF299B996200440B02 /* UIVIewExtension.swift */,
+				5BDAF643299F6A1F005DF662 /* DateExtension.swift */,
+				5BC6D72729A74A320091C1F8 /* UIViewControllerExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5BDD5F9B2995702000440B02 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				5BDD5F9C2995702700440B02 /* Model */,
+				5BA0811A29ACAC6A00BF6F0F /* CoreDataStore.swift */,
+				5BA0811C29ACADE500BF6F0F /* CoreDataFetchResultPublisher.swift */,
+				5BA0811E29ACAF4200BF6F0F /* CoreDataAddPublisher.swift */,
+				5BA0812029ACB06900BF6F0F /* CoreDataDeletePublisher.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		5BDD5F9C2995702700440B02 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5BDD5F9D2995703900440B02 /* DayHourTable.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5BDD5F9F299601D400440B02 /* BusinessLogic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BusinessLogic;
+			sourceTree = "<group>";
+		};
+		5BDD5FA0299601EF00440B02 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5BDD5FC6299C9CBB00440B02 /* Custom */,
+				5BDD5FA729960F3500440B02 /* LogHoursViewController.swift */,
+				5B1CAE6B29AA853C00D938F7 /* BaseViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5BDD5FA1299601F500440B02 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5BDD5FA2299601FF00440B02 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5BDD5FA92996101A00440B02 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5BDD5FAC2996107000440B02 /* DaysCollectionViewCell.swift */,
+				5BDD5FAD2996107000440B02 /* DaysCollectionViewCell.xib */,
+				5BDD5FB22996154C00440B02 /* WeekRowTableViewCell.swift */,
+				5BDD5FB32996154C00440B02 /* WeekRowTableViewCell.xib */,
+				5BC6D72129A726840091C1F8 /* NoDataTableViewCell.swift */,
+				5BC6D72229A726840091C1F8 /* NoDataTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		5BDD5FB62998912600440B02 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				5BDD5FB72998914200440B02 /* Encrypt.swift */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		5BDD5FB929994C3900440B02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BDD5FBA29994C3900440B02 /* Security.framework */,
+				044A2BB5D13B1740A9BA3B68 /* Pods_ProgressTrackerApp_iOS_UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BDD5FC1299B9AA700440B02 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				5BDD5FC2299B9AB600440B02 /* Errors.swift */,
+				5BDD5FE3299F4F1B00440B02 /* LottieAnimationHelper.swift */,
+				5BDAF645299F6FB3005DF662 /* AppConstants.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		5BDD5FC6299C9CBB00440B02 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				5BDD5FC7299C9CE200440B02 /* ErrorView.swift */,
+				5BDD5FC9299C9CEF00440B02 /* ErrorView.xib */,
+				5BC6D72929A75E950091C1F8 /* CircularProgressView.swift */,
+				5BC6D72B29A75EA60091C1F8 /* CircularProgressView.xib */,
+				5BC6D73229A7A1A00091C1F8 /* BarChartsView.swift */,
+				5BC6D73429A7A1AA0091C1F8 /* BarChartsView.xib */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		5BDD5FCD299E235300440B02 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				5BDD5FCE299E236800440B02 /* Coordinator.swift */,
+				5BDD5FD0299E269C00440B02 /* ApplicationCoordinator.swift */,
+				5BDD5FDC299E3F6100440B02 /* BaseNavigationController.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		5BDD5FD2299E2A5300440B02 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				5BA0812529B9BAE000BF6F0F /* Progress */,
+				5BDD5FD7299E2AC700440B02 /* Splash */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		5BDD5FD3299E2A5B00440B02 /* LogHours */ = {
+			isa = PBXGroup;
+			children = (
+				5BC6D71B29A540CA0091C1F8 /* Factory */,
+				5BDAF648299F8B62005DF662 /* Service */,
+				5BDAF647299F8B58005DF662 /* Manager */,
+				5BDD5FD6299E2A6E00440B02 /* Navigation */,
+				5BDD5FD5299E2A6900440B02 /* ViewModel */,
+				5BDD5FD4299E2A6300440B02 /* View */,
+			);
+			path = LogHours;
+			sourceTree = "<group>";
+		};
+		5BDD5FD4299E2A6300440B02 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5BDD5FA92996101A00440B02 /* Cells */,
+				5BDD5FA32996024500440B02 /* SetProgressHoursViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5BDD5FD5299E2A6900440B02 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5BC6D72029A721740091C1F8 /* Cells */,
+				5BDD5FC4299C97CE00440B02 /* SetProgressHoursViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5BDD5FD6299E2A6E00440B02 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				5BC6D72529A7498F0091C1F8 /* SetProgressHoursCoordinator.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		5BDD5FD7299E2AC700440B02 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				5BDD5FD9299E2AFF00440B02 /* Navigation */,
+				5BDD5FD8299E2AD600440B02 /* View */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		5BDD5FD8299E2AD600440B02 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5BDD5F822995457700440B02 /* SplashViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5BDD5FD9299E2AFF00440B02 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				5BDD5FDA299E2B0E00440B02 /* SplashCoordinator.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		5BDD5FDE299F3FA200440B02 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5BDD5FE0299F41DA00440B02 /* Lottie */,
+				5BDD5F872995457800440B02 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		5BDD5FDF299F3FB000440B02 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				5BDD5F842995457700440B02 /* Main.storyboard */,
+				5BDD5F892995457800440B02 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		5BDD5FE0299F41DA00440B02 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				5BDD5FE1299F41FE00440B02 /* progress-human.json */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		C5F5B2180F1A18C8C058BC10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				488F75F57046297E1B873570 /* Pods-ProgressTrackerApp-iOS-UIKit.debug.xcconfig */,
+				4D9FEA62D8600DFC28375951 /* Pods-ProgressTrackerApp-iOS-UIKit.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BDD5F7A2995457700440B02 /* ProgressTrackerApp-iOS-UIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BDD5F8F2995457800440B02 /* Build configuration list for PBXNativeTarget "ProgressTrackerApp-iOS-UIKit" */;
+			buildPhases = (
+				81DFCB67742F2DC193D33D23 /* [CP] Check Pods Manifest.lock */,
+				5BDD5F772995457700440B02 /* Sources */,
+				5BDD5F782995457700440B02 /* Frameworks */,
+				5BDD5F792995457700440B02 /* Resources */,
+				CCFDB0B03245669A9CB81091 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ProgressTrackerApp-iOS-UIKit";
+			productName = "ProgressTrackerApp-iOS-UIKit";
+			productReference = 5BDD5F7B2995457700440B02 /* ProgressTrackerApp-iOS-UIKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BDD5F732995457700440B02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					5BDD5F7A2995457700440B02 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 5BDD5F762995457700440B02 /* Build configuration list for PBXProject "ProgressTrackerApp-iOS-UIKit" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BDD5F722995457700440B02;
+			productRefGroup = 5BDD5F7C2995457700440B02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BDD5F7A2995457700440B02 /* ProgressTrackerApp-iOS-UIKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BDD5F792995457700440B02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BDD5F8B2995457800440B02 /* LaunchScreen.storyboard in Resources */,
+				5BC6D73529A7A1AA0091C1F8 /* BarChartsView.xib in Resources */,
+				5BDD5FE2299F41FE00440B02 /* progress-human.json in Resources */,
+				5BC6D72C29A75EA60091C1F8 /* CircularProgressView.xib in Resources */,
+				5BC6D72429A726840091C1F8 /* NoDataTableViewCell.xib in Resources */,
+				5BDD5FB52996154C00440B02 /* WeekRowTableViewCell.xib in Resources */,
+				5BDD5F882995457800440B02 /* Assets.xcassets in Resources */,
+				5BDD5FCA299C9CEF00440B02 /* ErrorView.xib in Resources */,
+				5BDD5F862995457700440B02 /* Main.storyboard in Resources */,
+				5BDD5FAF2996107000440B02 /* DaysCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		81DFCB67742F2DC193D33D23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProgressTrackerApp-iOS-UIKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCFDB0B03245669A9CB81091 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProgressTrackerApp-iOS-UIKit/Pods-ProgressTrackerApp-iOS-UIKit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProgressTrackerApp-iOS-UIKit/Pods-ProgressTrackerApp-iOS-UIKit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ProgressTrackerApp-iOS-UIKit/Pods-ProgressTrackerApp-iOS-UIKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BDD5F772995457700440B02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BDD5FAE2996107000440B02 /* DaysCollectionViewCell.swift in Sources */,
+				5BDD5FB12996126300440B02 /* CornerRadiusUIVIewExtension.swift in Sources */,
+				5BC6D73329A7A1A00091C1F8 /* BarChartsView.swift in Sources */,
+				5BA0811D29ACADE500BF6F0F /* CoreDataFetchResultPublisher.swift in Sources */,
+				5BA0812129ACB06900BF6F0F /* CoreDataDeletePublisher.swift in Sources */,
+				5BDD5FC8299C9CE200440B02 /* ErrorView.swift in Sources */,
+				5B1CAE6729AA846000D938F7 /* GoalsDashboardCoordinator.swift in Sources */,
+				5BDD5FC5299C97CE00440B02 /* SetProgressHoursViewModel.swift in Sources */,
+				5BA0812429ADC20800BF6F0F /* GoalsDashboardManager.swift in Sources */,
+				5BA0811B29ACAC6A00BF6F0F /* CoreDataStore.swift in Sources */,
+				5BDD5FBE2999F89400440B02 /* StringExtension.swift in Sources */,
+				5BDAF644299F6A1F005DF662 /* DateExtension.swift in Sources */,
+				5BDD5FA629960EC100440B02 /* GoalsDashboardViewController.swift in Sources */,
+				5BDD5FA42996024500440B02 /* SetProgressHoursViewController.swift in Sources */,
+				5BDD5F832995457700440B02 /* SplashViewController.swift in Sources */,
+				5BDAF64C299F8BC9005DF662 /* CoreDataLogHourService.swift in Sources */,
+				5BA0811F29ACAF4200BF6F0F /* CoreDataAddPublisher.swift in Sources */,
+				5BC6D72329A726840091C1F8 /* NoDataTableViewCell.swift in Sources */,
+				5BDD5FDD299E3F6100440B02 /* BaseNavigationController.swift in Sources */,
+				5BDD5FC0299B996200440B02 /* UIVIewExtension.swift in Sources */,
+				5BDD5F9A29956B7700440B02 /* CoreDataTimeExtension.swift in Sources */,
+				5BDAF64A299F8B7D005DF662 /* LogHourService.swift in Sources */,
+				5BDD5F942995639B00440B02 /* progressTracker.xcdatamodeld in Sources */,
+				5BDD5FB42996154C00440B02 /* WeekRowTableViewCell.swift in Sources */,
+				5BDD5F7F2995457700440B02 /* AppDelegate.swift in Sources */,
+				5BDD5FB82998914200440B02 /* Encrypt.swift in Sources */,
+				5BDD5FCC299CE24D00440B02 /* LogHoursManager.swift in Sources */,
+				5BDD5FE4299F4F1B00440B02 /* LottieAnimationHelper.swift in Sources */,
+				5B1CAE6C29AA853C00D938F7 /* BaseViewController.swift in Sources */,
+				5BDD5F972995674900440B02 /* DaysOfWeekModel.swift in Sources */,
+				5BC6D72629A7498F0091C1F8 /* SetProgressHoursCoordinator.swift in Sources */,
+				5BDAF646299F6FB3005DF662 /* AppConstants.swift in Sources */,
+				5BC6D72A29A75E950091C1F8 /* CircularProgressView.swift in Sources */,
+				5BDD5FC3299B9AB600440B02 /* Errors.swift in Sources */,
+				5BC6D71D29A540E80091C1F8 /* LogManagerFactory.swift in Sources */,
+				5B1CAE6A29AA850F00D938F7 /* GoalsDashboardViewModel.swift in Sources */,
+				5BDD5F9E2995703900440B02 /* DayHourTable.swift in Sources */,
+				5BC6D72829A74A320091C1F8 /* UIViewControllerExtension.swift in Sources */,
+				5BDD5F812995457700440B02 /* SceneDelegate.swift in Sources */,
+				5BDD5FA829960F3500440B02 /* LogHoursViewController.swift in Sources */,
+				5BDD5FDB299E2B0E00440B02 /* SplashCoordinator.swift in Sources */,
+				5BDD5FCF299E236800440B02 /* Coordinator.swift in Sources */,
+				5BDD5FD1299E269C00440B02 /* ApplicationCoordinator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5BDD5F842995457700440B02 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BDD5F852995457700440B02 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5BDD5F892995457800440B02 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BDD5F8A2995457800440B02 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BDD5F8D2995457800440B02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "ProgressTrackerApp-iOS-UIKit/ProgressTracker-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5BDD5F8E2995457800440B02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "ProgressTrackerApp-iOS-UIKit/ProgressTracker-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BDD5F902995457800440B02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 488F75F57046297E1B873570 /* Pods-ProgressTrackerApp-iOS-UIKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P4P4WMUQQW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ProgressTrackerApp-iOS-UIKit/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mohitdb7.progress.ProgressTrackerApp-iOS-UIKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BDD5F912995457800440B02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D9FEA62D8600DFC28375951 /* Pods-ProgressTrackerApp-iOS-UIKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P4P4WMUQQW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ProgressTrackerApp-iOS-UIKit/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mohitdb7.progress.ProgressTrackerApp-iOS-UIKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BDD5F762995457700440B02 /* Build configuration list for PBXProject "ProgressTrackerApp-iOS-UIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BDD5F8D2995457800440B02 /* Debug */,
+				5BDD5F8E2995457800440B02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BDD5F8F2995457800440B02 /* Build configuration list for PBXNativeTarget "ProgressTrackerApp-iOS-UIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BDD5F902995457800440B02 /* Debug */,
+				5BDD5F912995457800440B02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5BDD5F922995639B00440B02 /* progressTracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5BDD5F932995639B00440B02 /* progressTracker.xcdatamodel */,
+			);
+			currentVersion = 5BDD5F932995639B00440B02 /* progressTracker.xcdatamodel */;
+			path = progressTracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5BDD5F732995457700440B02 /* Project object */;
+}
