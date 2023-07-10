@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Experiment Flow View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="NavigationExperimentFlowViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="NavigationExperimentFlowViewController" customModule="CustomControlsBootcampUIKIT" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="eKT-gJ-iQv">
+                                <rect key="frame" x="16" y="768" width="361" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lZh-Mq-dbD">
+                                        <rect key="frame" x="0.0" y="0.0" width="174.66666666666666" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="sJZ-oo-R4k"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Previous"/>
+                                        <connections>
+                                            <action selector="previousAction:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="yjr-nh-SnB"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ri0-La-IaY">
+                                        <rect key="frame" x="186.66666666666663" y="0.0" width="174.33333333333337" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="YQf-yu-4xT"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Next"/>
+                                        <connections>
+                                            <action selector="nextAction:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="e7t-qx-geS"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pxi-On-Kwi">
+                                <rect key="frame" x="0.0" y="59" width="393" height="701"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Placeholder Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pLt-W9-p45">
+                                        <rect key="frame" x="128.66666666666669" y="340.33333333333331" width="135.66666666666669" height="20.333333333333314"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <constraints>
+                                    <constraint firstItem="pLt-W9-p45" firstAttribute="centerY" secondItem="Pxi-On-Kwi" secondAttribute="centerY" id="Hg5-S4-L0Y"/>
+                                    <constraint firstItem="pLt-W9-p45" firstAttribute="centerX" secondItem="Pxi-On-Kwi" secondAttribute="centerX" id="cn8-Ct-YPo"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Pxi-On-Kwi" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="2KR-sw-Sf9"/>
+                            <constraint firstItem="eKT-gJ-iQv" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="16" id="4sr-C8-CQO"/>
+                            <constraint firstItem="Pxi-On-Kwi" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="7of-YQ-qrn"/>
+                            <constraint firstItem="eKT-gJ-iQv" firstAttribute="top" secondItem="Pxi-On-Kwi" secondAttribute="bottom" constant="8" symbolic="YES" id="R2E-UP-m4T"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="eKT-gJ-iQv" secondAttribute="trailing" constant="16" id="eps-9F-dpz"/>
+                            <constraint firstItem="Pxi-On-Kwi" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="leE-Ud-Sts"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="eKT-gJ-iQv" secondAttribute="bottom" id="ynK-cj-Mit"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="nextActionButton" destination="Ri0-La-IaY" id="3em-0n-813"/>
+                        <outlet property="previousActionButton" destination="lZh-Mq-dbD" id="cus-nl-1DJ"/>
+                        <outlet property="screenLabel" destination="pLt-W9-p45" id="ALr-FB-62F"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-326" y="-183"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

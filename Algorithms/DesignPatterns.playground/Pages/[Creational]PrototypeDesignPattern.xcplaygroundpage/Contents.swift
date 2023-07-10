@@ -86,8 +86,5 @@ class PrototypeStandard: NSCopying {
     
     func copy(with zone: NSZone? = nil) -> Any {
         return PrototypeStandard(classTeacher: "Dummy teacher", standard: 0)
-        DispatchQueue.main.async {
-            <#code#>
-        }
     }
 }
