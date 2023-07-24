@@ -14,7 +14,7 @@ enum PhotoCellSize {
 }
 
 class AllPhotosViewController: UICollectionViewController {
-    var allPhotos: PHFetchResult<PHAsset>!
+    var allPhotos: PHFetchResult<PHAsset>?
     private var photos: [PhotoModel] = []
     @IBOutlet weak var photosCollection: UICollectionView!
     
@@ -32,9 +32,9 @@ class AllPhotosViewController: UICollectionViewController {
     }
     
     func reloadCollection() {
-        Swift.print("Mohit: Photos count is \(allPhotos.count)")
+        Swift.print("Mohit: Photos count is \(allPhotos?.count)")
         photos = []
-        for _ in 0..<allPhotos.count {
+        for _ in 0..<(allPhotos?.count ?? 0) {
             photos.append(PhotoModel())
         }
         collectionView.reloadData()
@@ -43,7 +43,7 @@ class AllPhotosViewController: UICollectionViewController {
 
 extension AllPhotosViewController {
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return allPhotos.count
+        return allPhotos?.count ?? 0
     }
     
     override func numberOfSections(in collectionView: UICollectionView) -> Int {
@@ -54,7 +54,7 @@ extension AllPhotosViewController {
         
         if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "SmallPhotoCollectionViewCell", for: indexPath) as? SmallPhotoCollectionViewCell {
             DispatchQueue.global(qos: .utility).async {[weak self] in
-                if let asset = self?.allPhotos.object(at: indexPath.item) {
+                if let asset = self?.allPhotos?.object(at: indexPath.item) {
                     PHPhotosUtility.shared.getImageFromAsset(asset: asset) { data, orientation in
                         if self?.photos[indexPath.item].imageData == nil {
                             self?.photos[indexPath.item].imageData = data

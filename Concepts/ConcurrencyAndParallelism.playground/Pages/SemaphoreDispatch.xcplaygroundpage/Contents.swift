@@ -39,8 +39,9 @@ import Foundation
 */
 func executeFuncWithSemaphore() {
     let concurrentQueue = DispatchQueue(label: "com.dispatchqueue.concurrentqueue", qos: .background, attributes: [.concurrent], autoreleaseFrequency: .inherit)
-    let semaphore = DispatchSemaphore(value: 1)
+    let semaphore = DispatchSemaphore(value: 0)
     
+    semaphore.signal()
     for i in 0..<3 {
         concurrentQueue.async {
             print("#block1 -> \(i) -> Waiting")
@@ -71,7 +72,7 @@ func executeFuncWithSemaphore() {
         }
     }
 }
-//executeFuncWithSemaphore()
+executeFuncWithSemaphore()
 //: [Next](@next)
 
 ///DispatchSemaphore(value: <Number>) the positive number here will decide how many executions
@@ -98,7 +99,7 @@ func executeFuncWithSemaphore() {
 */
 func executeFuncWithSemaphoreMultipleExecutions() {
     let concurrentQueue = DispatchQueue(label: "com.dispatchqueue.concurrentqueue", qos: .background, attributes: [.concurrent], autoreleaseFrequency: .inherit)
-    let semaphore = DispatchSemaphore(value: 2)
+    let semaphore = DispatchSemaphore(value: 3)
     
     for i in 0..<3 {
         concurrentQueue.async {
@@ -130,4 +131,4 @@ func executeFuncWithSemaphoreMultipleExecutions() {
         }
     }
 }
-executeFuncWithSemaphoreMultipleExecutions()
+//executeFuncWithSemaphoreMultipleExecutions()

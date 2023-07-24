@@ -1,0 +1,60 @@
+{
+    "status": {
+        "code": 200,
+        "message": "OK",
+        "time": "13",
+        "server": "10.12.4.112"
+    },
+    "data": {
+        "jems_balance": 24502.04,
+        "package_jems_value": 0,
+        "kyc_details": {
+            "status": "SUCCESS",
+            "pan_card": "PAN_CARD",
+            "name": "XYZ"
+        },
+        "wallet_info": {
+            "title": "Josh Wallet",
+            "deeplink": "http://www.coolfie.io/webItem?webModel=%7B%22title%22%3A%22Josh+Wallet%22%2C+url+%3D+%22https%3A%2F%2Fqa-share.myjosh.in%2Fwebview%2Fcreator-program%22%7D",
+            "jems_balance": 24502,
+            "wallet_options": [
+                {
+                    "id": "PERFORMANCE_PAYOUT",
+                    "title": "performance\npayouts",
+                    "jems_count": 0,
+                    "background_color": "#C46B33",
+                    "icon_url": "https://qa-stream.myjosh.in/stream/qa-josh-content/wallet/PP.png",
+                    "deeplink_url": "http://www.coolfie.io/webItem?webModel=%7B%22title%22%3A%22performance%0Apayouts%22%2C+url+%3D+%22https%3A%2F%2Fqa-api.myjosh.in%2Fapij%2Ftransaction%2Fhistory%3Ftype%3DPERFORMANCE_PAYOUT%22%7D"
+                },
+                {
+                    "id": "FANS_GIFT",
+                    "title": "Fans\ngifts",
+                    "jems_count": 0,
+                    "background_color": "#1960CC",
+                    "icon_url": "https://qa-stream.myjosh.in/stream/qa-josh-content/wallet/FG.png",
+                    "deeplink_url": "http://www.coolfie.io/webItem?webModel=%7B%22title%22%3A%22Fans%0Agifts%22%2C+url+%3D+%22https%3A%2F%2Fqa-api.myjosh.in%2Fapij%2Ftransaction%2Fhistory%3Ftype%3DFANS_GIFT%22%7D"
+                },
+                {
+                    "id": "MISC",
+                    "title": "Miscellaneous",
+                    "jems_count": 0,
+                    "background_color": "#C25A99",
+                    "icon_url": "https://qa-stream.myjosh.in/stream/qa-josh-content/wallet/MISC.png",
+                    "deeplink_url": "http://www.coolfie.io/webItem?webModel=%7B%22title%22%3A%22Miscellaneous%22%2C+url+%3D+%22https%3A%2F%2Fqa-api.myjosh.in%2Fapij%2Ftransaction%2Fhistory%3Ftype%3DMISC%22%7D"
+                }
+            ]
+        },
+        "redeem_info": {
+            "title": "Redeem",
+            "deeplink_url": "Deeplink for redeem to be added",
+            "info_txt": "200 worth ₹20"
+        },
+        "transaction_history_info": {
+            "title": "Transaction history",
+            "pending_transaction_text": "0 Pending",
+            "pending_transaction_count": 0,
+            "transaction_history_deeplink": "http://www.coolfie.io/webItem?webModel=%7B%22title%22%3A%22Transaction+history%22%2C+url+%3D+%22https%3A%2F%2Fqa-api.myjosh.in%2Fapij%2Ftransaction%2Fhistory%22%7D"
+        }
+    },
+    "code": 200
+}

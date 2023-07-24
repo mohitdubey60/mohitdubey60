@@ -21,6 +21,7 @@ class AsyncListControllerViewModel {
                     let products = try await service.getProductList(url: url)
                     DispatchQueue.main.async {
                         print("Data received \(products.products?.count ?? 0)")
+                        
                     }
                 } catch let error {
                     throw error

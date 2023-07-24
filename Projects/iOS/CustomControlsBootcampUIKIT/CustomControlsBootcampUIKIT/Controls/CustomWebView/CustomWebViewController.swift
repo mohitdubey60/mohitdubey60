@@ -7,6 +7,7 @@
 
 import UIKit
 import WebKit
+import SwiftUI
 
 class CustomWebViewController: UIViewController {
     private let webView: WKWebView
@@ -70,7 +71,7 @@ class CustomWebViewController: UIViewController {
         setupWebView()
         
         
-        let urlString = "https://www.kodeco.com/5456-in-app-purchase-tutorial-getting-started" //"tel://+919611886748"
+        let urlString = "https://www.verse.in/"//"https://www.kodeco.com/5456-in-app-purchase-tutorial-getting-started" //"tel://+919611886748"
         if let url = URL(string: urlString) {
             navigateToUrl(url: url)
         }
@@ -216,7 +217,6 @@ extension CustomWebViewController: WebNavbarActions {
     }
 }
 
-
 extension CustomWebViewController {
     func getWebViewCookies() {
         webView.configuration.websiteDataStore.httpCookieStore.getAllCookies { cookies in
@@ -246,3 +246,32 @@ fileprivate class ImageSaver: NSObject {
         print("Save finished!")
     }
 }
+
+//struct CustomWebViewControllerRepresentable: UIViewControllerRepresentable {
+//    func updateUIViewController(_ uiViewController: CustomWebViewController, context: Context) {
+//        
+//    }
+//    
+//    typealias UIViewControllerType = CustomWebViewController
+//    
+//    func makeUIViewController(context: Context) -> CustomWebViewController {
+//        let controller = CustomWebViewController(configuration: CustomWebViewConfiguration(context: "customActionObject").getConfiguration())
+//        return controller
+//    }
+//}
+//
+//struct CustomWebViewController_Previews: PreviewProvider {
+//    static let devices: [String] = ["iPhone SE",
+//                                    "iPhone 11 Pro Max",
+//                                    "iPad Pro (11-inch)",
+//                                    "Apple Watch Series 5"]
+//    static var previews: some View {
+//        Group {
+//            ForEach(CustomWebViewController_Previews.devices, id: \.self) { device in
+//                CustomWebViewControllerRepresentable()
+//                    .previewDevice(PreviewDevice(rawValue: device))
+//                    .previewDisplayName(device)
+//            }
+//        }
+//    }
+//}

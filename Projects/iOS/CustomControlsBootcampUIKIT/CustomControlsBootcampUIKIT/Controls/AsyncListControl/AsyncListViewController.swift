@@ -39,7 +39,7 @@ class AsyncListViewController: UIViewController {
 
         setupTableView()
         
-        loadListData()
+//        loadListData()
         loadListDataAsync()
         
         // Do any additional setup after loading the view.
@@ -54,14 +54,21 @@ class AsyncListViewController: UIViewController {
     }
     
     func loadListDataAsync() {
-        let task = Task {
+        let date = Date().timeIntervalSince1970
+        print("1 \((Date().timeIntervalSince1970 - date) * 1000)")
+        Task {
             do {
+                print("3 \((Date().timeIntervalSince1970 - date) * 1000)")
                 let products = try await viewModel.getList()
-                print("Products -> \(products.products?.count ?? 0)")
+                print("4 \((Date().timeIntervalSince1970 - date) * 1000)")
+                DispatchQueue.main.async {
+                    print("Products -> \(products.products?.count ?? 0) - \((Date().timeIntervalSince1970 - date) * 1000)")
+                }
             } catch let err {
                 print("Error -> \(err)")
             }
         }
+        print("2 \((Date().timeIntervalSince1970 - date) * 1000)")
     }
 
     /*

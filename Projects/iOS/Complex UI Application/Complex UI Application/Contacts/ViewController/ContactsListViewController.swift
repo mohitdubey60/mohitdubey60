@@ -113,7 +113,9 @@ extension ContactsListViewController {
                 item1.givenName < item2.givenName
             })
         }
-        contactsListTableView.reloadData()
+        DispatchQueue.main.async {
+            self.contactsListTableView.reloadData()
+        }
     }
 }
 

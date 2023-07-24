@@ -44,13 +44,17 @@ class PhotosGalleryHomeViewController: UIViewController {
             case .notDetermined:
                 PHPhotoLibrary.requestAuthorization(for: .readWrite) {[weak self] status in
                     if status == .authorized || status == .limited {
-                        self?.loadAllPhotos()
+                        DispatchQueue.main.async {
+                            self?.loadAllPhotos()
+                        }
                     }
                 }
             case .restricted, .denied:
                 Swift.print("Mohit: Open settings")
             case .authorized, .limited:
-                loadAllPhotos()
+                DispatchQueue.main.async {
+                    self.loadAllPhotos()
+                }
             @unknown default:
                 Swift.print("Mohit: Open settings")
         }
