@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import PDFKit
 
 enum ConvertFileType {
     case none
@@ -13,6 +14,8 @@ enum ConvertFileType {
     case png(String)
     case jpg(String)
 }
+
+//PDF CONVERSION: https://pspdfkit.com/blog/2020/convert-pdf-to-image-in-swift/
 
 class PhotosAndPDFConvertSwiftUIViewModel: ObservableObject {
     @Published var convertFileType: ConvertFileType?
@@ -72,11 +75,61 @@ extension PhotosAndPDFConvertSwiftUIViewModel {
         FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first
     }
     
+    private func pdfUtility(path pdfPath: URL) -> (pdfPageCount: Int, pdfDocument: PDFDocument)? {
+        guard let document = PDFDocument(url: pdfPath) else {
+            return nil
+        }
+        
+        let totalPages = document.pageCount
+        
+        return (totalPages, document)
+    }
+    
+    private func drawPDFPage(page: PDFPage) -> UIImage {
+        let pageRect = page.bounds(for: .mediaBox)
+        let renderer = UIGraphicsImageRenderer(size: pageRect.size)
+        
+        let image = renderer.image { ctx in
+            UIColor.white.set()
+            ctx.fill(CGRect(x: 0, y: 0, width: pageRect.width, height: pageRect.height))
+            
+                // Translate the context so that we only draw the `cropRect`.
+            ctx.cgContext.translateBy(x: -pageRect.origin.x, y: pageRect.size.height - pageRect.origin.y)
+            
+                // Flip the context vertically because the Core Graphics coordinate system starts from the bottom.
+            ctx.cgContext.scaleBy(x: 1.0, y: -1.0)
+            
+                // Draw the PDF page.
+            page.draw(with: .mediaBox, to: ctx.cgContext)
+        }
+        
+        return image
+    }
+    
     func convertPDFToJPG(pdfPath: URL) {
+        guard let result = pdfUtility(path: pdfPath) else {
+            return
+        }
+        
+        guard let page = result.pdfDocument.page(at: 0) else {
+            return
+        }
+        
+        let image = drawPDFPage(page: page)
         
     }
     
     func convertPDFToPNG(pdfPath: URL) {
+        guard let result = pdfUtility(path: pdfPath) else {
+            return
+        }
+        
+        guard let page = result.pdfDocument.page(at: 0) else {
+            return
+        }
+        
+        let image = drawPDFPage(page: page)
+        
         
     }
     

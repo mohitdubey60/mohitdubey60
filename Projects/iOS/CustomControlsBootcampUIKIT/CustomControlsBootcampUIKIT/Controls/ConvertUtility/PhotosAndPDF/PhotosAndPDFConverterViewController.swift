@@ -20,7 +20,7 @@ class PhotosAndPDFConverterViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        let photoAndPDFConvertView = PhotosAndPDFConvertSwiftUIView(vm: PhotosAndPDFConvertSwiftUIViewModel())
+        let photoAndPDFConvertView = PhotosAndPDFConvertSwiftUIView(pdfCompressVM: PDFCompressViewModel())
         addSwiftUIViewToController(photoAndPDFConvertView)
     }
 }

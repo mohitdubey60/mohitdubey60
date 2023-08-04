@@ -31,7 +31,8 @@ class ViewController: UIViewController {
                 Controls(controlName: "DynamicMemberLookup", controller: nil),
                 Controls(controlName: "DeviceMotionViewController", controller: nil),
                 Controls(controlName: "CombineViewController", controller: nil),
-                Controls(controlName: "PhotosAndPDFConverterViewController", controller: nil)]
+                Controls(controlName: "PhotosAndPDFConverterViewController", controller: nil),
+                Controls(controlName: "PictureInPictureViewController", controller: nil)]
     }()
     
     @IBOutlet weak var tableView: UITableView!
@@ -102,6 +103,8 @@ extension ViewController {
             navigationController?.pushViewController(controller, animated: true)
         } else if controls[indexPath.row].controlName == "PhotosAndPDFConverterViewController" {
             let controller = PhotosAndPDFConverterViewController()
+            navigationController?.pushViewController(controller, animated: true)
+        } else if controls[indexPath.row].controlName == "PictureInPictureViewController", let controller = UIStoryboard(name: "Controls", bundle: nil).instantiateViewController(withIdentifier: "PictureInPictureViewController") as? PictureInPictureViewController {
             navigationController?.pushViewController(controller, animated: true)
         }
     }

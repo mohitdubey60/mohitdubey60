@@ -19,8 +19,22 @@ struct PDFViewerView: UIViewRepresentable {
     func makeUIView(context: UIViewRepresentableContext<PDFViewerView>) -> PDFViewerView.UIViewType {
             // Create a `PDFView` and set its `PDFDocument`.
         let pdfView = PDFView()
-        pdfView.document = PDFDocument(url: self.url)
-        pdfView.autoScales = true
+        var data: Data?
+        url.startAccessingSecurityScopedResource()
+        defer {
+            url.stopAccessingSecurityScopedResource()
+        }
+        do {
+            data = try Data(contentsOf: self.url)
+        } catch let error {
+            print("Error \(error.localizedDescription)")
+        }
+        
+        if let data,
+            let document = PDFDocument(data: data) {
+            pdfView.document = document
+            pdfView.autoScales = true
+        }
         return pdfView
     }
     
