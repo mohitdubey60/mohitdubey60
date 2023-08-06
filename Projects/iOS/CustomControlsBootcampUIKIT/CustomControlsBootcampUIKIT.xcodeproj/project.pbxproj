@@ -16,6 +16,10 @@
 		5B2B1C4E2A31DC420052136E /* URLSessionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2B1C4D2A31DC420052136E /* URLSessionExtension.swift */; };
 		5B2B1C512A31DE190052136E /* FlickrSearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2B1C502A31DE190052136E /* FlickrSearchModel.swift */; };
 		5B3399E32A39EB4C0077AD9B /* PintrestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3399E22A39EB4C0077AD9B /* PintrestLayout.swift */; };
+		5B340DE52A7CBEE700096A3E /* QRCodeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B340DE42A7CBEE700096A3E /* QRCodeManager.swift */; };
+		5B340DE72A7CBF0000096A3E /* QRCodeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B340DE62A7CBF0000096A3E /* QRCodeService.swift */; };
+		5B340DEA2A7CC24200096A3E /* QRCodeGeneratorViewSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B340DE92A7CC24200096A3E /* QRCodeGeneratorViewSwiftUI.swift */; };
+		5B340DEC2A7CCB0A00096A3E /* QRCodeGeneratorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B340DEB2A7CCB0A00096A3E /* QRCodeGeneratorViewModel.swift */; };
 		5B4749F92A5D54C700A66AE2 /* UserDefaultsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4749F82A5D54C700A66AE2 /* UserDefaultsFactory.swift */; };
 		5B4749FE2A5D942000A66AE2 /* ObservableProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4749FD2A5D942000A66AE2 /* ObservableProperties.swift */; };
 		5B474A002A5D944E00A66AE2 /* UserDefaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4749FF2A5D944E00A66AE2 /* UserDefaultsExtension.swift */; };
@@ -126,6 +130,10 @@
 		5B2B1C4D2A31DC420052136E /* URLSessionExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionExtension.swift; sourceTree = "<group>"; };
 		5B2B1C502A31DE190052136E /* FlickrSearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrSearchModel.swift; sourceTree = "<group>"; };
 		5B3399E22A39EB4C0077AD9B /* PintrestLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PintrestLayout.swift; sourceTree = "<group>"; };
+		5B340DE42A7CBEE700096A3E /* QRCodeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeManager.swift; sourceTree = "<group>"; };
+		5B340DE62A7CBF0000096A3E /* QRCodeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeService.swift; sourceTree = "<group>"; };
+		5B340DE92A7CC24200096A3E /* QRCodeGeneratorViewSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeGeneratorViewSwiftUI.swift; sourceTree = "<group>"; };
+		5B340DEB2A7CCB0A00096A3E /* QRCodeGeneratorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeGeneratorViewModel.swift; sourceTree = "<group>"; };
 		5B4749F82A5D54C700A66AE2 /* UserDefaultsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsFactory.swift; sourceTree = "<group>"; };
 		5B4749FD2A5D942000A66AE2 /* ObservableProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableProperties.swift; sourceTree = "<group>"; };
 		5B4749FF2A5D944E00A66AE2 /* UserDefaultsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsExtension.swift; sourceTree = "<group>"; };
@@ -266,6 +274,24 @@
 				5B2B1C502A31DE190052136E /* FlickrSearchModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		5B340DE32A7CBED500096A3E /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				5B340DE42A7CBEE700096A3E /* QRCodeManager.swift */,
+				5B340DE62A7CBF0000096A3E /* QRCodeService.swift */,
+			);
+			path = QRCode;
+			sourceTree = "<group>";
+		};
+		5B340DE82A7CC21C00096A3E /* QRCodeGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				5B340DE92A7CC24200096A3E /* QRCodeGeneratorViewSwiftUI.swift */,
+				5B340DEB2A7CCB0A00096A3E /* QRCodeGeneratorViewModel.swift */,
+			);
+			path = QRCodeGenerator;
 			sourceTree = "<group>";
 		};
 		5B4749F42A5D544800A66AE2 /* PropertyWrappers */ = {
@@ -481,6 +507,7 @@
 		5B7758BA2A0AAF6F00C1ABD3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5B340DE32A7CBED500096A3E /* QRCode */,
 				5B474A152A614CD900A66AE2 /* MotionDetect */,
 				5B474A012A5FAA4400A66AE2 /* DynamicMemberLookup */,
 				5B4749FC2A5D93C100A66AE2 /* Combine */,
@@ -498,6 +525,7 @@
 		5B7758BB2A0AAF7F00C1ABD3 /* Controls */ = {
 			isa = PBXGroup;
 			children = (
+				5B340DE82A7CC21C00096A3E /* QRCodeGenerator */,
 				5BB6DEBB2A7A359B002A53A9 /* PictureInPicture */,
 				5BB6DEB82A77DFCF002A53A9 /* AdaptiveSizeLayout */,
 				5B474A3F2A6956D700A66AE2 /* ConvertUtility */,
@@ -861,13 +889,17 @@
 				5B474A352A64464600A66AE2 /* CombineSwiftUIView.swift in Sources */,
 				5B7758AD2A0A476400C1ABD3 /* NavigationExperimentFlowManager.swift in Sources */,
 				5B52AB172A442FE5000E503B /* WebViewNavBarView.swift in Sources */,
+				5B340DE52A7CBEE700096A3E /* QRCodeManager.swift in Sources */,
 				5B7758E62A0CB8EF00C1ABD3 /* UIViewExtension.swift in Sources */,
+				5B340DEA2A7CC24200096A3E /* QRCodeGeneratorViewSwiftUI.swift in Sources */,
 				5B7758CF2A0BC3A700C1ABD3 /* AVPlayerExtension.swift in Sources */,
 				5B77588B2A0A36BA00C1ABD3 /* SceneDelegate.swift in Sources */,
 				5B474A312A6443E100A66AE2 /* TabbedPagesContainerViewController.swift in Sources */,
 				5BB6DEA82A723FE4002A53A9 /* ImageConvertManager.swift in Sources */,
 				5B7758AF2A0A478500C1ABD3 /* NavigationNavigationExperimentFlowFactory.swift in Sources */,
+				5B340DE72A7CBF0000096A3E /* QRCodeService.swift in Sources */,
 				5B4749F92A5D54C700A66AE2 /* UserDefaultsFactory.swift in Sources */,
+				5B340DEC2A7CCB0A00096A3E /* QRCodeGeneratorViewModel.swift in Sources */,
 				5B474A372A64466E00A66AE2 /* CombineSwiftUIViewModel.swift in Sources */,
 				5BB6DEA12A7189A6002A53A9 /* ConvertToJPGView.swift in Sources */,
 				5B7758B52A0A4B7A00C1ABD3 /* ExperimentUserDefaults.swift in Sources */,

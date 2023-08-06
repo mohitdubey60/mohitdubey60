@@ -236,8 +236,95 @@ func validMountainArray(_ arr: [Int]) -> Bool {
     
     return isGoingUp ? false : true
 }
-let result = validMountainArray([3,5,5])
-print("Array - \(result)")
+//let result = validMountainArray([3,5,5])
+//print("Array - \(result)")
 
 
-//MARK: - Q7 
+//MARK: - Q7 21. Merge Two Sorted Lists
+///You are given the heads of two sorted linked lists list1 and list2.
+///Merge the two lists into one sorted list. The list should be made by splicing together the nodes of the first two lists.
+///Return the head of the merged linked list.
+///
+public class ListNode {
+    var val: Int = 0
+    var next: ListNode?
+    public init() { self.val = 0; self.next = nil; }
+    public init(_ val: Int) { self.val = val; self.next = nil; }
+}
+func generateLists(list nums: [Int]) -> ListNode? {
+    var head: ListNode?
+    var currentNode: ListNode?
+    for num in nums {
+        if head == nil {
+            head = ListNode(num)
+            head?.next = nil
+            currentNode = head
+        } else {
+            let newNode = ListNode(num)
+            newNode.next = nil
+            currentNode?.next = newNode
+            currentNode = newNode
+        }
+    }
+    print(head?.next)
+    return head
+}
+
+func traverseList(list: ListNode) {
+    var head: ListNode? = list
+    while head != nil {
+        print(head?.val)
+        head = head?.next
+    }
+}
+
+func mergeTwoLists(_ list1: ListNode?, _ list2: ListNode?) -> ListNode? {
+    var firstListNode = list1
+    var secondListNode = list2
+    
+    var newList: ListNode?
+    var newListHead: ListNode?
+    
+    func addToList(list: ListNode) {
+        print("List -> \(list.val) \(list.next)")
+        if newList == nil {
+            newList = list
+            newListHead = newList
+        } else {
+            newList?.next = list
+            newList = list
+        }
+    }
+    
+    while firstListNode != nil && secondListNode != nil {
+        if firstListNode!.val < secondListNode!.val {
+            print("If \(firstListNode) \(secondListNode)")
+            addToList(list: firstListNode!)
+            firstListNode = firstListNode?.next
+        } else {
+            print("Else \(firstListNode) \(secondListNode)")
+            addToList(list: secondListNode!)
+            secondListNode = secondListNode?.next
+        }
+    }
+    
+    while firstListNode != nil {
+        addToList(list: firstListNode!)
+        firstListNode = firstListNode?.next
+    }
+    
+    while secondListNode != nil {
+        print("Second list -> \(secondListNode?.next)")
+        addToList(list: secondListNode!)
+        secondListNode = secondListNode?.next
+    }
+    
+    return newListHead
+}
+
+let list1 = generateLists(list: [])
+let list2 = generateLists(list: [0])
+
+if let head = mergeTwoLists(list1, list2) {
+    traverseList(list: head)
+}
